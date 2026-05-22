@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 16703558e4fd64e62866de78646c20ed
+guid: d9d9e65aa24b944239431982ca558708
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,615 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: classic_room_door_tiles_0
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 352
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd85865c2fc7f47c8813a43f4f38536a
-      internalID: -1229048721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_1
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 352
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 241020fbf2db849398344af445b32a96
-      internalID: 474969036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_2
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 352
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5118447e33960414eb11ed282c508c8a
-      internalID: 683947894
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_3
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 352
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a27a95f8031b49019f3b189ef0cf09a
-      internalID: 338215355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_4
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 352
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aed8f28ab7a2d405bbdb203b36371a02
-      internalID: 1719689093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_5
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 352
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b166a0955bc14c35b23d81599f58d88
-      internalID: 773024384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_6
+      name: dirty_publicbathroom_set_withshadow_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73c6016d28b87452e8cd39c240fe0978
-      internalID: 601031547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88256e23fc9a84bf19a085183e8696e5
-      internalID: 1066151169
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_8
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0f601383f3954e3eb17e2e615dcc3dc
-      internalID: 29317494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_9
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 257c2ee4ec9f94cc8b22a1fac07d8764
-      internalID: 326947120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_10
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40031ca34f53f4bda921462282a15db4
-      internalID: -1324236870
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_11
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: -13}
-        - {x: -16, y: -13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: fcb2d3b3a02c247e0b29f27206025ea3
-      internalID: -1162802079
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_12
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ffc971960a1243d4b22f8a9c6bbebfd
-      internalID: 676415097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_13
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4a6aa63ed884417e8d11afbc82ff0ce
-      internalID: -1608494346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_14
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0318b5e97a8304e0c829cd9e717c60e8
-      internalID: 1212491564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_15
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 320
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bef65233500b34f7a93da398361b4f17
-      internalID: -1686141445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4b5b48842dc644cf599be49a23ae7c3a
-      internalID: -1034723747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_17
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc3f881737fa146669770f5cef21583a
-      internalID: 1923734700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_18
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e8dca70c1af746f995f8201e60ef3ef
-      internalID: 1813724602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_19
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f6b43f5f02184fdea23d3e8a5ec155c
-      internalID: 164339001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_20
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0946a87ccfb6b475a956a07d182bdccf
-      internalID: 1326352239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_21
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dfdbe10aff98246abaf7307653254833
-      internalID: 9600436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_22
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebf24ddce92ef484fad5888e15f1b9a6
-      internalID: -1443729446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_23
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 13}
-        - {x: 16, y: 13}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58fa05911d2654390897e6cef5e5a8ab
-      internalID: 1875229647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_24
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9360cdb8432334d85a2f0aefb7ca548a
-      internalID: -1666678365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_25
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1dff61485c1ce4168b252f9ac1266772
-      internalID: 1017285468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_26
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 288
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73d6213e0d52347d197c297ef6d03f63
-      internalID: -1582790119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_27
-      rect:
-        serializedVersion: 2
-        x: 192
         y: 256
-        width: 32
-        height: 32
+        width: 16
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,20 +125,130 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1689cd23d5014443aa8313cda096d6ee
-      internalID: 888091416
+      spriteID: 32dd5e073fc4f4a4e8423fd3abed7d8d
+      internalID: 77948696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_28
+      name: dirty_publicbathroom_set_withshadow_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 256
+        width: 14
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7abaa18463f491ea53e6d68571df4a
+      internalID: -1080827053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 270
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a907a0d688d43e7a2c838dbb6baf01
+      internalID: -1540261700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 290
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98adf33d0d7aa4d609fd03d50f19298e
+      internalID: -1350256691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 288
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac47a1ee04c040049f60f6fe939d772
+      internalID: 530522065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 288
+        width: 4
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54a953e052304881ad1a49dff6c6a58
+      internalID: 366509814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_6
       rect:
         serializedVersion: 2
         x: 224
         y: 256
-        width: 32
-        height: 32
+        width: 64
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3542601c0ae44c883946cae3b1c1a1
-      internalID: -164754459
+      spriteID: 1a1e26bad03c44b3999dc9fef8fd6991
+      internalID: 1007042922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_29
+      name: dirty_publicbathroom_set_withshadow_7
       rect:
         serializedVersion: 2
-        x: 288
-        y: 256
-        width: 32
-        height: 32
+        x: 358
+        y: 258
+        width: 25
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,132 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12fa91c257e0144fda813f3014efbdda
-      internalID: -555467760
+      spriteID: c82ab0f6b14904c7183cee7b990bd12d
+      internalID: -345356021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_30
+      name: dirty_publicbathroom_set_withshadow_8
       rect:
         serializedVersion: 2
-        x: 416
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: 13, y: 16}
-        - {x: 13, y: -13}
-        - {x: -16, y: -13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 658c787327d2c476b845445bc182bee4
-      internalID: 649348055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_31
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: -13}
-        - {x: -13, y: -13}
-        - {x: -13, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd173e2d711e745d1aa3a483a2ef9727
-      internalID: -2004001761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_32
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: 13, y: 16}
-        - {x: 13, y: -13}
-        - {x: -16, y: -13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79eca365481904f3e8abed4f19caaccd
-      internalID: 91537688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_33
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: -13}
-        - {x: -13, y: -13}
-        - {x: -13, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a24c87862438416ea1f08223667c449
-      internalID: 763983801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_34
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 224
-        width: 32
-        height: 32
+        x: 134
+        y: 257
+        width: 22
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29da8c12c59374332b055510ffdd170b
-      internalID: 1479657059
+      spriteID: 2f01c75fb4bfe43139a7a09c02f50226
+      internalID: 1183606438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_35
+      name: dirty_publicbathroom_set_withshadow_9
       rect:
         serializedVersion: 2
-        x: 96
-        y: 224
-        width: 32
-        height: 32
+        x: 166
+        y: 257
+        width: 22
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -927,286 +323,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a12177c52b28740719e1cbe49f6d3b8e
-      internalID: 894824516
+      spriteID: 41b5430396390495cb40a69b59833eae
+      internalID: -1104761308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_36
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ed2d8035401d4470818fb1a86edb3d4
-      internalID: 1491597515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_37
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01c2ae12ff300400084ffcf4f52c8ed2
-      internalID: -1366296872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_38
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 13}
-        - {x: 13, y: 13}
-        - {x: 13, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b3fa9d8f06ae43c8a9964e1634659a4
-      internalID: 17613993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_39
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -13, y: 13}
-        - {x: 16, y: 13}
-        - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -13, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4aac38a0ba3d420d89f06697a8dfa51
-      internalID: 259996277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_40
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 13}
-        - {x: 13, y: 13}
-        - {x: 13, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cd900e517a98422080d2e74163dcd63
-      internalID: 1894466429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_41
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -13, y: 13}
-        - {x: 16, y: 13}
-        - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -13, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa31dc6cb31b8441b8483feac47ed10b
-      internalID: 1596621979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_42
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50da05dda4cbe46689b13316c2b0b5f6
-      internalID: -1472315257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_43
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41b64451f67f6423e945a3b677a08cdc
-      internalID: -1204699318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_44
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1102d513622084b0c987ea0249188a0d
-      internalID: 771771859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_45
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8df94b90c15841128518dd40788ea9c
-      internalID: 1292284604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_46
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b8f848417b464585986e5ab70b9a40a
-      internalID: 1056341439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_47
+      name: dirty_publicbathroom_set_withshadow_10
       rect:
         serializedVersion: 2
         x: 192
-        y: 192
-        width: 32
-        height: 32
+        y: 256
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1215,20 +345,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 630cf0d28ecfd44a0a23f8cb700c3cb9
-      internalID: 1104550881
+      spriteID: 6037a81688d254d538cc6ced4ff98dcd
+      internalID: -276073123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_48
+      name: dirty_publicbathroom_set_withshadow_11
       rect:
         serializedVersion: 2
-        x: 256
+        x: 5
         y: 192
-        width: 32
-        height: 32
+        width: 26
+        height: 60
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1237,20 +367,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b28728c7360e74dd8999885a755414bc
-      internalID: 174538659
+      spriteID: 1a22bd941c17c49a4b9fd189bceb8a31
+      internalID: -1644433181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_49
+      name: dirty_publicbathroom_set_withshadow_12
       rect:
         serializedVersion: 2
-        x: 288
-        y: 192
-        width: 32
-        height: 32
+        x: 163
+        y: 243
+        width: 26
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1259,304 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55f95530bb27343f8843d72e87e9ff7e
-      internalID: -163964774
+      spriteID: aa034a2fed4214adc821bbeb303ef69d
+      internalID: -712627773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_50
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: 13, y: 16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ac39403d986d43fd94fc16a0038c09d
-      internalID: -724047479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_51
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: -13}
-        - {x: -13, y: -13}
-        - {x: -13, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9fb4e6a6f53445b1a1d2e42befb78d7
-      internalID: -1604441958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_52
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: 13, y: 16}
-        - {x: 13, y: -13}
-        - {x: -16, y: -13}
-        - {x: -16, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2587dea4ea554f85ab7edd80c13e0e4
-      internalID: 516785318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_53
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -13, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -13, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: d243acd169e044347b66c5ae86ed0c8f
-      internalID: -16959492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_54
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b6ec4306694f40d9b4558b813cfd0a2
-      internalID: 1994756097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_55
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e546cc9a8b05f46ca9fd4e6aeb250e2a
-      internalID: 1291265906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_56
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a75d1b27d04c14a879607e4a0160b945
-      internalID: -760340796
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_57
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c292bc877589843518dd90d98b86ea6e
-      internalID: -1486068434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_58
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd74226db0f334777ba06f69619a5322
-      internalID: -1173470134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_59
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f5103d4958be44f9ba3fe149171bd2b
-      internalID: 1999747965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_60
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f24eec402b03499b808481aefc94c4a
-      internalID: -1612334165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_61
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a85f0d7990f0470cbc41d1bf0a8aa53
-      internalID: 1027291009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_62
+      name: dirty_publicbathroom_set_withshadow_13
       rect:
         serializedVersion: 2
         x: 192
-        y: 160
-        width: 32
-        height: 32
+        y: 228
+        width: 7
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1565,20 +411,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba1bb23677765498089210ea927f5242
-      internalID: -296690767
+      spriteID: d7c23239900a640508a35ced1260e3a8
+      internalID: 1470751729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_63
+      name: dirty_publicbathroom_set_withshadow_14
       rect:
         serializedVersion: 2
-        x: 256
-        y: 160
-        width: 32
-        height: 32
+        x: 209
+        y: 246
+        width: 14
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1587,149 +433,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cd000fa7085d41fe9fede7a81bbae7a
-      internalID: -910051367
+      spriteID: d04c99c14de5e41dfb36b5faccd53d59
+      internalID: -1824065438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_64
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e83cd2836cd714bc987a64ca9587e0ba
-      internalID: -2024681540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_65
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: 13, y: 16}
-        - {x: 13, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdde0b026e26e4851bcafed07dfb799e
-      internalID: 487363415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_66
+      name: dirty_publicbathroom_set_withshadow_15
       rect:
         serializedVersion: 2
         x: 352
-        y: 160
-        width: 32
-        height: 32
+        y: 224
+        width: 16
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape:
-      - - {x: -13, y: 13}
-        - {x: 16, y: 13}
-        - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -13, y: -16}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89a01926ba6034ab3b3cd600c1aae6d9
-      internalID: -1393452824
+      spriteID: 3f8ee7075c5dc40eca382a3496a846d5
+      internalID: -542161433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_67
+      name: dirty_publicbathroom_set_withshadow_16
       rect:
         serializedVersion: 2
-        x: 384
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: 16, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: 13}
-        - {x: 13, y: 13}
-        - {x: 13, y: -16}
-        - {x: 16, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bd83070c384043f7b734b10dfef978e
-      internalID: -471811973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_68
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -13, y: 16}
-        - {x: -16, y: 16}
-        - {x: -16, y: -16}
-        - {x: -13, y: -16}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7edbee77c14a54ce0b281a6c86da3cda
-      internalID: -262958425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_69
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 160
-        width: 32
+        x: 371
+        y: 192
+        width: 12
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1739,20 +477,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e0de22b9fcac45d4818bb325fea3aaa
-      internalID: 657919672
+      spriteID: f490c3ae9c09c4c8593fbde20ccd0566
+      internalID: 50100267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_70
+      name: dirty_publicbathroom_set_withshadow_17
       rect:
         serializedVersion: 2
-        x: 480
-        y: 160
-        width: 32
-        height: 32
+        x: 195
+        y: 186
+        width: 29
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1761,504 +499,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 681284f68b1a24c2182e83cf4e2e91ba
-      internalID: 964955927
+      spriteID: d06e313b9f0834c00878a25b0cedb988
+      internalID: -289330928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_71
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 949412c81592f422f9cf71ec1479c754
-      internalID: -796621106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_72
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d278025b55ca40c88064c09d29748d6
-      internalID: 2051117743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_73
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 862c2647bb4b04e1abd8bea1c6e76633
-      internalID: -1879418523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_74
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30115ec0e085e46e2ac65f2da878c6cd
-      internalID: 902984001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_75
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1035a3a4df2cf45229bf854090ea21f9
-      internalID: 1258071731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_76
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de61248082d864c209b7336680eb4708
-      internalID: -1915664751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_77
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cece3b6efa93f4050b77f984c831e474
-      internalID: -839756201
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_78
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aaa5f093d647046b78e2e27076879243
-      internalID: 678566099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_79
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3199f6c2cb40a4b569def539616c120d
-      internalID: -1136325357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_80
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8dc6d2da23a764fb0a948cb16957aab3
-      internalID: -1693627412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_81
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 081086a0585c14a27bd369b2a6e518b6
-      internalID: 198717588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_82
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8809f31ef303042adb130794dbbd0d3f
-      internalID: -1894890909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_83
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de06a2c99142241298da01ec300a1997
-      internalID: -2918522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_84
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa6d2df5a82eb45dab3b88d178048ea7
-      internalID: -234961628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_85
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b27c52e6079d4247abd67a9b65f9261
-      internalID: -1466013929
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_86
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea600482d29ef413ab8370c0df8af7dd
-      internalID: 1044787644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_87
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ab3405e5267148f29530340567bfe56
-      internalID: -979210421
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_88
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 206de1a27b02646528945cb45a672aa5
-      internalID: -786006934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_89
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4565fd3e57ac14a6997c534a7b4019d9
-      internalID: 663632291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_90
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a043e55a8b434cc59f52eb36fa40cfb
-      internalID: -254619196
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_91
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fa99bef72fa047f8939bbe0c2ad6a2e
-      internalID: -1314177866
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_92
+      name: dirty_publicbathroom_set_withshadow_18
       rect:
         serializedVersion: 2
         x: 208
-        y: 32
-        width: 64
-        height: 60
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8e2c427fba5d4eaab70825bb41349bb
-      internalID: -1577249761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_93
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 64
-        width: 32
-        height: 32
+        y: 224
+        width: 6
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2267,20 +521,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 748ca01555d79490381bc45c111d023d
-      internalID: -2146975136
+      spriteID: b841463c4d1f2411c854a404eab11526
+      internalID: -497099175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_94
+      name: dirty_publicbathroom_set_withshadow_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 193
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b2687e211b54672bc8a79922780446
+      internalID: 1096316535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 210
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b353e171af6493688b0a3e5337a1ef
+      internalID: 315019797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_21
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 208
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbe64e35f08f4f9685828556cd688d7
+      internalID: -802238128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_22
       rect:
         serializedVersion: 2
         x: 256
-        y: 64
-        width: 32
-        height: 32
+        y: 205
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2289,20 +609,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e8971ce46daa4c899506898d6673ca0
-      internalID: -306388980
+      spriteID: c85e00f82aac74e68b45b5565ad290e9
+      internalID: 61351203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_95
+      name: dirty_publicbathroom_set_withshadow_23
       rect:
         serializedVersion: 2
-        x: 288
-        y: 64
-        width: 32
-        height: 32
+        x: 279
+        y: 200
+        width: 8
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2311,20 +631,1912 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e90a14c2b4e5a4b3a9a3f9fc2cf921fc
-      internalID: -472261867
+      spriteID: caad923bcd9194f3ca7586aeb487a6cb
+      internalID: -1177094249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_96
+      name: dirty_publicbathroom_set_withshadow_24
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5335e023ad2a240709d69332adcf2708
+      internalID: -2001996375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_25
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 212
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145e6a814f212406aa60bc0e4be40f00
+      internalID: -553530185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_26
       rect:
         serializedVersion: 2
         x: 320
+        y: 192
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad572eb09cb04e56813dab2b931a389
+      internalID: -58115328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_27
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 193
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b49a518ccd1452da9f505ee77654c0
+      internalID: 954807364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_28
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 193
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91720c4f4c0ed47298c42a2335d4cf7a
+      internalID: -1857229465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 196
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c3f7428f135452c8f82285ac84bb1e
+      internalID: -1618560319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_30
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 194
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f051b78c5e04435c945e96b22fea955
+      internalID: -92159914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_31
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 200
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff055a13def6d4a0383942e949ac17fb
+      internalID: -1486234923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_32
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 193
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f17df918d0e546e4b2b064060ec75b6
+      internalID: -771740450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_33
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 177
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6c90c4ea5f846ee80f76288151d75d
+      internalID: 892679187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_34
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 177
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a3d6332b96d40a3b6833f1544ec0f8
+      internalID: -1501100284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_35
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 164
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1e6f77036c348b3af34717a614be83
+      internalID: -300989738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_36
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 162
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dde14797ea745afbff4e10d098d6cb
+      internalID: 1069933663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_37
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 163
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db998e8fcb1b4cbebb2cd53e42eb042
+      internalID: 202188743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 160
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54df7e2e2eae34ee9a819ac3026df607
+      internalID: -1206635018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_39
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 180
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d30e34d11c7a4af4b13a0da578db084
+      internalID: 1537634750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_40
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 178
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb1234b844bd4b70a56481ad0d61264
+      internalID: -1198436264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_41
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 168
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97da59bcc4e94253b5c47c3673b6e0f
+      internalID: -941274623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_42
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 175
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6fb4510bd384823b15ce18553a26b2
+      internalID: -1437832932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_43
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 162
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7063382022f4678b5b64fa98beb91a
+      internalID: 1675419130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_44
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 163
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d07ceecc2a5e47f989ac3e9ab42f332
+      internalID: 160074963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_45
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 163
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93be2017616341d1a50cf12ce6fc1c8
+      internalID: -369632452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_46
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19ae22b3ff7b4287b5ef5b5af0afb29
+      internalID: -1941857419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_47
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b31217837244966a8be01ab9d8513b
+      internalID: -1822331681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_48
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ba31a6ff17d4e0fa5b224f6e9b5867
+      internalID: -1775405299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_49
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 161
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6264fc3c39e024ef7a4420e0d0929765
+      internalID: 2059893611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_50
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 144
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a088be76b894e93bbb98c777238c47
+      internalID: 676706382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 32
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e225b04d6ddc9469da7731b523a50041
+      internalID: 838204667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_52
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 145
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127a2029f965f40d28fe0c0fc511c30a
+      internalID: 732702900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 144
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4bc507a1a724360a5bcbf6c3284c87
+      internalID: -286706479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 130
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6687dfc54bcb4b6fbf5ab11ad1e16bc
+      internalID: -75117277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_55
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 130
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc04096628cee47c8b9d586533d54b69
+      internalID: -487613483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_56
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 144
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a8f6292e1b14c44b7d2628064259f4
+      internalID: -2108037868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_57
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 130
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcef3756c4da449019e8cb59d30b33bf
+      internalID: -1390535539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_58
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 129
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb0ac31244ef476cb013ed738fce56f
+      internalID: 701298706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_59
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 128
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8f74bfc6ce240099e14e6441c702d4
+      internalID: -180444806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 129
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd460409b54c84d58b61ebc45a84cbc0
+      internalID: 1605541241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_61
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 128
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9830c7a692b4f62b5d77666d364dce
+      internalID: 1230543981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_62
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 132
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bab095a1fe54a62b82c01d88d9ef88
+      internalID: -393960136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_63
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 113
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598e4ee51d48e4b4cbb136a857258e39
+      internalID: 913143097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_64
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 103
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9636c5b550985432492e3c66c7132b50
+      internalID: -939542712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_65
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 112
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639b214e970b243cd975ec426bd1488c
+      internalID: -2038872584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_66
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 112
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013d7ef086b804cfcb0c4acdb3971558
+      internalID: -1510406225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_67
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 98
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d774971189b49749bd4fcd4d3a971c
+      internalID: 1274020220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_68
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 80
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e230f06abb7040aca1f766725a9c3ae
+      internalID: 348052497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_69
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 164
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19f620935aed45928b5909c420017e1
+      internalID: 1961227042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_70
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 83
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f572672f7c01d401e8dfbdef05e7e9d7
+      internalID: 502846418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_71
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 84
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b88ef44a1f0e4403bad74bbdb0f1316
+      internalID: -33341739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_72
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 81
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a55efd01dc904df7baab62ecc06786c
+      internalID: 1213033294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_73
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 80
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12eb1f2b3d79842fb8d074e77ce4550b
+      internalID: 177356238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_74
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 65
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0c3daa60dfc4d6cbd1c468f2b5e6bb
+      internalID: -234709022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_75
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 80
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced64e8831fec4c95ba9c20c373a03c3
+      internalID: 1425623149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_76
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 66
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5557c13f1f84ca3b4dd4cb25469d5b
+      internalID: -277548461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_77
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 66
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dcbef92babb44249ac754ef3ec0c09
+      internalID: -1657397516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_78
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f4de0bb2add4a6a9f9cf1f3e7cd6ff
+      internalID: -1516058264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_79
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 66
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c5ea76cac094c12b12f94587fb7d7e
+      internalID: 1568496988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_80
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 50
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c593e67ca4a4104bc8fa0782474091
+      internalID: 1197728855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_81
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 31
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73fe7e93f46442078869ba40c10f81c
+      internalID: -174077858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_82
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 33
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c7161475b17413c9cc7eebed71d37d
+      internalID: 1611529713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb3102d0d2bd4673bfe038337722ad5
+      internalID: 1739538177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_84
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 23
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cb5d7b4d18146db9cf688ed021223d
+      internalID: 1724190780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_85
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 23
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8613d59945e14ec09f8a76167c05a4c
+      internalID: 1262359461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_86
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 24
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7206000063cae4867b55593a3dc87712
+      internalID: -841453931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_87
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 192
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5e7c752c6e2409a97a2f75803de614
+      internalID: -155724221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_88
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd6e099dd94447769e32191d2ee2e54
+      internalID: -1147775850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_89
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22e6fb0e534845bdaabab701c787ed2
+      internalID: 1228503269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_90
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 192
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca0bcac2ba50483fa15683c286e3489
+      internalID: -746243460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 235
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d1619413374634ae7127f2329b036
+      internalID: -1577295755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_92
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 227
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08c113f2a5114ad7ae45ac6a5d358b9
+      internalID: 1009960274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 236
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bef6f68627844b0857f31d287bdb5a
+      internalID: 1703584637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_94
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 232
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7c7838b3bc8424fbd29fb4796c826c
+      internalID: -1606682931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_95
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e019516a81f344ea5bcb86e4e52a9627
+      internalID: -215483943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 77
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3a70704254c4660816feeaf0e28409
+      internalID: -1304100972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_97
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 145
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efffdd8415f6b4ffcbff3d4bc294df73
+      internalID: 1038420135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_98
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 128
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165a36ca7941e4d8e8a28e75d3a7e90a
+      internalID: 1024952113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_99
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 128
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1780f92dd104b0ea58c236c9b817f5
+      internalID: 115056977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 288
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c961e39d4180a4d56a7a9a5508de8d97
+      internalID: 1728168358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_101
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 288
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004f99a6510a94088adab3d708717bef
+      internalID: -1048106267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_102
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 224
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f1b79a2c6b142bbbc0904ff97157db
+      internalID: -1346862963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_103
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8232ad7fc79ec4f1dbd441efe804c8bc
+      internalID: -145963893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_104
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 112
+        width: 34
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc60fbb1e2fc84bbfa96b542cf08741a
+      internalID: -756214691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_105
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b02c79bc099645bb803653cae00af59
+      internalID: -1215472070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_106
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109c64887e4574289952050c3bf50c24
+      internalID: -1246602356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_107
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 112
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a247bdc4377641198de4e5987800776
+      internalID: 783118372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_108
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 101
+        width: 33
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cddda2a82103429eb2567d158312f33
+      internalID: 1352283408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_109
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 81
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb4eae76ffc54529af345b665d44dab
+      internalID: 1418021298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_110
+      rect:
+        serializedVersion: 2
+        x: 209
         y: 64
-        width: 32
-        height: 32
+        width: 13
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2333,20 +2545,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 914ec1468537e4a1aad3982af3b4e884
-      internalID: 1346900744
+      spriteID: 352fa265f43a04254a456d9189c161cc
+      internalID: -379390316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_97
+      name: dirty_publicbathroom_set_withshadow_111
       rect:
         serializedVersion: 2
-        x: 352
-        y: 64
-        width: 32
-        height: 32
+        x: 208
+        y: 55
+        width: 12
+        height: 6
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2355,20 +2567,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15608e04bdead4721833712970c39119
-      internalID: -998309564
+      spriteID: 6aa78e242739b49aabd2879daf99774b
+      internalID: -443293660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_98
+      name: dirty_publicbathroom_set_withshadow_112
       rect:
         serializedVersion: 2
-        x: 384
-        y: 64
-        width: 32
-        height: 32
+        x: 48
+        y: 265
+        width: 16
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2377,152 +2589,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daad507e680c2412a881bb45d6854f56
-      internalID: 258424600
+      spriteID: 1b4010b71e0d54fd7b3ec75e67597e8d
+      internalID: 238918761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_99
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52efd6029bebc4f5e889ef57573a7388
-      internalID: -578380149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_100
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38cc3976f625a42c7af0e26ef4a2c8d4
-      internalID: -2043703284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_101
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40d240dd981d048dfb7a78e23c06555d
-      internalID: 1675623853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_102
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5f7ad86bf32746cfbf282ba04529bac
-      internalID: -254861906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_103
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dca83528a6284c01a313c3306dc199c
-      internalID: -1665603681
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_104
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 782ec195f44794affaf9740c6c3a06c0
-      internalID: -1872440855
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_105
+      name: dirty_publicbathroom_set_withshadow_113
       rect:
         serializedVersion: 2
         x: 64
-        y: 32
-        width: 32
-        height: 32
+        y: 270
+        width: 16
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2531,20 +2611,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 509051186585a4746bc5c10ccf665cbd
-      internalID: -1834054779
+      spriteID: 2cc149e271b25435e88fecc451676eb7
+      internalID: -685789778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: classic_room_door_tiles_106
+      name: dirty_publicbathroom_set_withshadow_114
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
+        x: 80
+        y: 270
+        width: 16
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2553,404 +2633,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ceebef0ff96f4617bfe7ceba3bf7f04
-      internalID: 1932058084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_107
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65ea6d0eacc7348bc91862f0b05b8f03
-      internalID: 231974707
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_108
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ee186d04c7c449448ea75a2a37ca425
-      internalID: -1770311678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_109
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4145dd505db98432dac5a6f64bdfa203
-      internalID: 2113629508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_110
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88b40a6addae843fb93b17a007f8c31c
-      internalID: 135855826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_111
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fde96494b8c654e70afaef71bccc16ee
-      internalID: 908358195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_112
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9650e1b8067cd4402a79b32d9b81f216
-      internalID: -24034098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_113
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7290d4e7079c140cda6177998b675237
-      internalID: -1367648126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_114
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 297c1f8b47e324f5a963b03b49d19d1e
-      internalID: 1479831544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_115
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0bb3f974994fb44f78ee18d1ba5f3317
-      internalID: 226211713
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_116
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 330062f978e9a43afb048555f9407983
-      internalID: -764151236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_117
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 075cc3dd9319943adaf1d1e4fa5b40f2
-      internalID: -767610025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_118
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 886abd0cd44a1478896c1d1957a0eb70
-      internalID: -263878960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_119
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 022683b416e02469390f08e4cf6ec1e2
-      internalID: 1864975034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_120
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c4b0adea79c7476c90485af32ef56c1
-      internalID: 1439079344
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_121
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c978cec01ce443d78fa75799fb6ef60
-      internalID: -1804267669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_122
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f1faee1e51d64991b4e5cecf5a1d9ae
-      internalID: -972327186
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_123
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 962432e9324d94a448f3e55b9cf432dd
-      internalID: 1625930363
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: classic_room_door_tiles_124
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4fa1e49641f4471b9e82a59a9b67aa9
-      internalID: -1720257159
+      spriteID: 30f1eedabb617470e8f4cf5f3e9a96ee
+      internalID: -1155284839
       vertices: []
       indices: 
       edges: []
@@ -2959,7 +2643,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 8b7d2510253e044b09f5df743d720f17
     internalID: 0
     vertices: []
     indices: 
@@ -2969,133 +2653,123 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      classic_room_door_tiles_0: -1229048721
-      classic_room_door_tiles_1: 474969036
-      classic_room_door_tiles_10: -1324236870
-      classic_room_door_tiles_100: -2043703284
-      classic_room_door_tiles_101: 1675623853
-      classic_room_door_tiles_102: -254861906
-      classic_room_door_tiles_103: -1665603681
-      classic_room_door_tiles_104: -1872440855
-      classic_room_door_tiles_105: -1834054779
-      classic_room_door_tiles_106: 1932058084
-      classic_room_door_tiles_107: 231974707
-      classic_room_door_tiles_108: -1770311678
-      classic_room_door_tiles_109: 2113629508
-      classic_room_door_tiles_11: -1162802079
-      classic_room_door_tiles_110: 135855826
-      classic_room_door_tiles_111: 908358195
-      classic_room_door_tiles_112: -24034098
-      classic_room_door_tiles_113: -1367648126
-      classic_room_door_tiles_114: 1479831544
-      classic_room_door_tiles_115: 226211713
-      classic_room_door_tiles_116: -764151236
-      classic_room_door_tiles_117: -767610025
-      classic_room_door_tiles_118: -263878960
-      classic_room_door_tiles_119: 1864975034
-      classic_room_door_tiles_12: 676415097
-      classic_room_door_tiles_120: 1439079344
-      classic_room_door_tiles_121: -1804267669
-      classic_room_door_tiles_122: -972327186
-      classic_room_door_tiles_123: 1625930363
-      classic_room_door_tiles_124: -1720257159
-      classic_room_door_tiles_13: -1608494346
-      classic_room_door_tiles_14: 1212491564
-      classic_room_door_tiles_15: -1686141445
-      classic_room_door_tiles_16: -1034723747
-      classic_room_door_tiles_17: 1923734700
-      classic_room_door_tiles_18: 1813724602
-      classic_room_door_tiles_19: 164339001
-      classic_room_door_tiles_2: 683947894
-      classic_room_door_tiles_20: 1326352239
-      classic_room_door_tiles_21: 9600436
-      classic_room_door_tiles_22: -1443729446
-      classic_room_door_tiles_23: 1875229647
-      classic_room_door_tiles_24: -1666678365
-      classic_room_door_tiles_25: 1017285468
-      classic_room_door_tiles_26: -1582790119
-      classic_room_door_tiles_27: 888091416
-      classic_room_door_tiles_28: -164754459
-      classic_room_door_tiles_29: -555467760
-      classic_room_door_tiles_3: 338215355
-      classic_room_door_tiles_30: 649348055
-      classic_room_door_tiles_31: -2004001761
-      classic_room_door_tiles_32: 91537688
-      classic_room_door_tiles_33: 763983801
-      classic_room_door_tiles_34: 1479657059
-      classic_room_door_tiles_35: 894824516
-      classic_room_door_tiles_36: 1491597515
-      classic_room_door_tiles_37: -1366296872
-      classic_room_door_tiles_38: 17613993
-      classic_room_door_tiles_39: 259996277
-      classic_room_door_tiles_4: 1719689093
-      classic_room_door_tiles_40: 1894466429
-      classic_room_door_tiles_41: 1596621979
-      classic_room_door_tiles_42: -1472315257
-      classic_room_door_tiles_43: -1204699318
-      classic_room_door_tiles_44: 771771859
-      classic_room_door_tiles_45: 1292284604
-      classic_room_door_tiles_46: 1056341439
-      classic_room_door_tiles_47: 1104550881
-      classic_room_door_tiles_48: 174538659
-      classic_room_door_tiles_49: -163964774
-      classic_room_door_tiles_5: 773024384
-      classic_room_door_tiles_50: -724047479
-      classic_room_door_tiles_51: -1604441958
-      classic_room_door_tiles_52: 516785318
-      classic_room_door_tiles_53: -16959492
-      classic_room_door_tiles_54: 1994756097
-      classic_room_door_tiles_55: 1291265906
-      classic_room_door_tiles_56: -760340796
-      classic_room_door_tiles_57: -1486068434
-      classic_room_door_tiles_58: -1173470134
-      classic_room_door_tiles_59: 1999747965
-      classic_room_door_tiles_6: 601031547
-      classic_room_door_tiles_60: -1612334165
-      classic_room_door_tiles_61: 1027291009
-      classic_room_door_tiles_62: -296690767
-      classic_room_door_tiles_63: -910051367
-      classic_room_door_tiles_64: -2024681540
-      classic_room_door_tiles_65: 487363415
-      classic_room_door_tiles_66: -1393452824
-      classic_room_door_tiles_67: -471811973
-      classic_room_door_tiles_68: -262958425
-      classic_room_door_tiles_69: 657919672
-      classic_room_door_tiles_7: 1066151169
-      classic_room_door_tiles_70: 964955927
-      classic_room_door_tiles_71: -796621106
-      classic_room_door_tiles_72: 2051117743
-      classic_room_door_tiles_73: -1879418523
-      classic_room_door_tiles_74: 902984001
-      classic_room_door_tiles_75: 1258071731
-      classic_room_door_tiles_76: -1915664751
-      classic_room_door_tiles_77: -839756201
-      classic_room_door_tiles_78: 678566099
-      classic_room_door_tiles_79: -1136325357
-      classic_room_door_tiles_8: 29317494
-      classic_room_door_tiles_80: -1693627412
-      classic_room_door_tiles_81: 198717588
-      classic_room_door_tiles_82: -1894890909
-      classic_room_door_tiles_83: -2918522
-      classic_room_door_tiles_84: -234961628
-      classic_room_door_tiles_85: -1466013929
-      classic_room_door_tiles_86: 1044787644
-      classic_room_door_tiles_87: -979210421
-      classic_room_door_tiles_88: -786006934
-      classic_room_door_tiles_89: 663632291
-      classic_room_door_tiles_9: 326947120
-      classic_room_door_tiles_90: -254619196
-      classic_room_door_tiles_91: -1314177866
-      classic_room_door_tiles_92: -1577249761
-      classic_room_door_tiles_93: -2146975136
-      classic_room_door_tiles_94: -306388980
-      classic_room_door_tiles_95: -472261867
-      classic_room_door_tiles_96: 1346900744
-      classic_room_door_tiles_97: -998309564
-      classic_room_door_tiles_98: 258424600
-      classic_room_door_tiles_99: -578380149
+      dirty_publicbathroom_set_withshadow_0: 77948696
+      dirty_publicbathroom_set_withshadow_1: -1080827053
+      dirty_publicbathroom_set_withshadow_10: -276073123
+      dirty_publicbathroom_set_withshadow_100: 1728168358
+      dirty_publicbathroom_set_withshadow_101: -1048106267
+      dirty_publicbathroom_set_withshadow_102: -1346862963
+      dirty_publicbathroom_set_withshadow_103: -145963893
+      dirty_publicbathroom_set_withshadow_104: -756214691
+      dirty_publicbathroom_set_withshadow_105: -1215472070
+      dirty_publicbathroom_set_withshadow_106: -1246602356
+      dirty_publicbathroom_set_withshadow_107: 783118372
+      dirty_publicbathroom_set_withshadow_108: 1352283408
+      dirty_publicbathroom_set_withshadow_109: 1418021298
+      dirty_publicbathroom_set_withshadow_11: -1644433181
+      dirty_publicbathroom_set_withshadow_110: -379390316
+      dirty_publicbathroom_set_withshadow_111: -443293660
+      dirty_publicbathroom_set_withshadow_112: 238918761
+      dirty_publicbathroom_set_withshadow_113: -685789778
+      dirty_publicbathroom_set_withshadow_114: -1155284839
+      dirty_publicbathroom_set_withshadow_12: -712627773
+      dirty_publicbathroom_set_withshadow_13: 1470751729
+      dirty_publicbathroom_set_withshadow_14: -1824065438
+      dirty_publicbathroom_set_withshadow_15: -542161433
+      dirty_publicbathroom_set_withshadow_16: 50100267
+      dirty_publicbathroom_set_withshadow_17: -289330928
+      dirty_publicbathroom_set_withshadow_18: -497099175
+      dirty_publicbathroom_set_withshadow_19: 1096316535
+      dirty_publicbathroom_set_withshadow_2: -1540261700
+      dirty_publicbathroom_set_withshadow_20: 315019797
+      dirty_publicbathroom_set_withshadow_21: -802238128
+      dirty_publicbathroom_set_withshadow_22: 61351203
+      dirty_publicbathroom_set_withshadow_23: -1177094249
+      dirty_publicbathroom_set_withshadow_24: -2001996375
+      dirty_publicbathroom_set_withshadow_25: -553530185
+      dirty_publicbathroom_set_withshadow_26: -58115328
+      dirty_publicbathroom_set_withshadow_27: 954807364
+      dirty_publicbathroom_set_withshadow_28: -1857229465
+      dirty_publicbathroom_set_withshadow_29: -1618560319
+      dirty_publicbathroom_set_withshadow_3: -1350256691
+      dirty_publicbathroom_set_withshadow_30: -92159914
+      dirty_publicbathroom_set_withshadow_31: -1486234923
+      dirty_publicbathroom_set_withshadow_32: -771740450
+      dirty_publicbathroom_set_withshadow_33: 892679187
+      dirty_publicbathroom_set_withshadow_34: -1501100284
+      dirty_publicbathroom_set_withshadow_35: -300989738
+      dirty_publicbathroom_set_withshadow_36: 1069933663
+      dirty_publicbathroom_set_withshadow_37: 202188743
+      dirty_publicbathroom_set_withshadow_38: -1206635018
+      dirty_publicbathroom_set_withshadow_39: 1537634750
+      dirty_publicbathroom_set_withshadow_4: 530522065
+      dirty_publicbathroom_set_withshadow_40: -1198436264
+      dirty_publicbathroom_set_withshadow_41: -941274623
+      dirty_publicbathroom_set_withshadow_42: -1437832932
+      dirty_publicbathroom_set_withshadow_43: 1675419130
+      dirty_publicbathroom_set_withshadow_44: 160074963
+      dirty_publicbathroom_set_withshadow_45: -369632452
+      dirty_publicbathroom_set_withshadow_46: -1941857419
+      dirty_publicbathroom_set_withshadow_47: -1822331681
+      dirty_publicbathroom_set_withshadow_48: -1775405299
+      dirty_publicbathroom_set_withshadow_49: 2059893611
+      dirty_publicbathroom_set_withshadow_5: 366509814
+      dirty_publicbathroom_set_withshadow_50: 676706382
+      dirty_publicbathroom_set_withshadow_51: 838204667
+      dirty_publicbathroom_set_withshadow_52: 732702900
+      dirty_publicbathroom_set_withshadow_53: -286706479
+      dirty_publicbathroom_set_withshadow_54: -75117277
+      dirty_publicbathroom_set_withshadow_55: -487613483
+      dirty_publicbathroom_set_withshadow_56: -2108037868
+      dirty_publicbathroom_set_withshadow_57: -1390535539
+      dirty_publicbathroom_set_withshadow_58: 701298706
+      dirty_publicbathroom_set_withshadow_59: -180444806
+      dirty_publicbathroom_set_withshadow_6: 1007042922
+      dirty_publicbathroom_set_withshadow_60: 1605541241
+      dirty_publicbathroom_set_withshadow_61: 1230543981
+      dirty_publicbathroom_set_withshadow_62: -393960136
+      dirty_publicbathroom_set_withshadow_63: 913143097
+      dirty_publicbathroom_set_withshadow_64: -939542712
+      dirty_publicbathroom_set_withshadow_65: -2038872584
+      dirty_publicbathroom_set_withshadow_66: -1510406225
+      dirty_publicbathroom_set_withshadow_67: 1274020220
+      dirty_publicbathroom_set_withshadow_68: 348052497
+      dirty_publicbathroom_set_withshadow_69: 1961227042
+      dirty_publicbathroom_set_withshadow_7: -345356021
+      dirty_publicbathroom_set_withshadow_70: 502846418
+      dirty_publicbathroom_set_withshadow_71: -33341739
+      dirty_publicbathroom_set_withshadow_72: 1213033294
+      dirty_publicbathroom_set_withshadow_73: 177356238
+      dirty_publicbathroom_set_withshadow_74: -234709022
+      dirty_publicbathroom_set_withshadow_75: 1425623149
+      dirty_publicbathroom_set_withshadow_76: -277548461
+      dirty_publicbathroom_set_withshadow_77: -1657397516
+      dirty_publicbathroom_set_withshadow_78: -1516058264
+      dirty_publicbathroom_set_withshadow_79: 1568496988
+      dirty_publicbathroom_set_withshadow_8: 1183606438
+      dirty_publicbathroom_set_withshadow_80: 1197728855
+      dirty_publicbathroom_set_withshadow_81: -174077858
+      dirty_publicbathroom_set_withshadow_82: 1611529713
+      dirty_publicbathroom_set_withshadow_83: 1739538177
+      dirty_publicbathroom_set_withshadow_84: 1724190780
+      dirty_publicbathroom_set_withshadow_85: 1262359461
+      dirty_publicbathroom_set_withshadow_86: -841453931
+      dirty_publicbathroom_set_withshadow_87: -155724221
+      dirty_publicbathroom_set_withshadow_88: -1147775850
+      dirty_publicbathroom_set_withshadow_89: 1228503269
+      dirty_publicbathroom_set_withshadow_9: -1104761308
+      dirty_publicbathroom_set_withshadow_90: -746243460
+      dirty_publicbathroom_set_withshadow_91: -1577295755
+      dirty_publicbathroom_set_withshadow_92: 1009960274
+      dirty_publicbathroom_set_withshadow_93: 1703584637
+      dirty_publicbathroom_set_withshadow_94: -1606682931
+      dirty_publicbathroom_set_withshadow_95: -215483943
+      dirty_publicbathroom_set_withshadow_96: -1304100972
+      dirty_publicbathroom_set_withshadow_97: 1038420135
+      dirty_publicbathroom_set_withshadow_98: 1024952113
+      dirty_publicbathroom_set_withshadow_99: 115056977
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

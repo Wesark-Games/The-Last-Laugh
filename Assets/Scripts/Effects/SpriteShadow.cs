@@ -1,85 +1,60 @@
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
-public class SpriteOmniShadow : MonoBehaviour
+public class SimplePixelDownShadow : MonoBehaviour
 {
-    [Header("Настройки круговой тени")]
-    [Tooltip("Размер тени во все стороны в пикселях (например, 3, 4, 5)")]
-    public int shadowSizeInPixels = 4;
+    [Header("Настройки пиксельной тени")]
+    [Tooltip("Смещение тени вниз в пикселях (например, 3, 4, 5)")]
+    public int shadowOffsetPixels = 4;
 
-    [Tooltip("Количество пикселей в одном юните (PPU вашего спрайта)")]
-    public float pixelsPerUnit = 16f;
+    [Tooltip("Количество пикселей в одном юните (PPU вашего спрайта, обычно 16 или 32)")]
+    public float pixelsPerUnit = 32f;
 
     [Tooltip("Прозрачность тени (от 0 до 1)")]
     [Range(0f, 1f)]
-    public float shadowAlpha = 0.3f;
+    public float shadowColorAlpha = 0.5f;
 
     private SpriteRenderer mainRenderer;
-    private SpriteRenderer[] shadowRenderers = new SpriteRenderer[4];
+    private SpriteRenderer shadowRenderer;
 
     void Start()
     {
         mainRenderer = GetComponent<SpriteRenderer>();
 
-        // Высчитываем сдвиг в координатах Unity
-        float offset = shadowSizeInPixels / pixelsPerUnit;
+        // 1. Создаем дочерний объект для тени
+        GameObject shadowObj = new GameObject(gameObject.name + "_Shadow");
+        shadowObj.transform.SetParent(transform);
 
-        // Направления сдвига: Влево, Вправо, Вниз, Вверх
-        // Сдвиг по Z (0.01f * i) нужен, чтобы слои тени не мерцали между собой
-        Vector3[] directions = new Vector3[]
-        {
-            new Vector3(-offset, 0f, 0.01f),
-            new Vector3(offset, 0f, 0.02f),
-            new Vector3(0f, -offset, 0.03f),
-            new Vector3(0f, offset, 0.04f)
-        };
+        // 2. Сдвигаем строго вниз по Y на нужные пиксели
+        float yOffset = -(shadowOffsetPixels / pixelsPerUnit);
+        
+        // Сдвиг по Z (-0.01f), чтобы в вашей 3D-сцене URP тень ложилась ПРАВИЛЬНО (чуть ближе к камере, чем пол)
+        shadowObj.transform.localPosition = new Vector3(0f, yOffset, -0.01f);
+        shadowObj.transform.localRotation = Quaternion.identity;
+        shadowObj.transform.localScale = Vector3.one;
 
-        // Создаем 4 слоя тени
-        for (int i = 0; i < 4; i++)
-        {
-            GameObject shadowObj = new GameObject($"SpriteShadow_Dir_{i}");
-            shadowObj.transform.SetParent(transform);
-            
-            // Устанавливаем локальное смещение
-            shadowObj.transform.localPosition = directions[i];
-            shadowObj.transform.localRotation = Quaternion.identity;
-            shadowObj.transform.localScale = Vector3.one;
+        // 3. Добавляем и настраиваем SpriteRenderer тени
+        shadowRenderer = shadowObj.AddComponent<SpriteRenderer>();
+        shadowRenderer.sprite = mainRenderer.sprite;
+        shadowRenderer.sortingLayerID = mainRenderer.sortingLayerID;
+        
+        // Отрисовка на один порядок ниже родителя, чтобы тень не перекрывала сам предмет
+        shadowRenderer.sortingOrder = mainRenderer.sortingOrder - 1;
 
-            // Добавляем рендерер тени
-            SpriteRenderer sRenderer = shadowObj.AddComponent<SpriteRenderer>();
-            shadowRenderers[i] = sRenderer;
-
-            // Настраиваем слои отрисовки, чтобы тень была строго под объектом
-            sRenderer.sortingLayerID = mainRenderer.sortingLayerID;
-            sRenderer.sortingOrder = mainRenderer.sortingOrder - 1;
-
-            // Создаем уникальный материал и красим его в черный цвет
-            sRenderer.material = new Material(Shader.Find("Sprites/Default"));
-            sRenderer.material.color = new Color(0f, 0f, 0f, shadowAlpha);
-        }
+        // 4. Красим в полупрозрачный черный
+        shadowRenderer.material = new Material(Shader.Find("Sprites/Default"));
+        shadowRenderer.material.color = new Color(0f, 0f, 0f, shadowColorAlpha);
     }
 
-    // Используем LateUpdate, чтобы тени обновлялись ПОСЛЕ того, 
-    // как отработают все анимации или перемещения объекта в текущем кадре
+    // Если предмет динамический (например, его можно двигать/пинать) или у него меняется спрайт
     void LateUpdate()
     {
-        if (mainRenderer == null) return;
+        if (mainRenderer == null || shadowRenderer == null) return;
 
-        // Пробегаемся по всем 4 слоям тени и синхронизируем их состояние
-        for (int i = 0; i < shadowRenderers.Length; i++)
-        {
-            if (shadowRenderers[i] != null)
-            {
-                // Синхронизируем текущий кадр анимации
-                shadowRenderers[i].sprite = mainRenderer.sprite;
-                
-                // Синхронизируем отражение по горизонтали/вертикали (Flip)
-                shadowRenderers[i].flipX = mainRenderer.flipX;
-                shadowRenderers[i].flipY = mainRenderer.flipY;
-                
-                // Если оригинальный объект внезапно отключают — отключаем и тени
-                shadowRenderers[i].enabled = mainRenderer.enabled;
-            }
-        }
+        // Синхронизируем кадры, если у предмета есть анимация или его перевернули (Flip)
+        shadowRenderer.sprite = mainRenderer.sprite;
+        shadowRenderer.flipX = mainRenderer.flipX;
+        shadowRenderer.flipY = mainRenderer.flipY;
+        shadowRenderer.enabled = mainRenderer.enabled;
     }
 }
