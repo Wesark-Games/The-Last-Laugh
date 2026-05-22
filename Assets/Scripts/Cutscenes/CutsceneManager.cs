@@ -8,94 +8,40 @@ using UnityEngine.Events;
 
 namespace Project.Visuals
 {
-    /// <summary>
-    /// Универсальный контроллер катсцен для всей игры.
-    /// 
-    /// ЗАПУСК:
-    ///   cutsceneController.Play()               — из триггера/скрипта
-    ///   cutsceneController.PlayThenPlay(next)   — цепочка катсцен
-    /// 
-    /// ВОЗВРАТ В ГЕЙМПЛЕЙ:
-    ///   onSequenceComplete → ResumeGameplay()
-    /// </summary>
     public class CutsceneController : MonoBehaviour
     {
-        // ─── ТИПЫ ШАГОВ ──────────────────────────────────────────────────
         public enum StepType
         {
-            // Визуал — базовый
-            ShowObject,
-            HideObject,
-            FadeIn,
-            FadeOut,
-            FadeOverlayIn,
-            FadeOverlayOut,
-            Wait,
-            ZoomIn,
-
-            // Визуал — комикс
-            ShowPanel,         // показать панель комикса с анимацией
-            HidePanel,         // скрыть панель
-            ShakeObject,       // тряска объекта (удар, взрыв)
-
-            // Диалог
-            ShowDialogue,      // показать субтитр внизу экрана
-            HideDialogue,      // скрыть субтитр
-            ShowNPCPhrase,     // фраза над головой NPC
-            HideNPCPhrase,
-
-            // Аудио
-            PlayMusic,
-            StopMusic,
-            FadeInMusic,
-            FadeOutMusic,
-            PlaySound,
-            MuteGameAudio,
-            UnmuteGameAudio,
-
-            // Камера
-            ShakeCamera,       // тряска камеры
-            ZoomCamera,        // приближение/отдаление камеры
-
-            // Игра
-            PauseGame,         // явная пауза
-            ResumeGame,        // явное снятие паузы
-            EnablePlayer,      // включить управление
-            DisablePlayer,     // выключить управление
-            FireUnityEvent,    // вызвать кастомное событие
+            ShowObject, HideObject, FadeIn, FadeOut,
+            FadeOverlayIn, FadeOverlayOut, Wait, ZoomIn,
+            ShowPanel, HidePanel, ShakeObject,
+            ShowDialogue, HideDialogue, ShowNPCPhrase, HideNPCPhrase,
+            PlayMusic, StopMusic, FadeInMusic, FadeOutMusic,
+            PlaySound, MuteGameAudio, UnmuteGameAudio,
+            ShakeCamera, ZoomCamera,
+            PauseGame, ResumeGame, EnablePlayer, DisablePlayer,
+            FireUnityEvent,
         }
 
-        // ─── ШАГ ─────────────────────────────────────────────────────────
         [System.Serializable]
         public class CutsceneStep
         {
-            [Tooltip("Тип действия")]
-            public StepType type;
-
-            [Tooltip("UI объект или GameObject над которым действуем")]
+            public StepType   type;
             public GameObject target;
-
-            [Tooltip("Длительность действия")]
-            public float duration = 1f;
-
-            [Tooltip("Пауза ПОСЛЕ шага")]
-            public float holdAfter = 0f;
+            public float      duration   = 1f;
+            public float      holdAfter  = 0f;
 
             [Header("─ Zoom / Shake ─")]
-            public float zoomFrom  = 1.15f;
-            public float zoomTo    = 1.0f;
+            public float zoomFrom      = 1.15f;
+            public float zoomTo        = 1.0f;
             public float shakeStrength = 5f;
 
             [Header("─ Диалог ─")]
-            [Tooltip("Текст субтитра или фразы NPC")]
             [TextArea(2, 4)]
-            public string dialogueText = "";
-            [Tooltip("Имя персонажа (опционально)")]
-            public string speakerName  = "";
-            [Tooltip("Портрет персонажа (опционально)")]
+            public string dialogueText    = "";
+            public string speakerName     = "";
             public Sprite speakerPortrait;
-            [Tooltip("Скорость печатания текста (симв/сек). 0 = мгновенно")]
-            public float typeSpeed = 30f;
+            public float  typeSpeed       = 30f;
 
             [Header("─ Аудио ─")]
             public AudioClip audioClip;
@@ -107,16 +53,14 @@ namespace Project.Visuals
             public float cameraZoomTarget   = 5f;
             public float cameraZoomDuration = 1f;
 
-            [Header("─ Кастомное событие ─")]
+            [Header("─ Событие ─")]
             public UnityEvent customEvent;
         }
 
-        // ─── CONFIGURATION ────────────────────────────────────────────────
         [Header("[ ШАГИ ]")]
         public List<CutsceneStep> steps = new List<CutsceneStep>();
 
         [Header("[ СЛЕДУЮЩАЯ КАТСЦЕНА ]")]
-        [Tooltip("Если назначена — запустится сразу после этой")]
         [SerializeField] private CutsceneController nextCutscene;
 
         [Header("[ UI — БАЗОВЫЕ ]")]
@@ -126,8 +70,7 @@ namespace Project.Visuals
         [SerializeField] private float      skipFadeDuration = 0.6f;
 
         [Header("[ UI — ДИАЛОГ ]")]
-        [Tooltip("Панель субтитров внизу экрана")]
-        [SerializeField] private GameObject   dialoguePanel;
+        [SerializeField] private GameObject      dialoguePanel;
         [SerializeField] private TextMeshProUGUI dialogueText;
         [SerializeField] private TextMeshProUGUI speakerNameText;
         [SerializeField] private Image           speakerPortraitImage;
@@ -144,8 +87,7 @@ namespace Project.Visuals
         private float originalCameraSize;
 
         [Header("[ ИГРОК ]")]
-        [SerializeField] private string playerTag = "Player";
-        [Tooltip("Имя скрипта управления игроком — будет выключаться во время катсцены")]
+        [SerializeField] private string playerTag            = "Player";
         [SerializeField] private string playerControllerName = "PlayerController";
 
         [Header("[ НАСТРОЙКИ ]")]
@@ -156,19 +98,24 @@ namespace Project.Visuals
         [Header("[ СОБЫТИЯ ]")]
         public UnityEvent onSequenceStart;
         public UnityEvent onSequenceComplete;
-        // ─────────────────────────────────────────────────────────────────
 
-        private bool         skipPressed;
-        private bool         isPlaying;
+        private bool          skipPressed;
+        private bool          isPlaying;
         private MonoBehaviour playerController;
 
         private void Awake()
         {
-            SetFadeAlpha(1f);
-            SetGraphicAlpha(skipTextGO, 0f);
+            // FadeOverlay включаем программно — в Hierarchy держи выключенным
+            if (fadeOverlayImage != null)
+            {
+                fadeOverlayImage.gameObject.SetActive(true);
+                SetFadeAlpha(1f);
+            }
 
-            if (dialoguePanel != null)
-                dialoguePanel.SetActive(false);
+            SetGraphicAlpha(skipTextGO, 0f);
+            if (skipTextGO != null) skipTextGO.SetActive(false);
+
+            if (dialoguePanel != null) dialoguePanel.SetActive(false);
 
             if (gameCamera != null)
                 originalCameraSize = gameCamera.orthographicSize;
@@ -184,37 +131,36 @@ namespace Project.Visuals
 
         // ─── ПУБЛИЧНЫЕ МЕТОДЫ ─────────────────────────────────────────────
 
-        /// <summary>
-        /// Запустить катсцену
-        /// </summary>
         public void Play()
         {
             if (!isPlaying)
                 StartCoroutine(RunWithDelay());
         }
 
-        /// <summary>
-        /// Запустить и после завершения запустить следующую
-        /// </summary>
         public void PlayThenPlay(CutsceneController next)
         {
             nextCutscene = next;
             Play();
         }
 
-        /// <summary>
-        /// Пропустить. Вешай на кнопку Skip → OnClick
-        /// </summary>
-        public void OnSkipClicked() => skipPressed = true;
+        public void OnSkipClicked()
+        {
+            if (!isPlaying) return;
+            if (!skipPressed)
+            {
+                skipPressed = true;
+                StopAllCoroutines();
+                StartCoroutine(SkipToEndRoutine());
+            }
+        }
 
-        /// <summary>
-        /// Вернуть управление игроку. Назначай в onSequenceComplete.
-        /// </summary>
         public void ResumeGameplay()
         {
-            SetPlayerControl(true);
+            // Сначала timeScale, потом игрок — чтобы OnEnable сработал правильно
             if (pauseGameDuringCutscene)
                 Time.timeScale = 1f;
+
+            SetPlayerControl(true);
             StartCoroutine(UnmuteGameAudioRoutine());
         }
 
@@ -244,16 +190,14 @@ namespace Project.Visuals
 
             foreach (CutsceneStep step in steps)
             {
-                if (skipPressed) break;
+                if (skipPressed) yield break;
                 yield return StartCoroutine(ExecuteStep(step));
 
                 if (step.holdAfter > 0f && !skipPressed)
                     yield return WaitUnscaled(step.holdAfter);
             }
 
-            if (skipPressed)
-                yield return StartCoroutine(FastForward());
-            else
+            if (!skipPressed)
                 yield return StartCoroutine(Finish());
         }
 
@@ -263,7 +207,6 @@ namespace Project.Visuals
         {
             switch (step.type)
             {
-                // ── Базовый визуал ────────────────────────────────────────
                 case StepType.ShowObject:
                     step.target?.SetActive(true);
                     break;
@@ -283,12 +226,14 @@ namespace Project.Visuals
                     break;
 
                 case StepType.FadeOverlayIn:
+                    if (fadeOverlayImage != null) fadeOverlayImage.gameObject.SetActive(true);
                     yield return StartCoroutine(FadeOverlay(0f, 1f, step.duration));
                     break;
 
                 case StepType.FadeOverlayOut:
                     if (pauseGameDuringCutscene) Time.timeScale = 1f;
                     yield return StartCoroutine(FadeOverlay(1f, 0f, step.duration));
+                    if (fadeOverlayImage != null) fadeOverlayImage.gameObject.SetActive(false);
                     break;
 
                 case StepType.Wait:
@@ -297,12 +242,9 @@ namespace Project.Visuals
 
                 case StepType.ZoomIn:
                     if (step.target != null) step.target.SetActive(true);
-                    yield return StartCoroutine(ZoomAndFade(
-                        step.target, step.zoomFrom, step.zoomTo, step.duration
-                    ));
+                    yield return StartCoroutine(ZoomAndFade(step.target, step.zoomFrom, step.zoomTo, step.duration));
                     break;
 
-                // ── Комикс-панели ─────────────────────────────────────────
                 case StepType.ShowPanel:
                     if (step.target != null) step.target.SetActive(true);
                     yield return StartCoroutine(FadeGraphic(step.target, 0f, 1f, step.duration));
@@ -317,7 +259,6 @@ namespace Project.Visuals
                     yield return StartCoroutine(ShakeObject(step.target, step.duration, step.shakeStrength));
                     break;
 
-                // ── Диалог ────────────────────────────────────────────────
                 case StepType.ShowDialogue:
                     yield return StartCoroutine(ShowDialogueRoutine(step));
                     break;
@@ -346,7 +287,6 @@ namespace Project.Visuals
                     }
                     break;
 
-                // ── Аудио ─────────────────────────────────────────────────
                 case StepType.PlayMusic:
                     PlayCutsceneMusic(step.audioClip, step.volume, step.loop);
                     break;
@@ -379,18 +319,14 @@ namespace Project.Visuals
                     yield return StartCoroutine(UnmuteGameAudioRoutine());
                     break;
 
-                // ── Камера ────────────────────────────────────────────────
                 case StepType.ShakeCamera:
                     yield return StartCoroutine(ShakeCameraRoutine(step.duration, step.shakeStrength));
                     break;
 
                 case StepType.ZoomCamera:
-                    yield return StartCoroutine(ZoomCameraRoutine(
-                        step.cameraZoomTarget, step.cameraZoomDuration
-                    ));
+                    yield return StartCoroutine(ZoomCameraRoutine(step.cameraZoomTarget, step.cameraZoomDuration));
                     break;
 
-                // ── Игра ──────────────────────────────────────────────────
                 case StepType.PauseGame:
                     Time.timeScale = 0f;
                     break;
@@ -419,9 +355,8 @@ namespace Project.Visuals
         {
             if (dialoguePanel == null) yield break;
 
-            // Заполняем данные
-            if (dialogueText      != null) dialogueText.text      = "";
-            if (speakerNameText   != null) speakerNameText.text   = step.speakerName;
+            if (dialogueText         != null) dialogueText.text         = "";
+            if (speakerNameText      != null) speakerNameText.text      = step.speakerName;
             if (speakerPortraitImage != null)
             {
                 speakerPortraitImage.sprite  = step.speakerPortrait;
@@ -431,7 +366,6 @@ namespace Project.Visuals
             dialoguePanel.SetActive(true);
             yield return StartCoroutine(FadeGraphic(dialoguePanel, 0f, 1f, 0.3f));
 
-            // Печатаем текст
             if (step.typeSpeed > 0f)
                 yield return StartCoroutine(TypeText(dialogueText, step.dialogueText, step.typeSpeed));
             else if (dialogueText != null)
@@ -441,10 +375,8 @@ namespace Project.Visuals
         private IEnumerator TypeText(TextMeshProUGUI tmp, string text, float speed)
         {
             if (tmp == null) yield break;
-
             tmp.text = "";
             float delay = 1f / speed;
-
             foreach (char c in text)
             {
                 if (skipPressed) { tmp.text = text; yield break; }
@@ -453,41 +385,76 @@ namespace Project.Visuals
             }
         }
 
-        // ─── ФИНАЛ И ПРОПУСК ─────────────────────────────────────────────
+        // ─── ФИНАЛ ───────────────────────────────────────────────────────
 
         private IEnumerator Finish()
         {
-            yield return StartCoroutine(FadeGraphic(skipTextGO, 1f, 0f, skipFadeDuration));
+            // Скрываем кнопку пропуска
+            if (skipTextGO != null)
+                yield return StartCoroutine(FadeGraphic(skipTextGO, 1f, 0f, skipFadeDuration));
+            if (skipTextGO != null) skipTextGO.SetActive(false);
 
+            // Останавливаем музыку
             if (cutsceneMusicSource != null && cutsceneMusicSource.isPlaying)
                 yield return StartCoroutine(FadeMusicVolume(cutsceneMusicSource.volume, 0f, 0.5f));
 
+            // Скрываем FadeOverlay
+            SetFadeAlpha(0f);
+            if (fadeOverlayImage != null)
+                fadeOverlayImage.gameObject.SetActive(false);
+
             isPlaying = false;
 
-            // Запускаем следующую катсцену если есть
             if (nextCutscene != null)
                 nextCutscene.Play();
             else
                 onSequenceComplete?.Invoke();
         }
 
-        private IEnumerator FastForward()
+        // ─── ПРОПУСК ─────────────────────────────────────────────────────
+
+        private IEnumerator SkipToEndRoutine()
         {
+            // Скрываем все объекты шагов
             foreach (CutsceneStep step in steps)
-                if (step.target != null) SetGraphicAlpha(step.target, 0f);
+            {
+                if (step.target == null) continue;
+                SetGraphicAlpha(step.target, 0f);
+                step.target.SetActive(false);
+            }
 
-            SetGraphicAlpha(skipTextGO, 0f);
-
+            if (skipTextGO    != null) { SetGraphicAlpha(skipTextGO, 0f); skipTextGO.SetActive(false); }
             if (dialoguePanel != null) dialoguePanel.SetActive(false);
-            if (cutsceneMusicSource != null) cutsceneMusicSource.Stop();
 
+            if (cutsceneMusicSource != null)
+            {
+                cutsceneMusicSource.Stop();
+                cutsceneMusicSource.volume = 0f;
+            }
+
+            // Сбрасываем timeScale до анимации
             Time.timeScale = 1f;
+
+            // Затемнение
+            if (fadeOverlayImage != null) fadeOverlayImage.gameObject.SetActive(true);
             SetFadeAlpha(1f);
-
             yield return new WaitForSecondsRealtime(0.3f);
-            yield return StartCoroutine(FadeOverlay(1f, 0f, 0.8f));
 
-            isPlaying = false;
+            // Плавно убираем затемнение
+            float t = 0f;
+            while (t < 1f)
+            {
+                t += Time.unscaledDeltaTime / 0.6f;
+                SetFadeAlpha(Mathf.Lerp(1f, 0f, EaseInOut(Mathf.Clamp01(t))));
+                yield return null;
+            }
+
+            SetFadeAlpha(0f);
+            if (fadeOverlayImage != null)
+                fadeOverlayImage.gameObject.SetActive(false);
+
+            isPlaying   = false;
+            skipPressed = false;
 
             if (nextCutscene != null)
                 nextCutscene.Play();
@@ -587,7 +554,6 @@ namespace Project.Visuals
             if (gameCamera == null) yield break;
             Vector3 originalPos = gameCamera.transform.localPosition;
             float   elapsed     = 0f;
-
             while (elapsed < duration)
             {
                 elapsed += Time.unscaledDeltaTime;
@@ -595,7 +561,6 @@ namespace Project.Visuals
                 gameCamera.transform.localPosition = originalPos + (Vector3)Random.insideUnitCircle * strength * fade;
                 yield return null;
             }
-
             gameCamera.transform.localPosition = originalPos;
         }
 
@@ -604,14 +569,12 @@ namespace Project.Visuals
             if (gameCamera == null) yield break;
             float startSize = gameCamera.orthographicSize;
             float t         = 0f;
-
             while (t < 1f)
             {
                 t += Time.unscaledDeltaTime / duration;
                 gameCamera.orthographicSize = Mathf.Lerp(startSize, targetSize, EaseInOut(Mathf.Clamp01(t)));
                 yield return null;
             }
-
             gameCamera.orthographicSize = targetSize;
         }
 

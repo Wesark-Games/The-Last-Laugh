@@ -2469,7 +2469,7 @@ TextureImporter:
         serializedVersion: 2
         x: 256
         y: 0
-        width: 192
+        width: 32
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3154,7 +3154,7 @@ TextureImporter:
         width: 30
         height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -3163,6 +3163,72 @@ TextureImporter:
       bones: []
       spriteID: 2c3874a0387f14f8993801391152d6f9
       internalID: 1907363837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: retro_bathroom_set_withshadow_139
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5121bf3fc7c44f2796f1bbdb663cfcf
+      internalID: 549207441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: retro_bathroom_set_withshadow_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00c67c093c9e4180b73f663b62a8f41
+      internalID: 98961117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: retro_bathroom_set_withshadow_141
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7206b47f5c964c2fad31b46afd91cd7
+      internalID: -483943273
       vertices: []
       indices: 
       edges: []
@@ -3228,7 +3294,10 @@ TextureImporter:
       retro_bathroom_set_withshadow_136: 1282978951
       retro_bathroom_set_withshadow_137: 990208141
       retro_bathroom_set_withshadow_138: 1907363837
+      retro_bathroom_set_withshadow_139: 549207441
       retro_bathroom_set_withshadow_14: 753154992
+      retro_bathroom_set_withshadow_140: 98961117
+      retro_bathroom_set_withshadow_141: -483943273
       retro_bathroom_set_withshadow_15: -1529406134
       retro_bathroom_set_withshadow_16: -55529109
       retro_bathroom_set_withshadow_17: 1905303737

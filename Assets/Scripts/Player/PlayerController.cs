@@ -5,7 +5,6 @@ namespace Project.Player
     [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerController : MonoBehaviour
     {
-        // --- CONFIGURATION ------------------------------------------------
         [Header("[ ДВИЖЕНИЕ ]")]
         [SerializeField] private float moveSpeed         = 4f;
         [SerializeField] private float movementSmoothing = 0.1f;
@@ -15,20 +14,18 @@ namespace Project.Player
         [SerializeField] private KeyCode downKey  = KeyCode.S;
         [SerializeField] private KeyCode leftKey  = KeyCode.A;
         [SerializeField] private KeyCode rightKey = KeyCode.D;
-        // -----------------------------------------------------------------
 
-        private Rigidbody2D rb;
-        private Vector2     moveInput;
-        private Vector2     currentVelocity;
-        private Vector2     smoothVelocity;
-        private Vector2     facingDirection;
-
+        private Rigidbody2D    rb;
+        private Vector2        moveInput;
+        private Vector2        currentVelocity;
+        private Vector2        smoothVelocity;
+        private Vector2        facingDirection;
         private Animator       animator;
         private SpriteRenderer spriteRenderer;
 
         private static readonly int DirXHash     = Animator.StringToHash("DirX");
         private static readonly int DirYHash     = Animator.StringToHash("DirY");
-        private static readonly int IsMovingHash = Animator.StringToHash("IsMoving");
+        private static readonly int IsMovingHash  = Animator.StringToHash("IsMoving");
 
         private void Awake()
         {
@@ -42,6 +39,20 @@ namespace Project.Player
             facingDirection = Vector2.down;
         }
 
+        private void OnEnable()
+        {
+            // Сбрасываем всё при возврате управления
+            moveInput       = Vector2.zero;
+            currentVelocity = Vector2.zero;
+            smoothVelocity  = Vector2.zero;
+
+            if (rb != null)
+                rb.linearVelocity = Vector2.zero;
+
+            if (animator != null)
+                animator.SetBool(IsMovingHash, false);
+        }
+
         private void Update()
         {
             ReadInput();
@@ -52,7 +63,7 @@ namespace Project.Player
             Move();
         }
 
-        // --- ВВОД --------------------------------------------------------
+        // ─── ВВОД ────────────────────────────────────────────────────────
 
         private void ReadInput()
         {
@@ -70,34 +81,26 @@ namespace Project.Player
                 moveInput.Normalize();
         }
 
-        // --- НАПРАВЛЕНИЕ ВЗГЛЯДА -----------------------------------------
+        // ─── НАПРАВЛЕНИЕ ─────────────────────────────────────────────────
 
         private Vector2 GetDirection8Way(Vector2 direction)
         {
             if (direction.sqrMagnitude < 0.01f) return facingDirection;
 
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-            if (angle < 0) angle += 360f;
+            if (angle < 0f) angle += 360f;
 
-            if (angle >= 22.5f && angle < 67.5f)
-                return new Vector2(1f, 1f);   // СВ
-            else if (angle >= 67.5f && angle < 112.5f)
-                return new Vector2(0f, 1f);   // Вверх
-            else if (angle >= 112.5f && angle < 157.5f)
-                return new Vector2(-1f, 1f);  // СЗ
-            else if (angle >= 157.5f && angle < 202.5f)
-                return new Vector2(-1f, 0f);  // Влево
-            else if (angle >= 202.5f && angle < 247.5f)
-                return new Vector2(-1f, -1f); // ЮЗ
-            else if (angle >= 247.5f && angle < 292.5f)
-                return new Vector2(0f, -1f);  // Вниз
-            else if (angle >= 292.5f && angle < 337.5f)
-                return new Vector2(1f, -1f);  // ЮВ
-            else
-                return new Vector2(1f, 0f);   // Вправо
+            if      (angle >= 22.5f  && angle < 67.5f)  return new Vector2( 1f,  1f);
+            else if (angle >= 67.5f  && angle < 112.5f) return new Vector2( 0f,  1f);
+            else if (angle >= 112.5f && angle < 157.5f) return new Vector2(-1f,  1f);
+            else if (angle >= 157.5f && angle < 202.5f) return new Vector2(-1f,  0f);
+            else if (angle >= 202.5f && angle < 247.5f) return new Vector2(-1f, -1f);
+            else if (angle >= 247.5f && angle < 292.5f) return new Vector2( 0f, -1f);
+            else if (angle >= 292.5f && angle < 337.5f) return new Vector2( 1f, -1f);
+            else                                         return new Vector2( 1f,  0f);
         }
 
-        // --- ДВИЖЕНИЕ ----------------------------------------------------
+        // ─── ДВИЖЕНИЕ ────────────────────────────────────────────────────
 
         private void Move()
         {
@@ -114,35 +117,32 @@ namespace Project.Player
             UpdateAnimation(currentVelocity);
         }
 
-        // --- АНИМАЦИЯ ----------------------------------------------------
+        // ─── АНИМАЦИЯ ────────────────────────────────────────────────────
 
         private void UpdateAnimation(Vector2 velocity)
         {
             if (animator == null) return;
 
-            // Фактическое движение определяем по физике
             bool isMoving = velocity.sqrMagnitude > 0.05f;
-            
-            // Направление определяем строго по нажатым кнопкам
             bool hasInput = moveInput.sqrMagnitude > 0.01f;
 
             if (hasInput)
-            {
                 facingDirection = GetDirection8Way(moveInput);
-            }
 
-            ProcessFlipAndAnimation(facingDirection, isMoving);
+            ApplyAnimation(facingDirection, isMoving);
         }
 
-        private void ProcessFlipAndAnimation(Vector2 direction, bool isMoving)
+        private void ApplyAnimation(Vector2 direction, bool isMoving)
         {
             float animX = direction.x;
             float animY = direction.y;
 
+            // Зеркалим спрайт для правых направлений
+            // передаём в аниматор зеркальное (левое) направление
             if (direction.x > 0f)
             {
                 if (spriteRenderer != null) spriteRenderer.flipX = true;
-                animX = -direction.x; 
+                animX = -direction.x;
             }
             else if (direction.x < 0f)
             {
@@ -150,20 +150,15 @@ namespace Project.Player
             }
             else
             {
-                // При движении строго вверх/вниз
                 if (spriteRenderer != null) spriteRenderer.flipX = false;
             }
 
             animator.SetFloat(DirXHash,    animX);
-            
-            // ЕСЛИ АНИМАЦИИ ВЕРХА И НИЗА ПЕРЕПУТАНЫ В UNITY BLEND TREE:
-            // Замените animY в строке ниже на -animY
-            animator.SetFloat(DirYHash,    animY); 
-            
+            animator.SetFloat(DirYHash,    animY);
             animator.SetBool(IsMovingHash, isMoving);
         }
 
-        // --- ПУБЛИЧНЫЕ МЕТОДЫ ---------------------------------------------
+        // ─── ПУБЛИЧНЫЕ МЕТОДЫ ─────────────────────────────────────────────
 
         public void SetMovementEnabled(bool enabled)
         {
@@ -171,14 +166,15 @@ namespace Project.Player
             if (!enabled)
             {
                 rb.linearVelocity = Vector2.zero;
-                if (animator != null) animator.SetBool(IsMovingHash, false);
+                if (animator != null)
+                    animator.SetBool(IsMovingHash, false);
             }
         }
 
         public void SetFacingDirection(Vector2 direction)
         {
             facingDirection = direction.normalized;
-            ProcessFlipAndAnimation(GetDirection8Way(facingDirection), false);
+            ApplyAnimation(GetDirection8Way(facingDirection), false);
         }
     }
 }

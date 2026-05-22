@@ -113,10 +113,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 416
-        width: 32
-        height: 32
+        x: 16
+        y: 388
+        width: 16
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -135,10 +135,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 416
-        width: 32
-        height: 32
+        x: 48
+        y: 386
+        width: 16
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -157,10 +157,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 416
-        width: 32
-        height: 32
+        x: 80
+        y: 387
+        width: 16
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +179,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_3
       rect:
         serializedVersion: 2
-        x: 160
-        y: 416
-        width: 32
-        height: 32
+        x: 99
+        y: 384
+        width: 26
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,10 +201,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 416
-        width: 32
-        height: 32
+        x: 131
+        y: 384
+        width: 42
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_5
       rect:
         serializedVersion: 2
-        x: 224
-        y: 416
-        width: 32
-        height: 32
+        x: 181
+        y: 384
+        width: 22
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,10 +245,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_6
       rect:
         serializedVersion: 2
-        x: 256
-        y: 416
-        width: 32
-        height: 32
+        x: 209
+        y: 404
+        width: 14
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +267,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_7
       rect:
         serializedVersion: 2
-        x: 288
-        y: 416
-        width: 32
-        height: 32
+        x: 245
+        y: 324
+        width: 86
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +289,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_8
       rect:
         serializedVersion: 2
-        x: 320
-        y: 416
-        width: 32
-        height: 32
+        x: 352
+        y: 320
+        width: 96
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,10 +311,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_9
       rect:
         serializedVersion: 2
-        x: 352
-        y: 416
-        width: 32
-        height: 32
+        x: 7
+        y: 321
+        width: 24
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,10 +333,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_10
       rect:
         serializedVersion: 2
-        x: 384
-        y: 416
-        width: 32
-        height: 32
+        x: 36
+        y: 321
+        width: 42
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,10 +355,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 384
-        width: 32
-        height: 32
+        x: 84
+        y: 323
+        width: 42
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,10 +377,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_12
       rect:
         serializedVersion: 2
-        x: 32
-        y: 384
-        width: 32
-        height: 32
+        x: 129
+        y: 324
+        width: 14
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -399,10 +399,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 384
-        width: 32
-        height: 32
+        x: 149
+        y: 324
+        width: 54
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -421,10 +421,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_14
       rect:
         serializedVersion: 2
-        x: 96
-        y: 384
-        width: 32
-        height: 32
+        x: 213
+        y: 324
+        width: 22
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,10 +443,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_15
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
-        width: 32
-        height: 32
+        x: 16
+        y: 260
+        width: 16
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -465,10 +465,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_16
       rect:
         serializedVersion: 2
-        x: 160
-        y: 384
-        width: 32
-        height: 32
+        x: 48
+        y: 258
+        width: 16
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,10 +487,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_17
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
-        width: 32
-        height: 32
+        x: 80
+        y: 259
+        width: 16
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,10 +509,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_18
       rect:
         serializedVersion: 2
-        x: 224
-        y: 384
-        width: 32
-        height: 32
+        x: 99
+        y: 256
+        width: 26
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -531,10 +531,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_19
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
-        width: 32
-        height: 32
+        x: 131
+        y: 256
+        width: 42
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,10 +553,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_20
       rect:
         serializedVersion: 2
-        x: 288
-        y: 384
-        width: 32
-        height: 32
+        x: 181
+        y: 256
+        width: 22
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -575,10 +575,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_21
       rect:
         serializedVersion: 2
-        x: 320
-        y: 384
-        width: 32
-        height: 32
+        x: 245
+        y: 196
+        width: 86
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -597,10 +597,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_22
       rect:
         serializedVersion: 2
-        x: 352
-        y: 384
-        width: 32
-        height: 32
+        x: 358
+        y: 276
+        width: 84
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -619,10 +619,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_23
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 32
-        height: 32
+        x: 7
+        y: 193
+        width: 24
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -641,10 +641,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 352
-        width: 32
-        height: 32
+        x: 36
+        y: 193
+        width: 42
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -663,10 +663,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_25
       rect:
         serializedVersion: 2
-        x: 32
-        y: 352
-        width: 32
-        height: 32
+        x: 149
+        y: 196
+        width: 54
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,10 +685,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_26
       rect:
         serializedVersion: 2
-        x: 64
-        y: 352
-        width: 32
-        height: 32
+        x: 213
+        y: 196
+        width: 22
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -707,10 +707,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_27
       rect:
         serializedVersion: 2
-        x: 128
-        y: 352
-        width: 32
-        height: 32
+        x: 358
+        y: 228
+        width: 84
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,10 +729,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_28
       rect:
         serializedVersion: 2
-        x: 160
-        y: 352
-        width: 32
-        height: 32
+        x: 84
+        y: 195
+        width: 42
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -751,10 +751,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_29
       rect:
         serializedVersion: 2
-        x: 192
-        y: 352
-        width: 32
-        height: 32
+        x: 129
+        y: 196
+        width: 14
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -773,9 +773,9 @@ TextureImporter:
       name: 50sdiner_set_withshadow_30
       rect:
         serializedVersion: 2
-        x: 224
-        y: 352
-        width: 32
+        x: 357
+        y: 192
+        width: 22
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -795,9 +795,9 @@ TextureImporter:
       name: 50sdiner_set_withshadow_31
       rect:
         serializedVersion: 2
-        x: 256
-        y: 352
-        width: 32
+        x: 387
+        y: 192
+        width: 26
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -817,10 +817,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_32
       rect:
         serializedVersion: 2
-        x: 288
-        y: 352
-        width: 32
-        height: 32
+        x: 423
+        y: 199
+        width: 17
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -839,10 +839,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_33
       rect:
         serializedVersion: 2
-        x: 320
-        y: 352
-        width: 32
-        height: 32
+        x: 16
+        y: 132
+        width: 16
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -861,10 +861,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_34
       rect:
         serializedVersion: 2
-        x: 352
-        y: 352
-        width: 32
-        height: 32
+        x: 48
+        y: 130
+        width: 16
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -883,10 +883,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_35
       rect:
         serializedVersion: 2
-        x: 384
-        y: 352
-        width: 32
-        height: 32
+        x: 99
+        y: 128
+        width: 26
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -905,10 +905,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_36
       rect:
         serializedVersion: 2
-        x: 416
-        y: 352
-        width: 32
-        height: 32
+        x: 181
+        y: 128
+        width: 22
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -927,10 +927,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_37
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
-        width: 32
-        height: 32
+        x: 245
+        y: 68
+        width: 86
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -949,10 +949,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_38
       rect:
         serializedVersion: 2
-        x: 32
-        y: 320
-        width: 32
-        height: 32
+        x: 358
+        y: 163
+        width: 84
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -971,10 +971,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_39
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
-        width: 32
-        height: 32
+        x: 80
+        y: 131
+        width: 16
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -993,10 +993,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_40
       rect:
         serializedVersion: 2
-        x: 96
-        y: 320
-        width: 32
-        height: 32
+        x: 131
+        y: 128
+        width: 42
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1015,10 +1015,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_41
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
-        width: 32
-        height: 32
+        x: 213
+        y: 68
+        width: 22
+        height: 72
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1037,10 +1037,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_42
       rect:
         serializedVersion: 2
-        x: 160
-        y: 320
-        width: 32
-        height: 32
+        x: 358
+        y: 130
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1059,10 +1059,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_43
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
-        width: 32
-        height: 32
+        x: 390
+        y: 130
+        width: 20
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1081,9 +1081,9 @@ TextureImporter:
       name: 50sdiner_set_withshadow_44
       rect:
         serializedVersion: 2
-        x: 224
-        y: 320
-        width: 32
+        x: 420
+        y: 128
+        width: 23
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1103,10 +1103,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_45
       rect:
         serializedVersion: 2
-        x: 256
-        y: 320
-        width: 32
-        height: 32
+        x: 7
+        y: 65
+        width: 24
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1125,10 +1125,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_46
       rect:
         serializedVersion: 2
-        x: 288
-        y: 320
-        width: 32
-        height: 32
+        x: 358
+        y: 112
+        width: 21
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1147,10 +1147,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_47
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
-        width: 32
-        height: 32
+        x: 389
+        y: 97
+        width: 22
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1169,10 +1169,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_48
       rect:
         serializedVersion: 2
-        x: 352
-        y: 320
-        width: 32
-        height: 32
+        x: 418
+        y: 98
+        width: 28
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1191,10 +1191,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_49
       rect:
         serializedVersion: 2
-        x: 384
-        y: 320
-        width: 32
-        height: 32
+        x: 36
+        y: 65
+        width: 42
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1213,10 +1213,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_50
       rect:
         serializedVersion: 2
-        x: 416
-        y: 320
-        width: 32
-        height: 32
+        x: 149
+        y: 68
+        width: 54
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1235,10 +1235,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_51
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
-        width: 32
-        height: 32
+        x: 353
+        y: 96
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1257,10 +1257,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_52
       rect:
         serializedVersion: 2
-        x: 32
-        y: 288
-        width: 32
-        height: 32
+        x: 369
+        y: 96
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1279,10 +1279,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_53
       rect:
         serializedVersion: 2
-        x: 96
-        y: 288
-        width: 32
-        height: 32
+        x: 84
+        y: 67
+        width: 42
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1301,10 +1301,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_54
       rect:
         serializedVersion: 2
-        x: 160
-        y: 288
-        width: 32
-        height: 32
+        x: 129
+        y: 68
+        width: 14
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1323,10 +1323,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_55
       rect:
         serializedVersion: 2
-        x: 192
-        y: 288
-        width: 32
-        height: 32
+        x: 353
+        y: 80
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1345,10 +1345,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_56
       rect:
         serializedVersion: 2
-        x: 224
-        y: 288
-        width: 32
-        height: 32
+        x: 369
+        y: 80
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1367,10 +1367,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_57
       rect:
         serializedVersion: 2
-        x: 256
-        y: 288
-        width: 32
-        height: 32
+        x: 387
+        y: 80
+        width: 13
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1389,10 +1389,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_58
       rect:
         serializedVersion: 2
-        x: 288
-        y: 288
-        width: 32
-        height: 32
+        x: 401
+        y: 80
+        width: 9
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1411,10 +1411,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_59
       rect:
         serializedVersion: 2
-        x: 320
-        y: 288
-        width: 32
-        height: 32
+        x: 411
+        y: 80
+        width: 8
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1433,10 +1433,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_60
       rect:
         serializedVersion: 2
-        x: 352
-        y: 288
-        width: 32
-        height: 32
+        x: 420
+        y: 80
+        width: 9
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1455,10 +1455,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_61
       rect:
         serializedVersion: 2
-        x: 384
-        y: 288
-        width: 32
-        height: 32
+        x: 352
+        y: 32
+        width: 16
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1477,10 +1477,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_62
       rect:
         serializedVersion: 2
-        x: 416
-        y: 288
-        width: 32
-        height: 32
+        x: 370
+        y: 65
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1499,10 +1499,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_63
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 32
-        height: 32
+        x: 375
+        y: 71
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1521,10 +1521,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_64
       rect:
         serializedVersion: 2
-        x: 32
-        y: 256
-        width: 32
-        height: 32
+        x: 387
+        y: 65
+        width: 10
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1543,10 +1543,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_65
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
-        width: 32
-        height: 32
+        x: 398
+        y: 65
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1565,10 +1565,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_66
       rect:
         serializedVersion: 2
-        x: 96
-        y: 256
-        width: 32
-        height: 32
+        x: 406
+        y: 65
+        width: 6
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1587,10 +1587,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_67
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 32
-        height: 32
+        x: 413
+        y: 65
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1609,10 +1609,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_68
       rect:
         serializedVersion: 2
-        x: 160
-        y: 256
-        width: 32
-        height: 32
+        x: 421
+        y: 65
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1631,10 +1631,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_69
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
-        width: 32
-        height: 32
+        x: 429
+        y: 65
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1653,10 +1653,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_70
       rect:
         serializedVersion: 2
-        x: 224
-        y: 256
-        width: 32
-        height: 32
+        x: 437
+        y: 65
+        width: 9
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1675,10 +1675,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_71
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 32
-        height: 32
+        x: 130
+        y: 33
+        width: 13
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1697,10 +1697,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_72
       rect:
         serializedVersion: 2
-        x: 288
-        y: 256
-        width: 32
-        height: 32
+        x: 145
+        y: 34
+        width: 14
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1719,10 +1719,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_73
       rect:
         serializedVersion: 2
-        x: 320
-        y: 256
-        width: 32
-        height: 32
+        x: 165
+        y: 34
+        width: 8
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1741,10 +1741,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_74
       rect:
         serializedVersion: 2
-        x: 352
-        y: 256
-        width: 32
-        height: 32
+        x: 178
+        y: 34
+        width: 11
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1763,10 +1763,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_75
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
-        width: 32
-        height: 32
+        x: 195
+        y: 33
+        width: 26
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1785,10 +1785,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_76
       rect:
         serializedVersion: 2
-        x: 416
-        y: 256
-        width: 32
-        height: 32
+        x: 226
+        y: 33
+        width: 28
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1807,10 +1807,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_77
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
-        width: 32
-        height: 32
+        x: 258
+        y: 49
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1829,9 +1829,9 @@ TextureImporter:
       name: 50sdiner_set_withshadow_78
       rect:
         serializedVersion: 2
-        x: 32
-        y: 224
-        width: 32
+        x: 274
+        y: 32
+        width: 27
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1851,10 +1851,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_79
       rect:
         serializedVersion: 2
-        x: 64
-        y: 224
-        width: 32
-        height: 32
+        x: 304
+        y: 16
+        width: 16
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1873,10 +1873,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_80
       rect:
         serializedVersion: 2
-        x: 128
-        y: 224
-        width: 32
-        height: 32
+        x: 322
+        y: 33
+        width: 29
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1895,10 +1895,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_81
       rect:
         serializedVersion: 2
-        x: 160
-        y: 224
-        width: 32
-        height: 32
+        x: 384
+        y: 49
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1917,10 +1917,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_82
       rect:
         serializedVersion: 2
-        x: 192
-        y: 224
-        width: 32
-        height: 32
+        x: 392
+        y: 49
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1939,10 +1939,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_83
       rect:
         serializedVersion: 2
-        x: 224
-        y: 224
-        width: 32
-        height: 32
+        x: 401
+        y: 49
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1961,10 +1961,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_84
       rect:
         serializedVersion: 2
-        x: 256
-        y: 224
-        width: 32
-        height: 32
+        x: 409
+        y: 49
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1983,10 +1983,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_85
       rect:
         serializedVersion: 2
-        x: 288
-        y: 224
-        width: 32
-        height: 32
+        x: 417
+        y: 49
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2005,10 +2005,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_86
       rect:
         serializedVersion: 2
-        x: 320
-        y: 224
-        width: 32
-        height: 32
+        x: 425
+        y: 49
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2027,10 +2027,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_87
       rect:
         serializedVersion: 2
-        x: 352
-        y: 224
+        x: 0
+        y: 1
         width: 32
-        height: 32
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2049,10 +2049,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_88
       rect:
         serializedVersion: 2
-        x: 384
-        y: 224
-        width: 32
-        height: 32
+        x: 44
+        y: 1
+        width: 19
+        height: 46
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2071,10 +2071,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_89
       rect:
         serializedVersion: 2
-        x: 416
-        y: 224
-        width: 32
-        height: 32
+        x: 67
+        y: 2
+        width: 26
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2093,10 +2093,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_90
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
-        width: 32
-        height: 32
+        x: 100
+        y: 2
+        width: 24
+        height: 43
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2115,10 +2115,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_91
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
-        width: 32
-        height: 32
+        x: 258
+        y: 33
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2137,10 +2137,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_92
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 32
-        height: 32
+        x: 370
+        y: 33
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2159,10 +2159,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_93
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 32
-        height: 32
+        x: 384
+        y: 33
+        width: 6
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2181,10 +2181,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_94
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 32
-        height: 32
+        x: 391
+        y: 33
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2203,10 +2203,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_95
       rect:
         serializedVersion: 2
-        x: 160
-        y: 192
-        width: 32
-        height: 32
+        x: 399
+        y: 33
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2225,10 +2225,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_96
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 32
-        height: 32
+        x: 407
+        y: 33
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2247,10 +2247,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_97
       rect:
         serializedVersion: 2
-        x: 224
-        y: 192
-        width: 32
-        height: 32
+        x: 415
+        y: 33
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2269,10 +2269,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_98
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 32
-        height: 32
+        x: 423
+        y: 33
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2291,10 +2291,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_99
       rect:
         serializedVersion: 2
-        x: 288
-        y: 192
-        width: 32
-        height: 32
+        x: 431
+        y: 33
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2313,10 +2313,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_100
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
-        width: 32
-        height: 32
+        x: 439
+        y: 33
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2335,10 +2335,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_101
       rect:
         serializedVersion: 2
-        x: 352
-        y: 192
-        width: 32
-        height: 32
+        x: 129
+        y: 1
+        width: 13
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2357,10 +2357,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_102
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
-        width: 32
-        height: 32
+        x: 145
+        y: 2
+        width: 14
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2379,10 +2379,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_103
       rect:
         serializedVersion: 2
-        x: 416
-        y: 192
-        width: 32
-        height: 32
+        x: 160
+        y: 17
+        width: 16
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2401,10 +2401,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_104
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 32
-        height: 32
+        x: 180
+        y: 2
+        width: 9
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2423,10 +2423,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_105
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 32
-        height: 32
+        x: 196
+        y: 2
+        width: 9
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2445,10 +2445,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_106
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
-        width: 32
-        height: 32
+        x: 212
+        y: 2
+        width: 9
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2467,10 +2467,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_107
       rect:
         serializedVersion: 2
-        x: 160
-        y: 160
-        width: 32
-        height: 32
+        x: 224
+        y: 17
+        width: 48
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2489,10 +2489,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_108
       rect:
         serializedVersion: 2
-        x: 192
-        y: 160
-        width: 32
-        height: 32
+        x: 273
+        y: 18
+        width: 15
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2511,10 +2511,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_109
       rect:
         serializedVersion: 2
-        x: 224
-        y: 160
-        width: 32
-        height: 32
+        x: 292
+        y: 16
+        width: 10
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2533,10 +2533,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_110
       rect:
         serializedVersion: 2
-        x: 256
-        y: 160
-        width: 32
-        height: 32
+        x: 324
+        y: 17
+        width: 9
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2555,10 +2555,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_111
       rect:
         serializedVersion: 2
-        x: 288
-        y: 160
-        width: 32
-        height: 32
+        x: 339
+        y: 17
+        width: 11
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2577,10 +2577,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_112
       rect:
         serializedVersion: 2
-        x: 320
-        y: 160
-        width: 32
-        height: 32
+        x: 354
+        y: 17
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2599,10 +2599,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_113
       rect:
         serializedVersion: 2
-        x: 352
-        y: 160
-        width: 32
-        height: 32
+        x: 371
+        y: 17
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2621,10 +2621,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_114
       rect:
         serializedVersion: 2
-        x: 384
-        y: 160
-        width: 32
-        height: 32
+        x: 383
+        y: 17
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2643,10 +2643,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_115
       rect:
         serializedVersion: 2
-        x: 416
-        y: 160
-        width: 32
-        height: 32
+        x: 391
+        y: 17
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2665,10 +2665,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_116
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 32
-        height: 32
+        x: 407
+        y: 17
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2687,10 +2687,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_117
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 32
-        height: 32
+        x: 415
+        y: 17
+        width: 11
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2709,10 +2709,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_118
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 32
-        height: 32
+        x: 427
+        y: 17
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2731,10 +2731,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_119
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
-        width: 32
-        height: 32
+        x: 435
+        y: 17
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2753,10 +2753,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_120
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
+        x: 161
+        y: 2
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2775,10 +2775,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_121
       rect:
         serializedVersion: 2
-        x: 160
-        y: 128
+        x: 224
+        y: 1
         width: 32
-        height: 32
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2797,10 +2797,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_122
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 32
-        height: 32
+        x: 257
+        y: 2
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2819,10 +2819,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_123
       rect:
         serializedVersion: 2
-        x: 224
-        y: 128
-        width: 32
-        height: 32
+        x: 272
+        y: 1
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2841,10 +2841,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_124
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 32
-        height: 32
+        x: 291
+        y: 3
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2863,10 +2863,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_125
       rect:
         serializedVersion: 2
-        x: 288
-        y: 128
-        width: 32
-        height: 32
+        x: 307
+        y: 3
+        width: 11
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2885,10 +2885,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_126
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
-        width: 32
-        height: 32
+        x: 324
+        y: 1
+        width: 8
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2907,10 +2907,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_127
       rect:
         serializedVersion: 2
-        x: 352
-        y: 128
-        width: 32
-        height: 32
+        x: 336
+        y: 2
+        width: 7
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2929,10 +2929,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_128
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 32
-        height: 32
+        x: 344
+        y: 1
+        width: 7
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2951,10 +2951,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_129
       rect:
         serializedVersion: 2
-        x: 416
-        y: 128
-        width: 32
-        height: 32
+        x: 352
+        y: 3
+        width: 16
+        height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2973,10 +2973,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_130
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 32
-        height: 32
+        x: 371
+        y: 1
+        width: 10
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2995,10 +2995,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_131
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 388
+        y: 1
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3017,10 +3017,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_132
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
+        x: 396
+        y: 1
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3039,10 +3039,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_133
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
-        width: 32
-        height: 32
+        x: 404
+        y: 1
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3061,10 +3061,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_134
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
+        x: 412
+        y: 1
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3083,10 +3083,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_135
       rect:
         serializedVersion: 2
-        x: 192
-        y: 96
-        width: 32
-        height: 32
+        x: 420
+        y: 1
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3105,10 +3105,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_136
       rect:
         serializedVersion: 2
-        x: 224
-        y: 96
-        width: 32
-        height: 32
+        x: 428
+        y: 1
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3127,10 +3127,10 @@ TextureImporter:
       name: 50sdiner_set_withshadow_137
       rect:
         serializedVersion: 2
-        x: 256
-        y: 96
-        width: 32
-        height: 32
+        x: 436
+        y: 1
+        width: 7
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3141,1040 +3141,6 @@ TextureImporter:
       bones: []
       spriteID: 7daf2bbd819084fc1bde728c3e810d17
       internalID: -128514739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_138
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eedabcf129065459cb355ce9ebbb81fd
-      internalID: 672927446
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_139
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2076fb8992f234b38814d68503993c93
-      internalID: 102983331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_140
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75a99711f16434f97a9fb60f804e06f4
-      internalID: -1412188305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_141
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38f4c85a1afb845c78257ce14d13b85f
-      internalID: 403015393
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_142
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ca7bd7263bd54b0fbd57a4fa3bf3945
-      internalID: 1189261431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_143
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27ddab44c92b84b23a4195a28652371d
-      internalID: -1991189199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_144
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e43f1525e79f14b51a8952fd791f230e
-      internalID: -2144819038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_145
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05434f4ffd9694377a2f649d3f77a73f
-      internalID: 1553974695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_146
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffb6265e8afef41379727dd0fd6c22ea
-      internalID: 769537463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_147
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6bbcb64940cc94a90936b496be8aa658
-      internalID: 1317712913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_148
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8eee5193ff5854a8083ce60eba267582
-      internalID: 142602852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_149
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78fae1350c40440aca4adb10b913967a
-      internalID: -1112515252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_150
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de07b46e7c3064966a1883d4427f6123
-      internalID: 2106255924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_151
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c84362e244a6401a9398e852619e5ad
-      internalID: 352027746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_152
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88a93e4b47bd0493689472186c65dcbf
-      internalID: 304987044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_153
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 303257778f9a44b64ba892d684565e0b
-      internalID: -458185613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_154
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4b84006d286d47bf94d7acf80840dca
-      internalID: 1829903364
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_155
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45eab0b2b43e54435baae3e785c90fde
-      internalID: -561408730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_156
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9cd6844a278f4312a5f959c7988406d
-      internalID: 1708949766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_157
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 00beda8bc0ef64922bfdf46b84985dab
-      internalID: 1027030558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_158
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3efcbcfe136ff4b0abb24c35567f0677
-      internalID: 321879633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_159
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45afa1ccfc1a54347a13f07366e6b7d7
-      internalID: -1156141714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_160
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f8f520dd981247f7bbf65b119ed8196
-      internalID: 841811041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_161
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd5a08c29490948f787b1847eb8a6dce
-      internalID: 1935243856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_162
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f463e44acacb45c29bdb8560f773a11
-      internalID: 2043394829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_163
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e38151faa65a44fada4650594d2c403a
-      internalID: 1516622825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_164
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48937b33b919d4e2683b327f856cc3d7
-      internalID: 475463161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_165
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d20b67847a7a44919877f8eb8ef69c89
-      internalID: -511977221
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_166
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 25e0d5fbb253c43a29f8b2025fcee88e
-      internalID: 628525798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_167
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dade3b718f40047b79a09f111affa7e9
-      internalID: -513838013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_168
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fae6e11c6fa244c3a864987036100e85
-      internalID: -1449333444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_169
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4479bf9599156450c9f94af83c636622
-      internalID: -804293294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_170
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2020aa0dce5ce4d9fb2aacdcd80503d5
-      internalID: 764397248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_171
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c3f10fb7417a494ea86436224f55775
-      internalID: -794872872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_172
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d8f2f56c7b7846edb3679f19576ef58
-      internalID: 1131408329
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_173
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: beff6f43bb904442f905263c25a4a600
-      internalID: -779173555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_174
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c018e28f9276f4504b4ef376626f466a
-      internalID: -1620623897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_175
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5615f845177c4e838d60a605fe9c1e4
-      internalID: 854704504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_176
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88e3856f1f60c4771b2dbd07c8b61358
-      internalID: 177771112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_177
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d914fb8ecb13c4ab3bbdd3e186cf426a
-      internalID: 1393132258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_178
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1aac9fdc5f7604b5f80a66e0eff946ed
-      internalID: 2143263989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_179
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21073fd236d8449c998fa8c4f694583a
-      internalID: 1466857107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_180
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd11f1d9525bf4e38a7277531f54666a
-      internalID: -1020799288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_181
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05bdf3120cd834bc68819f9c9f57b72e
-      internalID: -575680537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_182
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37b688e7d572c4ff18fd101177b70cb5
-      internalID: 2102093264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_183
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd609ead41d574d50b4181e4ec07e4cd
-      internalID: 941545862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 50sdiner_set_withshadow_184
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cb6daabdcffe433584ad9ffec5cd871
-      internalID: -1346076492
       vertices: []
       indices: 
       edges: []
@@ -4193,7 +3159,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       50sdiner_set_withshadow_0: 1145008239
       50sdiner_set_withshadow_1: -549768695
@@ -4239,58 +3205,11 @@ TextureImporter:
       50sdiner_set_withshadow_135: 1971789445
       50sdiner_set_withshadow_136: -886547304
       50sdiner_set_withshadow_137: -128514739
-      50sdiner_set_withshadow_138: 672927446
-      50sdiner_set_withshadow_139: 102983331
       50sdiner_set_withshadow_14: -822921404
-      50sdiner_set_withshadow_140: -1412188305
-      50sdiner_set_withshadow_141: 403015393
-      50sdiner_set_withshadow_142: 1189261431
-      50sdiner_set_withshadow_143: -1991189199
-      50sdiner_set_withshadow_144: -2144819038
-      50sdiner_set_withshadow_145: 1553974695
-      50sdiner_set_withshadow_146: 769537463
-      50sdiner_set_withshadow_147: 1317712913
-      50sdiner_set_withshadow_148: 142602852
-      50sdiner_set_withshadow_149: -1112515252
       50sdiner_set_withshadow_15: 1332911512
-      50sdiner_set_withshadow_150: 2106255924
-      50sdiner_set_withshadow_151: 352027746
-      50sdiner_set_withshadow_152: 304987044
-      50sdiner_set_withshadow_153: -458185613
-      50sdiner_set_withshadow_154: 1829903364
-      50sdiner_set_withshadow_155: -561408730
-      50sdiner_set_withshadow_156: 1708949766
-      50sdiner_set_withshadow_157: 1027030558
-      50sdiner_set_withshadow_158: 321879633
-      50sdiner_set_withshadow_159: -1156141714
       50sdiner_set_withshadow_16: 825715812
-      50sdiner_set_withshadow_160: 841811041
-      50sdiner_set_withshadow_161: 1935243856
-      50sdiner_set_withshadow_162: 2043394829
-      50sdiner_set_withshadow_163: 1516622825
-      50sdiner_set_withshadow_164: 475463161
-      50sdiner_set_withshadow_165: -511977221
-      50sdiner_set_withshadow_166: 628525798
-      50sdiner_set_withshadow_167: -513838013
-      50sdiner_set_withshadow_168: -1449333444
-      50sdiner_set_withshadow_169: -804293294
       50sdiner_set_withshadow_17: 1151401389
-      50sdiner_set_withshadow_170: 764397248
-      50sdiner_set_withshadow_171: -794872872
-      50sdiner_set_withshadow_172: 1131408329
-      50sdiner_set_withshadow_173: -779173555
-      50sdiner_set_withshadow_174: -1620623897
-      50sdiner_set_withshadow_175: 854704504
-      50sdiner_set_withshadow_176: 177771112
-      50sdiner_set_withshadow_177: 1393132258
-      50sdiner_set_withshadow_178: 2143263989
-      50sdiner_set_withshadow_179: 1466857107
       50sdiner_set_withshadow_18: 561400983
-      50sdiner_set_withshadow_180: -1020799288
-      50sdiner_set_withshadow_181: -575680537
-      50sdiner_set_withshadow_182: 2102093264
-      50sdiner_set_withshadow_183: 941545862
-      50sdiner_set_withshadow_184: -1346076492
       50sdiner_set_withshadow_19: -1275706080
       50sdiner_set_withshadow_2: 168505086
       50sdiner_set_withshadow_20: 832933149

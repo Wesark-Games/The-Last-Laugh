@@ -312,9 +312,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 352
-        y: 224
+        y: 288
         width: 32
-        height: 128
+        height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2243,6 +2243,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: messy furniture set updated v2_97
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644203bd8c1814060b6cbd9fc7d73c60
+      internalID: 2099719770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -2356,6 +2378,7 @@ TextureImporter:
       messy furniture set updated v2_94: -1534281248
       messy furniture set updated v2_95: 1607599312
       messy furniture set updated v2_96: 1532821910
+      messy furniture set updated v2_97: 2099719770
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

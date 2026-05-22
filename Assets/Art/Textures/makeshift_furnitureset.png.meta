@@ -1,0 +1,2593 @@
+fileFormatVersion: 2
+guid: 2deb087f448ce4373b1633f9efa177ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: makeshift_furnitureset_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 288
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65c13d992cf5462db29f86d173bb0af
+      internalID: -1859447160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 288
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23405b0cb869943499dbeca8f298b6bf
+      internalID: 1088353579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 288
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be05be932725f4acfa6866ab44718137
+      internalID: -1135170022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 288
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6a7089405d44650a8fc9dc9385b8a0
+      internalID: 1494158627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 288
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099492d37cecc4b159e675a1fcae93ad
+      internalID: -1789363607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 322
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dca4e07b0f5847f9bd61ae967b21cb7
+      internalID: 1373725188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_6
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 321
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3fa255613c644d4bbaa34e01a4f4e1
+      internalID: 619227779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_7
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 321
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62632b00b23d04765a38228acc87f2fb
+      internalID: -735001064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_8
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 321
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebde0ce145d604424848682674ece579
+      internalID: -711107023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_9
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 291
+        width: 6
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8254f9ee797e54f0cb3231fc2049c218
+      internalID: -748968479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 288
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3910aebe53e40b3bb7af3ac5a72a63
+      internalID: -461383575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 288
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1d09b8a60c944f0b982e5b2df21399
+      internalID: -114765678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bb7d3e48fa744d59f2e8dfa10fc8ea
+      internalID: 1041303595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 299
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771646df22de64153baffa6916d0e103
+      internalID: 2020788239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_14
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 288
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9af5b31de234abaa5951089a20552f
+      internalID: -622308313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_15
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 289
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc095cd426de34e959b9c071863acf7e
+      internalID: -1793940924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_16
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 289
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3c303d21ac4432ea407d2ff2249c7d
+      internalID: -1378536404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_17
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 289
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02ff7130d16d46e392d4ca08bdaabdf
+      internalID: -1500713311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 288
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab130ccf621c44845a22dcceeee20ab3
+      internalID: -380283389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ec939008e0343bcb8bcf2b7e2dbe9f
+      internalID: 1159279296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_20
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 257
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299d1a9ba07094f1cac63e92db39000b
+      internalID: 206323297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 257
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c379b8a69159499b8b05b2e5b4d89e3
+      internalID: -204705656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_22
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 256
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f5d180136d24e8fbd38732697ec252
+      internalID: 1966093951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 256
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf430c525d5234320993915671d3d97a
+      internalID: 1264103110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 256
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516e6018e16e54278be8d0d0f8f45d4d
+      internalID: -405806544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 256
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0372e84593431402d80b03bf225537b9
+      internalID: -830704006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 257
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7a57a4b648346d294e1da0980c6a78
+      internalID: 612464652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 257
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987893612f6de450096313ef6e88b7ca
+      internalID: 1681093161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_28
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 256
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167e8afcd38c74830abd3ab62cf6432f
+      internalID: 45518130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_29
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 256
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99676708b7a54928b8c317ff4818f9b
+      internalID: -737391768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_30
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 256
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3703ac4cc0b461f982271a09851d38
+      internalID: 1610317500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 225
+        width: 12
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f38abfdce5a41db8acd60671901307
+      internalID: -390658526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_32
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 225
+        width: 12
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ab2878886584206bd8029d4a4219c4
+      internalID: 252367301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_33
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 224
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d1f3d6c8e22400682fe90fdc9a8994
+      internalID: -2104293322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_34
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 224
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e446dd80fd8648668895a2bf4cfbe04
+      internalID: -1171539226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_35
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 240
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89f565b985c443898a18c6564a2aa69
+      internalID: 1014445321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 240
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c3eb9e17154da0b5598f01ec53ef6
+      internalID: 1056419029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_37
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 240
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f709d6be07a446ba5daf9fc7da2221
+      internalID: 411602375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_38
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 240
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfb1055fcc804b80ac667307e9a8341
+      internalID: -586869116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 234
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cf1a59bbb11407cabc10e712a465c7
+      internalID: -685468888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 224
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5925ac93fee5f41b590468f3d468e584
+      internalID: 1113786394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_41
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 224
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03db9f80e0bf49709e07b22dd843ee2
+      internalID: -16397366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_42
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 224
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1b1cbe2faae4d67bc56ff88e48244c
+      internalID: 924081974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_43
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 224
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee610b0b76b7041b790fd42e992025a4
+      internalID: 1543900219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_44
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 224
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9009047d5068447995e866b31637171
+      internalID: 1736195892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_45
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 225
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711328633a72245e6a5bdc4c9e94400c
+      internalID: 812851359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 224
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f6f7678418e43d2808c1f6093facb8
+      internalID: 727076485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_47
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 224
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254bb2ea76db14e4f933fda5b952e3f3
+      internalID: 195090149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_48
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 224
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5a8b89998e64b388a804c3cb2987ef
+      internalID: 2060449166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_49
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 225
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71b491ae2d72490f9bfefc21836dc2a
+      internalID: 1103870752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_50
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 225
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fb0da4927c34fae9adb74ef2d4871e
+      internalID: -1076840157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_51
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 224
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e6287187df14e449df36959ad8cf60
+      internalID: 522148292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_52
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 225
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9358920a4b7c4ffba76af918396f55c
+      internalID: -2034625170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_53
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 192
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9858b8cf2e61e41cb8035f04c9ee3e50
+      internalID: 1383680956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_54
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 192
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be610f71d3ef340b6b7fc82e345ec649
+      internalID: -2027777873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_55
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 160
+        width: 26
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce82b0fc27c46d39c1262aad8f6f66
+      internalID: 987387432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_56
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 192
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5613b633f88994d668e3b910afe7e091
+      internalID: 1400003178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_57
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 198
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646cc8d7f826c400192b0c696340ef7c
+      internalID: -74596774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_58
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 198
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61865fbce2d084f038b57a90b9167319
+      internalID: -1257021620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_59
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 192
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0330cae66e94dccafd28a8d0a92cc9
+      internalID: 1119854714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_60
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 194
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d52645d024e4b41ac1e42aba7c81ed
+      internalID: -1901053574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_61
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 194
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7153747166cf4fdbab5622c95a5604c
+      internalID: -835638320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 195
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbfc833329674c70a2f425a7cd806f6
+      internalID: 2094771059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_63
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 195
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52978df6d38804d1ebecd194a7006185
+      internalID: -300427888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_64
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 195
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48980253fe2346b6bb7c18c9646abbe
+      internalID: 954033959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_65
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 195
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fbf5e33386147ac9798d673b16a123
+      internalID: -1030482362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_66
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 160
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8cda9765aa64f8281d8cbec1fd5cda
+      internalID: 783838368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bdd55a987f44cbc8eea67a83de1812
+      internalID: 26156344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_68
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 129
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e16c56c9f724889ad352fcfcdcf63d
+      internalID: -593360100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_69
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 129
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17785923d4da462090a39211e170709
+      internalID: 1520226604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_70
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 129
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112f107835ffb4a678f38b91b23e8893
+      internalID: -1328842282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_71
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 129
+        width: 20
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c76b09cabfe4a8fb1b6e0380636f0e
+      internalID: 879466229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 161
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa08c3a1dfcf4363bdf4a00c69f2305
+      internalID: 1677332657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_73
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 164
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5965f9453203e40eb80ae3927bd049b6
+      internalID: 1403030074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 163
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1357e615caee48418c6ef74f0de9419
+      internalID: 627212205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_75
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 163
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c27b14d64f5147db9f500e36dc4fe7d
+      internalID: 1806823773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_76
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 163
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d33ed916ef14d10b7117b9debcad7a
+      internalID: -1675344263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_77
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 163
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4248bce206c4543a4bffeca2b3c6c301
+      internalID: -1827142549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_78
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 131
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fc993a98fa2477cbac09c79dadccbc
+      internalID: -1409247281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_79
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 131
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 752486dbd61e046a8be0f5e08e179b8e
+      internalID: 1294176534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_80
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 132
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70be454c3adb34ffda119c2ec517235f
+      internalID: 900545261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_81
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 129
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9af7ed5f1eb44f388cbe46a532647c
+      internalID: -1344010158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_82
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 132
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfe8d58109714d5db29a42d7241de3d
+      internalID: -1399825261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_83
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 131
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e06ac76515ba4597b0a7a79fe932736
+      internalID: -464642036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_84
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 131
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc6a64e8fa3418fa8755f2cd9ff87a
+      internalID: 1371379221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 131
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8925fe24c38ba4452a6bc6fb4e936041
+      internalID: -600518406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_86
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 131
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f0c528b42f74865b2124634fbfdf15
+      internalID: 1925865558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_87
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 96
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b72325318ef45fd8351fd2128b0bfc
+      internalID: 1406259556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_88
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 112
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45bb48f7b0e92430badf2764735aef48
+      internalID: 826624831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 99
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0566d027074344551a9eb4889945be46
+      internalID: -629739692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0437551c209940148dffa81384c8304
+      internalID: -783650430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0fba1ab57ae478080e4886a31459e9
+      internalID: -2082982056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_92
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 99
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd745c6fc5d3452abd27d83a38d5f23
+      internalID: -1968183006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_93
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 99
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2709349a6ef2e4486982e5e9be962b77
+      internalID: 1640637257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_94
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 99
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee173c4b0b324f759f07ab85b4794fe
+      internalID: -1527602796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_95
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 99
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058e865f3c4e24bccb8b5c19a9a77ee3
+      internalID: 13619221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab519497bf5e94c8e8d72ba7fdfe336c
+      internalID: -1774073376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_97
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 37
+        width: 62
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0797bf518cb9e48f781e7d6db512e3b0
+      internalID: -1925378616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_98
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 42
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb55797017a1439eb0950520e29e1f4
+      internalID: -15496246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_99
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 43
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b112dc920374f0c8b949e416055b03
+      internalID: 808902242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_100
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 64
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49ad8cd31b654f0dbe0145462c886ca
+      internalID: 1240253615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_101
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73aabd13a8a334bf1b8e9ecf01827530
+      internalID: -2069202212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_102
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 18
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247ae3d5734a04631b2ec8ad9bc7bc08
+      internalID: -905102879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_103
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 17
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ee9ec5f58814086870a9441c2e3f26
+      internalID: 1311728578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_104
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb507b5831b734249bc9af91b56674be
+      internalID: -107503053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_105
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d6bbd0e4707476fa2d72b8fb51602c
+      internalID: -10406616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: makeshift_furnitureset_106
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779204350c42445b08c3bf0cfdb6f2ed
+      internalID: -2128750116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ffa7a7ce28d4e4e51b1bb3daf2fdeeec
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      makeshift_furnitureset_0: -1859447160
+      makeshift_furnitureset_1: 1088353579
+      makeshift_furnitureset_10: -461383575
+      makeshift_furnitureset_100: 1240253615
+      makeshift_furnitureset_101: -2069202212
+      makeshift_furnitureset_102: -905102879
+      makeshift_furnitureset_103: 1311728578
+      makeshift_furnitureset_104: -107503053
+      makeshift_furnitureset_105: -10406616
+      makeshift_furnitureset_106: -2128750116
+      makeshift_furnitureset_11: -114765678
+      makeshift_furnitureset_12: 1041303595
+      makeshift_furnitureset_13: 2020788239
+      makeshift_furnitureset_14: -622308313
+      makeshift_furnitureset_15: -1793940924
+      makeshift_furnitureset_16: -1378536404
+      makeshift_furnitureset_17: -1500713311
+      makeshift_furnitureset_18: -380283389
+      makeshift_furnitureset_19: 1159279296
+      makeshift_furnitureset_2: -1135170022
+      makeshift_furnitureset_20: 206323297
+      makeshift_furnitureset_21: -204705656
+      makeshift_furnitureset_22: 1966093951
+      makeshift_furnitureset_23: 1264103110
+      makeshift_furnitureset_24: -405806544
+      makeshift_furnitureset_25: -830704006
+      makeshift_furnitureset_26: 612464652
+      makeshift_furnitureset_27: 1681093161
+      makeshift_furnitureset_28: 45518130
+      makeshift_furnitureset_29: -737391768
+      makeshift_furnitureset_3: 1494158627
+      makeshift_furnitureset_30: 1610317500
+      makeshift_furnitureset_31: -390658526
+      makeshift_furnitureset_32: 252367301
+      makeshift_furnitureset_33: -2104293322
+      makeshift_furnitureset_34: -1171539226
+      makeshift_furnitureset_35: 1014445321
+      makeshift_furnitureset_36: 1056419029
+      makeshift_furnitureset_37: 411602375
+      makeshift_furnitureset_38: -586869116
+      makeshift_furnitureset_39: -685468888
+      makeshift_furnitureset_4: -1789363607
+      makeshift_furnitureset_40: 1113786394
+      makeshift_furnitureset_41: -16397366
+      makeshift_furnitureset_42: 924081974
+      makeshift_furnitureset_43: 1543900219
+      makeshift_furnitureset_44: 1736195892
+      makeshift_furnitureset_45: 812851359
+      makeshift_furnitureset_46: 727076485
+      makeshift_furnitureset_47: 195090149
+      makeshift_furnitureset_48: 2060449166
+      makeshift_furnitureset_49: 1103870752
+      makeshift_furnitureset_5: 1373725188
+      makeshift_furnitureset_50: -1076840157
+      makeshift_furnitureset_51: 522148292
+      makeshift_furnitureset_52: -2034625170
+      makeshift_furnitureset_53: 1383680956
+      makeshift_furnitureset_54: -2027777873
+      makeshift_furnitureset_55: 987387432
+      makeshift_furnitureset_56: 1400003178
+      makeshift_furnitureset_57: -74596774
+      makeshift_furnitureset_58: -1257021620
+      makeshift_furnitureset_59: 1119854714
+      makeshift_furnitureset_6: 619227779
+      makeshift_furnitureset_60: -1901053574
+      makeshift_furnitureset_61: -835638320
+      makeshift_furnitureset_62: 2094771059
+      makeshift_furnitureset_63: -300427888
+      makeshift_furnitureset_64: 954033959
+      makeshift_furnitureset_65: -1030482362
+      makeshift_furnitureset_66: 783838368
+      makeshift_furnitureset_67: 26156344
+      makeshift_furnitureset_68: -593360100
+      makeshift_furnitureset_69: 1520226604
+      makeshift_furnitureset_7: -735001064
+      makeshift_furnitureset_70: -1328842282
+      makeshift_furnitureset_71: 879466229
+      makeshift_furnitureset_72: 1677332657
+      makeshift_furnitureset_73: 1403030074
+      makeshift_furnitureset_74: 627212205
+      makeshift_furnitureset_75: 1806823773
+      makeshift_furnitureset_76: -1675344263
+      makeshift_furnitureset_77: -1827142549
+      makeshift_furnitureset_78: -1409247281
+      makeshift_furnitureset_79: 1294176534
+      makeshift_furnitureset_8: -711107023
+      makeshift_furnitureset_80: 900545261
+      makeshift_furnitureset_81: -1344010158
+      makeshift_furnitureset_82: -1399825261
+      makeshift_furnitureset_83: -464642036
+      makeshift_furnitureset_84: 1371379221
+      makeshift_furnitureset_85: -600518406
+      makeshift_furnitureset_86: 1925865558
+      makeshift_furnitureset_87: 1406259556
+      makeshift_furnitureset_88: 826624831
+      makeshift_furnitureset_89: -629739692
+      makeshift_furnitureset_9: -748968479
+      makeshift_furnitureset_90: -783650430
+      makeshift_furnitureset_91: -2082982056
+      makeshift_furnitureset_92: -1968183006
+      makeshift_furnitureset_93: 1640637257
+      makeshift_furnitureset_94: -1527602796
+      makeshift_furnitureset_95: 13619221
+      makeshift_furnitureset_96: -1774073376
+      makeshift_furnitureset_97: -1925378616
+      makeshift_furnitureset_98: -15496246
+      makeshift_furnitureset_99: 808902242
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
