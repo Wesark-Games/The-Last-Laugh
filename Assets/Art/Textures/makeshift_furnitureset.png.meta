@@ -113,7 +113,7 @@ TextureImporter:
       name: makeshift_furnitureset_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 288
         width: 30
         height: 42
@@ -135,7 +135,7 @@ TextureImporter:
       name: makeshift_furnitureset_1
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 288
         width: 26
         height: 43
@@ -157,7 +157,7 @@ TextureImporter:
       name: makeshift_furnitureset_2
       rect:
         serializedVersion: 2
-        x: 97
+        x: 98
         y: 288
         width: 30
         height: 42
@@ -179,7 +179,7 @@ TextureImporter:
       name: makeshift_furnitureset_3
       rect:
         serializedVersion: 2
-        x: 164
+        x: 165
         y: 288
         width: 26
         height: 43
@@ -201,7 +201,7 @@ TextureImporter:
       name: makeshift_furnitureset_4
       rect:
         serializedVersion: 2
-        x: 199
+        x: 200
         y: 288
         width: 18
         height: 35
@@ -223,7 +223,7 @@ TextureImporter:
       name: makeshift_furnitureset_5
       rect:
         serializedVersion: 2
-        x: 257
+        x: 258
         y: 322
         width: 15
         height: 10
@@ -245,7 +245,7 @@ TextureImporter:
       name: makeshift_furnitureset_6
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 321
         width: 10
         height: 14
@@ -267,7 +267,7 @@ TextureImporter:
       name: makeshift_furnitureset_7
       rect:
         serializedVersion: 2
-        x: 322
+        x: 323
         y: 321
         width: 11
         height: 18
@@ -289,7 +289,7 @@ TextureImporter:
       name: makeshift_furnitureset_8
       rect:
         serializedVersion: 2
-        x: 358
+        x: 359
         y: 321
         width: 21
         height: 15
@@ -311,7 +311,7 @@ TextureImporter:
       name: makeshift_furnitureset_9
       rect:
         serializedVersion: 2
-        x: 390
+        x: 391
         y: 291
         width: 6
         height: 40
@@ -333,7 +333,7 @@ TextureImporter:
       name: makeshift_furnitureset_10
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 288
         width: 30
         height: 30
@@ -355,7 +355,7 @@ TextureImporter:
       name: makeshift_furnitureset_11
       rect:
         serializedVersion: 2
-        x: 129
+        x: 130
         y: 288
         width: 30
         height: 30
@@ -377,7 +377,7 @@ TextureImporter:
       name: makeshift_furnitureset_12
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 288
         width: 32
         height: 24
@@ -399,7 +399,7 @@ TextureImporter:
       name: makeshift_furnitureset_13
       rect:
         serializedVersion: 2
-        x: 260
+        x: 261
         y: 299
         width: 6
         height: 10
@@ -421,7 +421,7 @@ TextureImporter:
       name: makeshift_furnitureset_14
       rect:
         serializedVersion: 2
-        x: 271
+        x: 272
         y: 288
         width: 16
         height: 12
@@ -443,7 +443,7 @@ TextureImporter:
       name: makeshift_furnitureset_15
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 289
         width: 30
         height: 25
@@ -465,7 +465,7 @@ TextureImporter:
       name: makeshift_furnitureset_16
       rect:
         serializedVersion: 2
-        x: 321
+        x: 322
         y: 289
         width: 30
         height: 24
@@ -487,7 +487,7 @@ TextureImporter:
       name: makeshift_furnitureset_17
       rect:
         serializedVersion: 2
-        x: 353
+        x: 354
         y: 289
         width: 30
         height: 25
@@ -509,7 +509,7 @@ TextureImporter:
       name: makeshift_furnitureset_18
       rect:
         serializedVersion: 2
-        x: 258
+        x: 259
         y: 288
         width: 11
         height: 7
@@ -531,7 +531,7 @@ TextureImporter:
       name: makeshift_furnitureset_19
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 257
         width: 6
         height: 14
@@ -553,7 +553,7 @@ TextureImporter:
       name: makeshift_furnitureset_20
       rect:
         serializedVersion: 2
-        x: 17
+        x: 18
         y: 257
         width: 6
         height: 14
@@ -575,7 +575,7 @@ TextureImporter:
       name: makeshift_furnitureset_21
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 257
         width: 14
         height: 6
@@ -597,7 +597,7 @@ TextureImporter:
       name: makeshift_furnitureset_22
       rect:
         serializedVersion: 2
-        x: 67
+        x: 68
         y: 256
         width: 10
         height: 12
@@ -619,7 +619,7 @@ TextureImporter:
       name: makeshift_furnitureset_23
       rect:
         serializedVersion: 2
-        x: 83
+        x: 84
         y: 256
         width: 10
         height: 13
@@ -641,7 +641,7 @@ TextureImporter:
       name: makeshift_furnitureset_24
       rect:
         serializedVersion: 2
-        x: 99
+        x: 100
         y: 256
         width: 10
         height: 12
@@ -663,7 +663,7 @@ TextureImporter:
       name: makeshift_furnitureset_25
       rect:
         serializedVersion: 2
-        x: 115
+        x: 116
         y: 256
         width: 10
         height: 13
@@ -685,7 +685,7 @@ TextureImporter:
       name: makeshift_furnitureset_26
       rect:
         serializedVersion: 2
-        x: 132
+        x: 133
         y: 257
         width: 8
         height: 19
@@ -707,7 +707,7 @@ TextureImporter:
       name: makeshift_furnitureset_27
       rect:
         serializedVersion: 2
-        x: 148
+        x: 149
         y: 257
         width: 8
         height: 19
@@ -729,7 +729,7 @@ TextureImporter:
       name: makeshift_furnitureset_28
       rect:
         serializedVersion: 2
-        x: 179
+        x: 180
         y: 256
         width: 10
         height: 16
@@ -751,7 +751,7 @@ TextureImporter:
       name: makeshift_furnitureset_29
       rect:
         serializedVersion: 2
-        x: 196
+        x: 197
         y: 256
         width: 10
         height: 24
@@ -773,7 +773,7 @@ TextureImporter:
       name: makeshift_furnitureset_30
       rect:
         serializedVersion: 2
-        x: 212
+        x: 213
         y: 256
         width: 10
         height: 14
@@ -795,7 +795,7 @@ TextureImporter:
       name: makeshift_furnitureset_31
       rect:
         serializedVersion: 2
-        x: 226
+        x: 227
         y: 225
         width: 12
         height: 62
@@ -817,7 +817,7 @@ TextureImporter:
       name: makeshift_furnitureset_32
       rect:
         serializedVersion: 2
-        x: 258
+        x: 259
         y: 225
         width: 12
         height: 52
@@ -839,7 +839,7 @@ TextureImporter:
       name: makeshift_furnitureset_33
       rect:
         serializedVersion: 2
-        x: 290
+        x: 291
         y: 224
         width: 44
         height: 48
@@ -861,7 +861,7 @@ TextureImporter:
       name: makeshift_furnitureset_34
       rect:
         serializedVersion: 2
-        x: 338
+        x: 339
         y: 224
         width: 44
         height: 37
@@ -883,7 +883,7 @@ TextureImporter:
       name: makeshift_furnitureset_35
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 240
         width: 12
         height: 15
@@ -905,7 +905,7 @@ TextureImporter:
       name: makeshift_furnitureset_36
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 240
         width: 12
         height: 15
@@ -927,7 +927,7 @@ TextureImporter:
       name: makeshift_furnitureset_37
       rect:
         serializedVersion: 2
-        x: 34
+        x: 35
         y: 240
         width: 12
         height: 15
@@ -949,7 +949,7 @@ TextureImporter:
       name: makeshift_furnitureset_38
       rect:
         serializedVersion: 2
-        x: 50
+        x: 51
         y: 240
         width: 12
         height: 15
@@ -971,7 +971,7 @@ TextureImporter:
       name: makeshift_furnitureset_39
       rect:
         serializedVersion: 2
-        x: 66
+        x: 67
         y: 234
         width: 12
         height: 21
@@ -993,7 +993,7 @@ TextureImporter:
       name: makeshift_furnitureset_40
       rect:
         serializedVersion: 2
-        x: 133
+        x: 134
         y: 224
         width: 7
         height: 22
@@ -1015,7 +1015,7 @@ TextureImporter:
       name: makeshift_furnitureset_41
       rect:
         serializedVersion: 2
-        x: 149
+        x: 150
         y: 224
         width: 7
         height: 20
@@ -1037,7 +1037,7 @@ TextureImporter:
       name: makeshift_furnitureset_42
       rect:
         serializedVersion: 2
-        x: 165
+        x: 166
         y: 224
         width: 7
         height: 16
@@ -1059,7 +1059,7 @@ TextureImporter:
       name: makeshift_furnitureset_43
       rect:
         serializedVersion: 2
-        x: 195
+        x: 196
         y: 224
         width: 11
         height: 25
@@ -1081,7 +1081,7 @@ TextureImporter:
       name: makeshift_furnitureset_44
       rect:
         serializedVersion: 2
-        x: 211
+        x: 212
         y: 224
         width: 10
         height: 16
@@ -1103,7 +1103,7 @@ TextureImporter:
       name: makeshift_furnitureset_45
       rect:
         serializedVersion: 2
-        x: 388
+        x: 389
         y: 225
         width: 8
         height: 20
@@ -1125,7 +1125,7 @@ TextureImporter:
       name: makeshift_furnitureset_46
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 224
         width: 12
         height: 15
@@ -1147,7 +1147,7 @@ TextureImporter:
       name: makeshift_furnitureset_47
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 224
         width: 12
         height: 15
@@ -1169,7 +1169,7 @@ TextureImporter:
       name: makeshift_furnitureset_48
       rect:
         serializedVersion: 2
-        x: 37
+        x: 38
         y: 224
         width: 21
         height: 15
@@ -1191,7 +1191,7 @@ TextureImporter:
       name: makeshift_furnitureset_49
       rect:
         serializedVersion: 2
-        x: 101
+        x: 102
         y: 225
         width: 7
         height: 12
@@ -1213,7 +1213,7 @@ TextureImporter:
       name: makeshift_furnitureset_50
       rect:
         serializedVersion: 2
-        x: 117
+        x: 118
         y: 225
         width: 7
         height: 12
@@ -1235,7 +1235,7 @@ TextureImporter:
       name: makeshift_furnitureset_51
       rect:
         serializedVersion: 2
-        x: 180
+        x: 181
         y: 224
         width: 8
         height: 12
@@ -1257,7 +1257,7 @@ TextureImporter:
       name: makeshift_furnitureset_52
       rect:
         serializedVersion: 2
-        x: 402
+        x: 403
         y: 225
         width: 13
         height: 14
@@ -1279,7 +1279,7 @@ TextureImporter:
       name: makeshift_furnitureset_53
       rect:
         serializedVersion: 2
-        x: 3
+        x: 4
         y: 192
         width: 26
         height: 31
@@ -1301,7 +1301,7 @@ TextureImporter:
       name: makeshift_furnitureset_54
       rect:
         serializedVersion: 2
-        x: 35
+        x: 36
         y: 192
         width: 26
         height: 31
@@ -1323,7 +1323,7 @@ TextureImporter:
       name: makeshift_furnitureset_55
       rect:
         serializedVersion: 2
-        x: 67
+        x: 68
         y: 160
         width: 26
         height: 63
@@ -1345,7 +1345,7 @@ TextureImporter:
       name: makeshift_furnitureset_56
       rect:
         serializedVersion: 2
-        x: 99
+        x: 100
         y: 192
         width: 26
         height: 21
@@ -1367,7 +1367,7 @@ TextureImporter:
       name: makeshift_furnitureset_57
       rect:
         serializedVersion: 2
-        x: 131
+        x: 132
         y: 198
         width: 26
         height: 25
@@ -1389,7 +1389,7 @@ TextureImporter:
       name: makeshift_furnitureset_58
       rect:
         serializedVersion: 2
-        x: 163
+        x: 164
         y: 198
         width: 26
         height: 25
@@ -1411,7 +1411,7 @@ TextureImporter:
       name: makeshift_furnitureset_59
       rect:
         serializedVersion: 2
-        x: 195
+        x: 196
         y: 192
         width: 26
         height: 31
@@ -1433,7 +1433,7 @@ TextureImporter:
       name: makeshift_furnitureset_60
       rect:
         serializedVersion: 2
-        x: 230
+        x: 231
         y: 194
         width: 19
         height: 14
@@ -1455,7 +1455,7 @@ TextureImporter:
       name: makeshift_furnitureset_61
       rect:
         serializedVersion: 2
-        x: 262
+        x: 263
         y: 194
         width: 19
         height: 24
@@ -1477,7 +1477,7 @@ TextureImporter:
       name: makeshift_furnitureset_62
       rect:
         serializedVersion: 2
-        x: 288
+        x: 289
         y: 195
         width: 16
         height: 26
@@ -1499,7 +1499,7 @@ TextureImporter:
       name: makeshift_furnitureset_63
       rect:
         serializedVersion: 2
-        x: 325
+        x: 326
         y: 195
         width: 22
         height: 24
@@ -1521,7 +1521,7 @@ TextureImporter:
       name: makeshift_furnitureset_64
       rect:
         serializedVersion: 2
-        x: 352
+        x: 353
         y: 195
         width: 16
         height: 26
@@ -1543,7 +1543,7 @@ TextureImporter:
       name: makeshift_furnitureset_65
       rect:
         serializedVersion: 2
-        x: 389
+        x: 390
         y: 195
         width: 22
         height: 24
@@ -1565,7 +1565,7 @@ TextureImporter:
       name: makeshift_furnitureset_66
       rect:
         serializedVersion: 2
-        x: 6
+        x: 7
         y: 160
         width: 20
         height: 31
@@ -1587,7 +1587,7 @@ TextureImporter:
       name: makeshift_furnitureset_67
       rect:
         serializedVersion: 2
-        x: 32
+        x: 33
         y: 160
         width: 32
         height: 27
@@ -1609,7 +1609,7 @@ TextureImporter:
       name: makeshift_furnitureset_68
       rect:
         serializedVersion: 2
-        x: 98
+        x: 99
         y: 129
         width: 28
         height: 59
@@ -1631,7 +1631,7 @@ TextureImporter:
       name: makeshift_furnitureset_69
       rect:
         serializedVersion: 2
-        x: 130
+        x: 131
         y: 129
         width: 28
         height: 59
@@ -1653,7 +1653,7 @@ TextureImporter:
       name: makeshift_furnitureset_70
       rect:
         serializedVersion: 2
-        x: 162
+        x: 163
         y: 129
         width: 28
         height: 59
@@ -1675,7 +1675,7 @@ TextureImporter:
       name: makeshift_furnitureset_71
       rect:
         serializedVersion: 2
-        x: 198
+        x: 199
         y: 129
         width: 20
         height: 59
@@ -1697,7 +1697,7 @@ TextureImporter:
       name: makeshift_furnitureset_72
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 161
         width: 16
         height: 16
@@ -1719,7 +1719,7 @@ TextureImporter:
       name: makeshift_furnitureset_73
       rect:
         serializedVersion: 2
-        x: 262
+        x: 263
         y: 164
         width: 20
         height: 26
@@ -1741,7 +1741,7 @@ TextureImporter:
       name: makeshift_furnitureset_74
       rect:
         serializedVersion: 2
-        x: 288
+        x: 289
         y: 163
         width: 16
         height: 26
@@ -1763,7 +1763,7 @@ TextureImporter:
       name: makeshift_furnitureset_75
       rect:
         serializedVersion: 2
-        x: 325
+        x: 326
         y: 163
         width: 22
         height: 24
@@ -1785,7 +1785,7 @@ TextureImporter:
       name: makeshift_furnitureset_76
       rect:
         serializedVersion: 2
-        x: 352
+        x: 353
         y: 163
         width: 16
         height: 26
@@ -1807,7 +1807,7 @@ TextureImporter:
       name: makeshift_furnitureset_77
       rect:
         serializedVersion: 2
-        x: 389
+        x: 390
         y: 163
         width: 22
         height: 24
@@ -1829,12 +1829,12 @@ TextureImporter:
       name: makeshift_furnitureset_78
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 131
         width: 24
         height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1851,12 +1851,12 @@ TextureImporter:
       name: makeshift_furnitureset_79
       rect:
         serializedVersion: 2
-        x: 36
+        x: 37
         y: 131
         width: 24
         height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1873,7 +1873,7 @@ TextureImporter:
       name: makeshift_furnitureset_80
       rect:
         serializedVersion: 2
-        x: 68
+        x: 69
         y: 132
         width: 25
         height: 22
@@ -1895,7 +1895,7 @@ TextureImporter:
       name: makeshift_furnitureset_81
       rect:
         serializedVersion: 2
-        x: 224
+        x: 225
         y: 129
         width: 15
         height: 19
@@ -1917,7 +1917,7 @@ TextureImporter:
       name: makeshift_furnitureset_82
       rect:
         serializedVersion: 2
-        x: 263
+        x: 264
         y: 132
         width: 20
         height: 20
@@ -1939,7 +1939,7 @@ TextureImporter:
       name: makeshift_furnitureset_83
       rect:
         serializedVersion: 2
-        x: 288
+        x: 289
         y: 131
         width: 16
         height: 26
@@ -1961,7 +1961,7 @@ TextureImporter:
       name: makeshift_furnitureset_84
       rect:
         serializedVersion: 2
-        x: 325
+        x: 326
         y: 131
         width: 22
         height: 24
@@ -1983,7 +1983,7 @@ TextureImporter:
       name: makeshift_furnitureset_85
       rect:
         serializedVersion: 2
-        x: 352
+        x: 353
         y: 131
         width: 16
         height: 26
@@ -2005,7 +2005,7 @@ TextureImporter:
       name: makeshift_furnitureset_86
       rect:
         serializedVersion: 2
-        x: 389
+        x: 390
         y: 131
         width: 22
         height: 24
@@ -2027,7 +2027,7 @@ TextureImporter:
       name: makeshift_furnitureset_87
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 96
         width: 62
         height: 32
@@ -2049,7 +2049,7 @@ TextureImporter:
       name: makeshift_furnitureset_88
       rect:
         serializedVersion: 2
-        x: 67
+        x: 68
         y: 112
         width: 26
         height: 16
@@ -2071,7 +2071,7 @@ TextureImporter:
       name: makeshift_furnitureset_89
       rect:
         serializedVersion: 2
-        x: 96
+        x: 97
         y: 99
         width: 16
         height: 25
@@ -2093,7 +2093,7 @@ TextureImporter:
       name: makeshift_furnitureset_90
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 64
         width: 36
         height: 61
@@ -2115,7 +2115,7 @@ TextureImporter:
       name: makeshift_furnitureset_91
       rect:
         serializedVersion: 2
-        x: 192
+        x: 193
         y: 64
         width: 36
         height: 62
@@ -2137,7 +2137,7 @@ TextureImporter:
       name: makeshift_furnitureset_92
       rect:
         serializedVersion: 2
-        x: 288
+        x: 289
         y: 99
         width: 16
         height: 26
@@ -2159,7 +2159,7 @@ TextureImporter:
       name: makeshift_furnitureset_93
       rect:
         serializedVersion: 2
-        x: 325
+        x: 326
         y: 99
         width: 22
         height: 24
@@ -2181,7 +2181,7 @@ TextureImporter:
       name: makeshift_furnitureset_94
       rect:
         serializedVersion: 2
-        x: 352
+        x: 353
         y: 99
         width: 16
         height: 26
@@ -2203,7 +2203,7 @@ TextureImporter:
       name: makeshift_furnitureset_95
       rect:
         serializedVersion: 2
-        x: 389
+        x: 390
         y: 99
         width: 22
         height: 24
@@ -2225,7 +2225,7 @@ TextureImporter:
       name: makeshift_furnitureset_96
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 33
         width: 32
         height: 61
@@ -2247,7 +2247,7 @@ TextureImporter:
       name: makeshift_furnitureset_97
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 37
         width: 62
         height: 37
@@ -2269,7 +2269,7 @@ TextureImporter:
       name: makeshift_furnitureset_98
       rect:
         serializedVersion: 2
-        x: 257
+        x: 258
         y: 42
         width: 31
         height: 52
@@ -2291,7 +2291,7 @@ TextureImporter:
       name: makeshift_furnitureset_99
       rect:
         serializedVersion: 2
-        x: 289
+        x: 290
         y: 43
         width: 30
         height: 48
@@ -2313,7 +2313,7 @@ TextureImporter:
       name: makeshift_furnitureset_100
       rect:
         serializedVersion: 2
-        x: 321
+        x: 322
         y: 64
         width: 30
         height: 26
@@ -2335,7 +2335,7 @@ TextureImporter:
       name: makeshift_furnitureset_101
       rect:
         serializedVersion: 2
-        x: 352
+        x: 353
         y: 32
         width: 64
         height: 64
@@ -2357,7 +2357,7 @@ TextureImporter:
       name: makeshift_furnitureset_102
       rect:
         serializedVersion: 2
-        x: 98
+        x: 99
         y: 18
         width: 44
         height: 44
@@ -2379,7 +2379,7 @@ TextureImporter:
       name: makeshift_furnitureset_103
       rect:
         serializedVersion: 2
-        x: 160
+        x: 161
         y: 17
         width: 32
         height: 42
@@ -2401,7 +2401,7 @@ TextureImporter:
       name: makeshift_furnitureset_104
       rect:
         serializedVersion: 2
-        x: 194
+        x: 195
         y: 3
         width: 60
         height: 59
@@ -2423,7 +2423,7 @@ TextureImporter:
       name: makeshift_furnitureset_105
       rect:
         serializedVersion: 2
-        x: 258
+        x: 259
         y: 0
         width: 44
         height: 30
@@ -2445,7 +2445,7 @@ TextureImporter:
       name: makeshift_furnitureset_106
       rect:
         serializedVersion: 2
-        x: 304
+        x: 305
         y: 1
         width: 16
         height: 39
