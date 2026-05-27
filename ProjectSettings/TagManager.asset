@@ -14,10 +14,10 @@ TagManager:
   - UI
   - Door
   - DoorStop
-  - 
-  - 
-  - 
-  - 
+  - WoodFloor
+  - TileFloor
+  - NPC
+  - Closed Door
   - 
   - 
   - 
