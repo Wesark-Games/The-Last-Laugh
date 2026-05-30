@@ -243,13 +243,58 @@ namespace Project.Movement
             Vector3 startPos = Application.isPlaying ? (Vector3)startPosition : transform.position;
             Gizmos.DrawWireSphere(startPos, roamRadius);
         }
+
         /// <summary>
-/// Установить направление взгляда — вызывается из NPCInteraction и NPCTriggerActivator
-/// </summary>
-public void SetFacingDirection(Vector2 direction)
-{
-    facingDirection = GetDirection8Way(direction);
-    ApplyAnimation(facingDirection, false);
-}
+        /// Установить направление взгляда — вызывается из NPCInteraction и NPCTriggerActivator
+        /// </summary>
+        public void SetFacingDirection(Vector2 direction)
+        {
+            facingDirection = GetDirection8Way(direction);
+            ApplyAnimation(facingDirection, false);
+        }
+
+        // ─── МЕТОДЫ ДЛЯ СИСТЕМЫ СОХРАНЕНИЙ ──────────────────────────────
+
+        /// <summary>
+        /// Возвращает текущий тип движения строкой для сохранения
+        /// </summary>
+        public string GetCurrentMovementType()
+        {
+            return movementType.ToString();
+        }
+
+        /// <summary>
+        /// Проверяет, завершил ли NPC свой путь патрулирования
+        /// </summary>
+        public bool IsRouteCompleted()
+        {
+            return routeCompleted;
+        }
+
+        /// <summary>
+        /// Восстанавливает состояние NPC из сохранения
+        /// </summary>
+        public void LoadState(string typeName, bool isRouteDone)
+        {
+            if (System.Enum.TryParse(typeName, out MovementType savedType))
+            {
+                movementType = savedType;
+                routeCompleted = isRouteDone;
+
+                if (movementType == MovementType.Idle || routeCompleted)
+                {
+                    canMove = false;
+                    moveDirection = Vector2.zero;
+                    if (rb != null) rb.linearVelocity = Vector2.zero;
+                    UpdateAnimator(Vector2.zero);
+                }
+                else
+                {
+                    canMove = true;
+                    isWaiting = false;
+                    GetNextTarget();
+                }
+            }
+        }
     }
 }

@@ -92,54 +92,35 @@ namespace Project.Player
      // ─── ЗВУКИ ШАГОВ И ОПРЕДЕЛЕНИЕ ПОВЕРХНОСТИ ────────────────────────
 
         private void HandleFootsteps()
+{
+    if (currentVelocity.sqrMagnitude > 0.1f)
+    {
+        stepTimer -= Time.deltaTime;
+        if (stepTimer <= 0f)
         {
-            // Если персонаж физически движется с достаточной скоростью
-            if (currentVelocity.sqrMagnitude > 0.1f)
-            {
-                stepTimer -= Time.deltaTime;
-
-                if (stepTimer <= 0f)
-                {
-                    PlayFootstepSound();
-                    stepTimer = stepInterval; 
-                }
-            }
-            else
-            {
-                // МГНОВЕННОЕ ГЛУШЕНИЕ: если игрок остановился, гасим остатки звука шага
-                if (audioSource.isPlaying)
-                {
-                    audioSource.Stop();
-                }
-                
-                // Сбрасываем таймер, чтобы при следующем шаге звук пошел без задержки
-                stepTimer = 0f; 
-            }
+            PlayFootstepSound();
+            stepTimer = stepInterval;
         }
+    }
+    else
+    {
+        stepTimer = 0f;
+        // PlayOneShot не нужно останавливать — звук доиграет сам
+    }
+}
 
-        private void PlayFootstepSound()
-        {
-            string currentSurface = CheckCurrentSurface();
-            AudioClip[] currentClips = woodFootsteps; 
+       private void PlayFootstepSound()
+{
+    string      surface      = CheckCurrentSurface();
+    AudioClip[] currentClips = surface == "Tile" ? tileFootsteps : woodFootsteps;
 
-            if (currentSurface == "Tile")
-            {
-                currentClips = tileFootsteps;
-            }
+    if (currentClips == null || currentClips.Length == 0) return;
 
-            if (currentClips == null || currentClips.Length == 0) return;
+    AudioClip clip = currentClips[Random.Range(0, currentClips.Length)];
 
-            // Выбираем случайный звук из пака
-            int randomIndex = Random.Range(0, currentClips.Length);
-            AudioClip selectedClip = currentClips[randomIndex];
-
-            // Назначаем клип напрямую в компонент
-            audioSource.clip = selectedClip;
-            audioSource.volume = stepVolume;
-            
-            // Запускаем воспроизведение (если старый звук еще играл, он мгновенно прервется новым)
-            audioSource.Play();
-        }
+    // Громкость контролирует AudioMixer через группу SFX
+    audioSource.PlayOneShot(clip, stepVolume);
+}
 
         private string CheckCurrentSurface()
         {

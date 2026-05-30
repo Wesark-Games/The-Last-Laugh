@@ -106,7 +106,8 @@ namespace Project.NPC
             if (typingCoroutine != null)
                 StopCoroutine(typingCoroutine);
 
-            if (instant)
+            // Если просят мгновенно ИЛИ объект уже выключен в Unity — гасим без корутин
+            if (instant || !gameObject.activeInHierarchy)
             {
                 isVisible = false;
                 if (canvasGroup != null) canvasGroup.alpha = 0f;

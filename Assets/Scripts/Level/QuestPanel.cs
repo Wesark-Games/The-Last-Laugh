@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System.Collections;
+using Project.SaveSystem;
 
 public class QuestPanel : MonoBehaviour
 {
@@ -40,13 +41,17 @@ public class QuestPanel : MonoBehaviour
 
     // ВАРИАНТ 2: Вызов с текстом
     public void ShowQuest(string newQuestMessage)
-    {
-        if (questText != null)
-            questText.text = newQuestMessage;
+{
+    if (questText != null)
+        questText.text = newQuestMessage;
 
-        Slide(targetX);
-        StartAutoHide();
-    }
+    // Сохраняем активное задание
+    if (SaveManager.Instance != null)
+        SaveManager.Instance.SetActiveQuest(newQuestMessage);
+
+    Slide(targetX);
+    StartAutoHide();
+}
 
     // Метод для ручного скрытия панели, если нужно убрать её раньше времени
     public void HideQuest()

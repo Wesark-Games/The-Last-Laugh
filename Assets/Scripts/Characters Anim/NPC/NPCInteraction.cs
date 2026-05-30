@@ -1,13 +1,10 @@
 using UnityEngine;
 using UnityEngine.Events;
+using Project.SaveSystem;
+using System.Collections;
 
 namespace Project.NPC
 {
-    /// <summary>
-    /// Триггер взаимодействия с NPC.
-    /// Показывает подсказку "E" при приближении.
-    /// По нажатию E — листает диалог.
-    /// </summary>
     public class NPCInteraction : MonoBehaviour
     {
         // ─── CONFIGURATION ────────────────────────────────────────────────
@@ -28,6 +25,12 @@ namespace Project.NPC
         [Tooltip("Скрыть облачко когда игрок уходит")]
         [SerializeField] private bool hideOnExit = true;
 
+        [Header("[ СОХРАНЕНИЕ ДИАЛОГА ]")]
+        [Tooltip("Уникальный ID этого NPC (например, npc_rabbit_prologue)")]
+        [SerializeField] private string npcSaveID = "npc_bunny";
+
+        private bool dialogueCompleted = false;
+
         [Header("[ СОБЫТИЯ ]")]
         public UnityEvent onDialogueStart;
         public UnityEvent onDialogueEnd;
@@ -47,22 +50,64 @@ namespace Project.NPC
                 interactHint.SetActive(false);
         }
 
+        private void Start()
+        {
+            // Ждем один кадр для безопасности, чтобы все синглтоны проснулись
+            StartCoroutine(InitNPCDeferred());
+        }
+
+        private IEnumerator InitNPCDeferred()
+        {
+            yield return new WaitForEndOfFrame();
+
+            // Проверяем статус завершения диалога
+            if (SaveManager.Instance != null && SaveManager.Instance.GetFlag(npcSaveID + "_talked"))
+            {
+                dialogueCompleted = true;
+                isInDialogue = false;
+                playerInRange = false;
+                
+                // Железно включаем движение NPC обратно, чтобы он ходил по траектории
+                if (npcMovement != null)
+                    npcMovement.enabled = true;
+
+                // Полностью прячем UI взаимодействия
+                if (interactHint != null) 
+                    interactHint.SetActive(false);
+                
+                if (dialogueSystem != null)
+                {
+                    dialogueSystem.ResetDialogue();
+                    dialogueSystem.Hide(instant: true);
+                    
+                    // ДОПОЛНИТЕЛЬНАЯ ЗАЩИТА: Принудительно выключаем bubbleRoot, 
+                    // чтобы облачко не висело фантомом над головой
+                    var field = typeof(DialogueSystem).GetField("bubbleRoot", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
+                    if (field != null)
+                    {
+                        GameObject bubble = field.GetValue(dialogueSystem) as GameObject;
+                        if (bubble != null) bubble.SetActive(false);
+                    }
+                }
+            }
+        }
+
         private void Update()
         {
+            if (dialogueCompleted) return;
             if (!playerInRange) return;
 
-            // Позиция подсказки
             if (interactHint != null && interactHint.activeSelf)
                 interactHint.transform.position = transform.position + hintOffset;
 
-            // Нажатие E
             if (Input.GetKeyDown(interactKey))
                 Interact();
         }
 
         private void LateUpdate()
         {
-            // Поворачиваем NPC к игроку во время диалога
+            if (dialogueCompleted) return;
+
             if (isInDialogue && facePlayerDuringDialogue && playerTransform != null)
                 FacePlayer();
         }
@@ -71,6 +116,7 @@ namespace Project.NPC
 
         private void OnTriggerEnter2D(Collider2D other)
         {
+            if (dialogueCompleted) return;
             if (!other.CompareTag("Player")) return;
 
             playerInRange    = true;
@@ -100,17 +146,24 @@ namespace Project.NPC
 
         private void Interact()
         {
+            if (dialogueCompleted) return;
+
             if (!isInDialogue)
                 StartDialogue();
 
             if (dialogueSystem == null) return;
 
-            bool wasAtEnd = dialogueSystem.CurrentLineIndex >= GetTotalLines() - 1;
+            int totalLines = GetTotalLines();
+            bool wasAtEnd = dialogueSystem.CurrentLineIndex >= totalLines - 1;
+
+            if (wasAtEnd && isInDialogue)
+            {
+                onLastLineReached?.Invoke();
+                EndDialogue();
+                return;
+            }
 
             dialogueSystem.ShowNextLine();
-
-            if (wasAtEnd)
-                onLastLineReached?.Invoke();
         }
 
         private void StartDialogue()
@@ -130,8 +183,34 @@ namespace Project.NPC
         {
             isInDialogue = false;
 
-            if (stopNPCDuringDialogue && npcMovement != null)
+            // Возвращаем бег NPC на место
+            if (npcMovement != null)
                 npcMovement.enabled = true;
+
+            if (dialogueSystem != null)
+                dialogueSystem.Hide();
+
+            // Если пролистали до конца — сохраняем статус
+            if (dialogueSystem != null && dialogueSystem.CurrentLineIndex >= GetTotalLines() - 1)
+            {
+                dialogueCompleted = true;
+
+                if (interactHint != null) interactHint.SetActive(false);
+
+                if (SaveManager.Instance != null && !string.IsNullOrEmpty(npcSaveID))
+                {
+                    SaveManager.Instance.SetFlag(npcSaveID + "_talked");
+                    
+                    // Чтобы анимация сохранения в углу экрана не зависала из-за замороженного времени,
+                    // возвращаем timeScale в 1 перед сохранением файлов
+                    float oldTimeScale = Time.timeScale;
+                    Time.timeScale = 1f;
+                    
+                    SaveManager.Instance.Save();
+                    
+                    Time.timeScale = oldTimeScale;
+                }
+            }
 
             onDialogueEnd?.Invoke();
         }

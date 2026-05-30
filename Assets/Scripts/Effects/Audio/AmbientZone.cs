@@ -10,11 +10,16 @@ public class AmbientZone : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+   private void OnTriggerExit2D(Collider2D collision)
+{
+    if (!collision.CompareTag("Player")) return;
+
+    // Проверяем, существует ли менеджер и не уничтожен ли он
+    if (AudioManager.Instance != null && AudioManager.Instance.gameObject.activeInHierarchy)
     {
-        if (collision.CompareTag("Player"))
-        {
-            AudioManager.Instance.ChangeZone(false);
-        }
+        // Передаем нужное состояние (например false, если вышли наружу)
+        AudioManager.Instance.ChangeZone(false); 
     }
+}
+    
 }

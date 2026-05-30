@@ -2,24 +2,18 @@ using UnityEngine;
 
 namespace Project.NPC
 {
-    /// <summary>
-    /// Звуки шагов NPC — работает так же как в PlayerController.
-    /// Добавляй на NPC вместе с NPCMovement.
-    /// </summary>
     [RequireComponent(typeof(AudioSource))]
     public class NPCFootsteps : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
         [Header("[ ЗВУКИ ]")]
         [SerializeField] private AudioClip[] woodFootsteps;
         [SerializeField] private AudioClip[] tileFootsteps;
         [SerializeField] private float stepInterval = 0.4f;
         [Range(0f, 1f)]
-        [SerializeField] private float stepVolume = 0.4f;
+        [SerializeField] private float stepVolume = 0.35f;
 
-        [Header("[ СЛОИ ПОВЕРХНОСТЕЙ ]")]
+        [Header("[ ПОВЕРХНОСТИ ]")]
         [SerializeField] private float surfaceCheckRadius = 0.15f;
-        // ─────────────────────────────────────────────────────────────────
 
         private AudioSource audioSource;
         private Rigidbody2D rb;
@@ -32,6 +26,7 @@ namespace Project.NPC
             audioSource = GetComponent<AudioSource>();
             rb          = GetComponent<Rigidbody2D>();
 
+            // Громкость через AudioMixer — здесь не трогаем
             audioSource.playOnAwake = false;
             audioSource.loop        = false;
 
@@ -56,9 +51,8 @@ namespace Project.NPC
             }
             else
             {
-                if (audioSource.isPlaying)
-                    audioSource.Stop();
                 stepTimer = 0f;
+                // PlayOneShot не нужно останавливать
             }
         }
 
@@ -68,9 +62,9 @@ namespace Project.NPC
             if (clips == null || clips.Length == 0) return;
 
             AudioClip clip = clips[Random.Range(0, clips.Length)];
-            audioSource.clip   = clip;
-            audioSource.volume = stepVolume;
-            audioSource.Play();
+
+            // PlayOneShot — громкость через SFX группу миксера
+            audioSource.PlayOneShot(clip, stepVolume);
         }
 
         private AudioClip[] GetClipsForSurface()

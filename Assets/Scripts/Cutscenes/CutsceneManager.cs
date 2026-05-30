@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.Audio;
 using TMPro;
 using UnityEngine.Events;
+using Project.SaveSystem;
 
 namespace Project.Visuals
 {
@@ -94,6 +95,12 @@ namespace Project.Visuals
         [SerializeField] private bool  pauseGameDuringCutscene = true;
         [SerializeField] private bool  playOnStart             = false;
         [SerializeField] private float startDelay              = 0f;
+        [Tooltip("Нужно ли глушить фоновые звуки игры при старте этой катсцены?")]
+        [SerializeField] private bool  muteGameAudioOnStart    = true;
+
+        [Header("[ СОХРАНЕНИЕ КАТСЦЕНЫ ]")]
+        [Tooltip("Уникальный ID катсцены. Если он сохранен, катсцена будет пропущена при старте сцены.")]
+        [SerializeField] private string cutsceneSaveID = "prologue_intro";
 
         [Header("[ СОБЫТИЯ ]")]
         public UnityEvent onSequenceStart;
@@ -105,7 +112,13 @@ namespace Project.Visuals
 
         private void Awake()
         {
-            // FadeOverlay включаем программно — в Hierarchy держи выключенным
+            // Принудительно открываем игровой микшер на полную громкость при старте уровня,
+            // чтобы сбросить глушение от прошлых сессий или меню
+            if (audioMixer != null)
+            {
+                audioMixer.SetFloat(gameMixerVolumeParam, 0f);
+            }
+
             if (fadeOverlayImage != null)
             {
                 fadeOverlayImage.gameObject.SetActive(true);
@@ -125,8 +138,46 @@ namespace Project.Visuals
 
         private void Start()
         {
+            var saveAnimator = FindAnyObjectByType<SaveAnimator>();
+            if (saveAnimator != null)
+            {
+                saveAnimator.ForceHide();
+            }
+
+            StartCoroutine(CheckCutsceneStatusDeferred());
+        }
+
+        private IEnumerator CheckCutsceneStatusDeferred()
+        {
+            yield return new WaitForEndOfFrame();
+
+            if (SaveManager.Instance != null && SaveManager.Instance.GetFlag(cutsceneSaveID))
+            {
+                onSequenceComplete?.Invoke();
+                if (fadeOverlayImage != null) fadeOverlayImage.gameObject.SetActive(false);
+                
+                // Раскрываем микшер при авто-пропуске уже завершенной катсцены
+                if (audioMixer != null)
+                {
+                    audioMixer.SetFloat(gameMixerVolumeParam, 0f);
+                }
+
+                ResumeGameplay();
+                isPlaying = false;
+                yield break; 
+            }
+
             if (playOnStart)
                 StartCoroutine(RunWithDelay());
+        }
+
+        private void OnDestroy()
+        {
+            string currentSceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+            if (currentSceneName != "MainMenu" && audioMixer != null)
+            {
+                audioMixer.SetFloat(gameMixerVolumeParam, 0f);
+            }
         }
 
         // ─── ПУБЛИЧНЫЕ МЕТОДЫ ─────────────────────────────────────────────
@@ -156,12 +207,15 @@ namespace Project.Visuals
 
         public void ResumeGameplay()
         {
-            // Сначала timeScale, потом игрок — чтобы OnEnable сработал правильно
             if (pauseGameDuringCutscene)
                 Time.timeScale = 1f;
 
             SetPlayerControl(true);
-            StartCoroutine(UnmuteGameAudioRoutine());
+
+            if (muteGameAudioOnStart)
+            {
+                StartCoroutine(UnmuteGameAudioRoutine());
+            }
         }
 
         // ─── ПОСЛЕДОВАТЕЛЬНОСТЬ ──────────────────────────────────────────
@@ -180,7 +234,11 @@ namespace Project.Visuals
             skipPressed = false;
 
             SetPlayerControl(false);
-            yield return StartCoroutine(MuteGameAudioRoutine());
+
+            if (muteGameAudioOnStart)
+            {
+                yield return StartCoroutine(MuteGameAudioRoutine());
+            }
 
             if (pauseGameDuringCutscene)
                 Time.timeScale = 0f;
@@ -389,21 +447,29 @@ namespace Project.Visuals
 
         private IEnumerator Finish()
         {
-            // Скрываем кнопку пропуска
             if (skipTextGO != null)
                 yield return StartCoroutine(FadeGraphic(skipTextGO, 1f, 0f, skipFadeDuration));
             if (skipTextGO != null) skipTextGO.SetActive(false);
 
-            // Останавливаем музыку
             if (cutsceneMusicSource != null && cutsceneMusicSource.isPlaying)
                 yield return StartCoroutine(FadeMusicVolume(cutsceneMusicSource.volume, 0f, 0.5f));
 
-            // Скрываем FadeOverlay
             SetFadeAlpha(0f);
             if (fadeOverlayImage != null)
                 fadeOverlayImage.gameObject.SetActive(false);
 
             isPlaying = false;
+
+            if (muteGameAudioOnStart)
+            {
+                yield return StartCoroutine(UnmuteGameAudioRoutine());
+            }
+
+            if (SaveManager.Instance != null && !string.IsNullOrEmpty(cutsceneSaveID))
+            {
+                SaveManager.Instance.SetFlag(cutsceneSaveID);
+                SaveManager.Instance.Save();
+            }
 
             if (nextCutscene != null)
                 nextCutscene.Play();
@@ -415,7 +481,6 @@ namespace Project.Visuals
 
         private IEnumerator SkipToEndRoutine()
         {
-            // Скрываем все объекты шагов
             foreach (CutsceneStep step in steps)
             {
                 if (step.target == null) continue;
@@ -432,15 +497,12 @@ namespace Project.Visuals
                 cutsceneMusicSource.volume = 0f;
             }
 
-            // Сбрасываем timeScale до анимации
             Time.timeScale = 1f;
 
-            // Затемнение
             if (fadeOverlayImage != null) fadeOverlayImage.gameObject.SetActive(true);
             SetFadeAlpha(1f);
             yield return new WaitForSecondsRealtime(0.3f);
 
-            // Плавно убираем затемнение
             float t = 0f;
             while (t < 1f)
             {
@@ -455,6 +517,17 @@ namespace Project.Visuals
 
             isPlaying   = false;
             skipPressed = false;
+
+            if (muteGameAudioOnStart)
+            {
+                yield return StartCoroutine(UnmuteGameAudioRoutine());
+            }
+
+            if (SaveManager.Instance != null && !string.IsNullOrEmpty(cutsceneSaveID))
+            {
+                SaveManager.Instance.SetFlag(cutsceneSaveID);
+                SaveManager.Instance.Save();
+            }
 
             if (nextCutscene != null)
                 nextCutscene.Play();
@@ -528,7 +601,8 @@ namespace Project.Visuals
             while (t < 1f)
             {
                 t += Time.unscaledDeltaTime / gameAudioFadeDuration;
-                audioMixer.SetFloat(gameMixerVolumeParam, Mathf.Lerp(0f, -80f, t));
+                float targetVol = Mathf.Lerp(0f, -80f, t);
+                audioMixer.SetFloat(gameMixerVolumeParam, targetVol);
                 yield return null;
             }
             audioMixer.SetFloat(gameMixerVolumeParam, -80f);
@@ -541,7 +615,8 @@ namespace Project.Visuals
             while (t < 1f)
             {
                 t += Time.unscaledDeltaTime / gameAudioFadeDuration;
-                audioMixer.SetFloat(gameMixerVolumeParam, Mathf.Lerp(-80f, 0f, t));
+                float targetVol = Mathf.Lerp(-80f, 0f, t);
+                audioMixer.SetFloat(gameMixerVolumeParam, targetVol);
                 yield return null;
             }
             audioMixer.SetFloat(gameMixerVolumeParam, 0f);

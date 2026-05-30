@@ -2,15 +2,27 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 using TMPro;
 
 namespace Project.UI
 {
     public class LoadingScreenManager : MonoBehaviour
     {
-        // ─── CONFIGURATION ───────────────────────────────────────────────────
-        [Header("[ НАЗВАНИЕ СЦЕНЫ ]")]
-        [SerializeField] private string sceneToLoad = "Prologue";
+        // ─── STATIC CONTROL ──────────────────────────────────────────────────
+        private static string targetSceneToLoad = "Prologue";
+
+        public static void LoadScene(string sceneName)
+        {
+            targetSceneToLoad = sceneName;
+            SceneManager.LoadScene("LoadingScene"); 
+        }
+
+        public static void LoadSceneWithoutLoadingItDirectly(string sceneName)
+        {
+            targetSceneToLoad = sceneName;
+        }
+        // ─────────────────────────────────────────────────────────────────────
 
         [Header("[ МИНИМАЛЬНОЕ ВРЕМЯ ЗАГРУЗКИ ]")]
         [SerializeField] private float minimumLoadTime = 2f;
@@ -26,27 +38,28 @@ namespace Project.UI
         [Header("[ АРТ ]")]
         [SerializeField] private Image artImage;
         [SerializeField] private Sprite[] artSprites;
-        // ─────────────────────────────────────────────────────────────────────
+
+        [Header("[ АУДИОМИКШЕР ]")]
+        [SerializeField] private AudioMixer audioMixer;
+        [SerializeField] private string gameMixerVolumeParam = "GameVolume";
 
         private float currentProgress;
         private float targetProgress;
 
-       private void Start()
-{
-    currentProgress = 0f;
-    targetProgress  = 0f;
+        private void Start()
+        {
+            currentProgress = 0f;
+            targetProgress  = 0f;
 
-    if (artSprites != null && artSprites.Length > 0 && artImage != null)
-    {
-        artImage.sprite = artSprites[Random.Range(0, artSprites.Length)];
-        
-        
-        artImage.preserveAspect = true; 
-    }
+            if (artSprites != null && artSprites.Length > 0 && artImage != null)
+            {
+                artImage.sprite = artSprites[Random.Range(0, artSprites.Length)];
+                artImage.preserveAspect = true; 
+            }
 
-    StartCoroutine(LoadSceneRoutine());
-    StartCoroutine(AnimateDotsRoutine());
-}
+            StartCoroutine(LoadSceneRoutine());
+            StartCoroutine(AnimateDotsRoutine());
+        }
 
         private void Update()
         {
@@ -58,8 +71,8 @@ namespace Project.UI
 
         private IEnumerator LoadSceneRoutine()
         {
-            float startTime      = Time.time;
-            AsyncOperation operation = SceneManager.LoadSceneAsync(sceneToLoad);
+            float startTime = Time.time;
+            AsyncOperation operation = SceneManager.LoadSceneAsync(targetSceneToLoad);
             operation.allowSceneActivation = false;
 
             while (!operation.isDone)
@@ -73,16 +86,18 @@ namespace Project.UI
                 {
                     targetProgress = 1f;
 
-                    // Ждём пока полоска визуально дойдёт до конца
-                    while (currentProgress < 0.99f) yield return null;
+                    while (currentProgress < 0.99f) 
+                        yield return null;
 
                     yield return new WaitForSeconds(0.3f);
 
-                    // Фейд исчезновения через SceneTransitionManager
-                    if (SceneTransitionManager.Instance != null)
-                        SceneTransitionManager.Instance.LoadScene(sceneToLoad);
-                    else
-                        operation.allowSceneActivation = true;
+                    // Принудительно возвращаем игровой звук перед открытием уровня
+                    if (audioMixer != null)
+                    {
+                        audioMixer.SetFloat(gameMixerVolumeParam, 0f);
+                    }
+
+                    operation.allowSceneActivation = true;
                 }
 
                 yield return null;
