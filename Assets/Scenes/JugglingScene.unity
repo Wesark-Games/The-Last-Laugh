@@ -432,6 +432,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &161325228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 161325230}
+  - component: {fileID: 161325229}
+  m_Layer: 0
+  m_Name: EscapeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &161325229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161325228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5326e5cbe264f4ac49b3465dff5d59a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Juggling.EscapeSequence
+  fireStartY: -4
+  fireRiseSpeed: 0.5
+  fireColor: {r: 1, g: 0.4, b: 0.1, a: 0.7}
+  fireParticleCount: 30
+  crowdNpcPrefab: {fileID: 0}
+  crowdCount: 15
+  crowdSpawnY: -6
+  crowdSpeed: 3
+  crowdSpawnWidth: 12
+  playerTransform: {fileID: 1656573197}
+  slowdownFactor: 0.3
+  pushForce: 2
+  escapeY: 10
+  OnEscapeStart:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEscapeComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlayerCaught:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &161325230
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161325228}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.70091, y: 4.16908, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &300725838
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,7 +787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1394334462}
-  - component: {fileID: 1394334461}
+  - component: {fileID: 1394334463}
   m_Layer: 0
   m_Name: JugglingManager
   m_TagString: Untagged
@@ -729,44 +795,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1394334461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1394334460}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04e53b0c3835e44d49b8ddd7ec76d120, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Project.Juggling.JugglingGame
-  torchPrefab: {fileID: 2175290229509332578, guid: 369403de103c14a87b5aebb40e529576, type: 3}
-  playerHand: {fileID: 1577028657}
-  tossForceY: 9
-  tossSpreadX: 1.5
-  groundY: -0.5
-  secondTorchDelay: 5
-  thirdTorchDelay: 12
-  panicTimeStart: 18
-  OnTorchDropped:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnTorchTossed:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!4 &1394334462
 Transform:
   m_ObjectHideFlags: 0
@@ -782,6 +810,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394334463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394334460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63a6087d599746c5a75ede760eb7cb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Juggling.JugglingGame
+  torchPrefab: {fileID: 2175290229509332578, guid: 369403de103c14a87b5aebb40e529576, type: 3}
+  playerHand: {fileID: 1577028657}
+  tossForceY: 9
+  tossSpreadX: 1.5
+  catchZoneY: -1.5
+  crowdY: -5
+  catchRadiusX: 1.2
+  secondTorchDelay: 5
+  thirdTorchDelay: 12
+  panicTimeStart: 18
+  escapeSequence: {fileID: 161325229}
+  OnTorchDropped:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTorchTossed:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTorchMissed:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1577028656
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,6 +908,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1577028657}
+  - {fileID: 2020295156}
   m_Father: {fileID: 861015791}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!70 &1656573203
@@ -1015,6 +1076,37 @@ MonoBehaviour:
   rightKey: 100
   rotateToMouse: 1
   gameCamera: {fileID: 0}
+--- !u!1 &2020295155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2020295156}
+  m_Layer: 6
+  m_Name: PlayerHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2020295156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020295155}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1656573197}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1024,3 +1116,4 @@ SceneRoots:
   - {fileID: 861015791}
   - {fileID: 775106030}
   - {fileID: 1394334462}
+  - {fileID: 161325230}

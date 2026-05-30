@@ -12,22 +12,26 @@ namespace Project.Juggling
         [SerializeField] private Transform  playerHand;
 
         [Header("[ ФИЗИКА БРОСКА ]")]
-        [SerializeField] private float tossForceY     = 9f;
-        [SerializeField] private float tossSpreadX    = 1.5f;
-        [Tooltip("Высота пола — Y координата ниже которой факел считается уроненным")]
-        [SerializeField] private float groundY = -3f;
+        [SerializeField] private float tossForceY    = 9f;
+        [SerializeField] private float tossSpreadX   = 1.5f;
+
+        [Header("[ ЗОНЫ ]")]
+        [SerializeField] private float catchZoneY    = -1.5f;
+        [SerializeField] private float crowdY        = -5f;
+        [SerializeField] private float catchRadiusX  = 1.2f;
 
         [Header("[ СЛОЖНОСТЬ ]")]
-        [Tooltip("Через сколько секунд добавится 2й факел")]
         [SerializeField] private float secondTorchDelay = 5f;
-        [Tooltip("Через сколько секунд добавится 3й факел")]
         [SerializeField] private float thirdTorchDelay  = 12f;
-        [Tooltip("Через сколько секунд бросок начинает быть 'неудобным'")]
         [SerializeField] private float panicTimeStart   = 18f;
+
+        [Header("[ ПОБЕГ ]")]
+        [SerializeField] private EscapeSequence escapeSequence;
 
         [Header("[ СОБЫТИЯ ]")]
         public UnityEvent OnTorchDropped;
         public UnityEvent OnTorchTossed;
+        public UnityEvent OnTorchMissed;
 
         private readonly List<Torch> _torches = new();
         private float _startTime;
@@ -46,18 +50,16 @@ namespace Project.Juggling
 
             float elapsed = Time.time - _startTime;
 
-            // Появление новых факелов
             if (_torchCount == 1 && elapsed > secondTorchDelay) SpawnTorch();
             if (_torchCount == 2 && elapsed > thirdTorchDelay)  SpawnTorch();
 
-            // Подброс по Space
             if (Keyboard.current.spaceKey.wasPressedThisFrame)
-                TossLowestTorch(elapsed);
+                TryTossTorch(elapsed);
 
-            // Проверка упавших факелов
             foreach (var torch in _torches)
             {
-                if (torch != null && torch.HasFallen)
+                if (torch == null) continue;
+                if (torch.transform.position.y <= crowdY)
                 {
                     GameOver();
                     return;
@@ -73,39 +75,46 @@ namespace Project.Juggling
             Torch torch = obj.GetComponent<Torch>();
             if (torch == null) return;
 
-            torch.SetGroundY(groundY);
+            torch.SetGroundY(crowdY);
             _torches.Add(torch);
             _torchCount++;
 
-            // Сразу подкидываем
             float randomX = Random.Range(-tossSpreadX, tossSpreadX);
             torch.Toss(new Vector2(randomX, tossForceY));
         }
 
-        private void TossLowestTorch(float elapsedTime)
+        private void TryTossTorch(float elapsedTime)
         {
             Torch lowest   = null;
             float lowestY  = float.MaxValue;
 
             foreach (var torch in _torches)
             {
-                if (torch == null || torch.HasFallen) continue;
-                if (torch.CurrentY < lowestY)
+                if (torch == null) continue;
+                if (torch.transform.position.y < catchZoneY) continue;
+
+                float dx = Mathf.Abs(torch.transform.position.x - playerHand.position.x);
+                if (dx > catchRadiusX) continue;
+
+                if (torch.transform.position.y < lowestY)
                 {
-                    lowestY = torch.CurrentY;
+                    lowestY = torch.transform.position.y;
                     lowest  = torch;
                 }
             }
 
-            if (lowest == null) return;
+            if (lowest == null)
+            {
+                OnTorchMissed?.Invoke();
+                return;
+            }
 
-            // С увеличением времени броски становятся "паническими" — больше разброса
             float panicFactor = 0f;
             if (elapsedTime > panicTimeStart)
                 panicFactor = Mathf.Clamp01((elapsedTime - panicTimeStart) / 10f);
 
-            float spread = tossSpreadX + panicFactor * 3f;
-            float force  = tossForceY * (1f + panicFactor * 0.3f);
+            float spread  = tossSpreadX + panicFactor * 3f;
+            float force   = tossForceY * (1f + panicFactor * 0.3f);
             float randomX = Random.Range(-spread, spread);
 
             lowest.Toss(new Vector2(randomX, force));
@@ -115,14 +124,37 @@ namespace Project.Juggling
         private void GameOver()
         {
             _gameOver = true;
+
+            // Уничтожаем оставшиеся факелы
+            foreach (var torch in _torches)
+                if (torch != null) Destroy(torch.gameObject);
+            _torches.Clear();
+
             OnTorchDropped?.Invoke();
+
+            // Запускаем побег
+            if (escapeSequence != null)
+                escapeSequence.StartEscape();
         }
 
-        // Гизмо — показывает уровень пола в редакторе
         private void OnDrawGizmos()
         {
+            Gizmos.color = Color.green;
+            Gizmos.DrawLine(new Vector3(-20, catchZoneY, 0), new Vector3(20, catchZoneY, 0));
+
             Gizmos.color = Color.red;
-            Gizmos.DrawLine(new Vector3(-20, groundY, 0), new Vector3(20, groundY, 0));
+            Gizmos.DrawLine(new Vector3(-20, crowdY, 0), new Vector3(20, crowdY, 0));
+
+            if (playerHand != null)
+            {
+                Gizmos.color = Color.yellow;
+                Gizmos.DrawLine(
+                    new Vector3(playerHand.position.x - catchRadiusX, catchZoneY, 0),
+                    new Vector3(playerHand.position.x - catchRadiusX, playerHand.position.y + 3, 0));
+                Gizmos.DrawLine(
+                    new Vector3(playerHand.position.x + catchRadiusX, catchZoneY, 0),
+                    new Vector3(playerHand.position.x + catchRadiusX, playerHand.position.y + 3, 0));
+            }
         }
     }
 }

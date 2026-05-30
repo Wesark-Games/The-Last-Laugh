@@ -23,13 +23,11 @@ namespace Project.Juggling
 
         private void Update()
         {
-            if (_hasFallen) return;
-
-            // Постоянное вращение пока летит
+            // Постоянное вращение
             transform.Rotate(0f, 0f, rotationSpeed * _rotationDirection * Time.deltaTime);
 
             // Проверка падения на пол
-            if (transform.position.y <= groundY)
+            if (!_hasFallen && transform.position.y <= groundY)
             {
                 _hasFallen = true;
                 _rb.linearVelocity = Vector2.zero;
@@ -41,6 +39,7 @@ namespace Project.Juggling
         {
             if (_hasFallen) return;
             _rb.linearVelocity = force;
+            // Меняем направление вращения в зависимости от направления броска
             _rotationDirection = force.x >= 0 ? 1f : -1f;
         }
 
