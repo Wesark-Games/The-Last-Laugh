@@ -202,7 +202,7 @@ namespace Project.Juggling
             rb.gravityScale = 0;
             rb.freezeRotation = true;
             rb.bodyType = RigidbodyType2D.Dynamic;
-            rb.mass = 2f;
+            rb.mass = 0.3f;
 
             BoxCollider2D col = npc.AddComponent<BoxCollider2D>();
             col.isTrigger = false;

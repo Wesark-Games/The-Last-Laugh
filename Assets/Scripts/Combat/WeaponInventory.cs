@@ -13,6 +13,7 @@ namespace Project.Player
             public Project.Combat.Weapon weapon;
             public Sprite icon;
             public bool isMelee;
+            public bool unlocked = true;
         }
 
         [SerializeField] private WeaponSlot[] slots = new WeaponSlot[5];
@@ -32,7 +33,6 @@ namespace Project.Player
 
         private void Update()
         {
-            // Клавиши 1..5 переключают слоты
             Key[] keys = { Key.Digit1, Key.Digit2, Key.Digit3, Key.Digit4, Key.Digit5 };
             for (int i = 0; i < slots.Length && i < keys.Length; i++)
             {
@@ -40,19 +40,18 @@ namespace Project.Player
                     EquipSlot(i);
             }
 
-            // Колесо мыши — переключение
             float scroll = Mouse.current.scroll.ReadValue().y;
-            if (scroll > 0) EquipSlot((_currentIndex + 1) % slots.Length);
-            else if (scroll < 0) EquipSlot((_currentIndex - 1 + slots.Length) % slots.Length);
+            if (scroll > 0) EquipNextUnlocked(1);
+            else if (scroll < 0) EquipNextUnlocked(-1);
         }
 
         public void EquipSlot(int index)
         {
             if (index < 0 || index >= slots.Length) return;
             if (slots[index] == null) return;
+            if (!slots[index].unlocked) return;
             if (slots[index].weapon == null && !slots[index].isMelee) return;
 
-            // Отключаем все оружия
             foreach (var s in slots)
                 if (s?.weapon != null) s.weapon.gameObject.SetActive(false);
 
@@ -61,6 +60,38 @@ namespace Project.Player
                 slots[_currentIndex].weapon.gameObject.SetActive(true);
 
             OnWeaponChanged?.Invoke(_currentIndex, slots[_currentIndex]);
+        }
+
+        private void EquipNextUnlocked(int dir)
+        {
+            int idx = _currentIndex;
+            for (int i = 0; i < slots.Length; i++)
+            {
+                idx = (idx + dir + slots.Length) % slots.Length;
+                if (slots[idx] != null && slots[idx].unlocked &&
+                    (slots[idx].weapon != null || slots[idx].isMelee))
+                {
+                    EquipSlot(idx);
+                    return;
+                }
+            }
+        }
+
+        // Подбор оружия с земли
+        public bool PickupWeapon(int slotIndex, Project.Combat.WeaponData data)
+        {
+            if (slotIndex < 0 || slotIndex >= slots.Length) return false;
+            if (slots[slotIndex] == null) return false;
+            if (slots[slotIndex].weapon == null) return false;
+
+            // Меняем данные оружия в слоте и разблокируем
+            slots[slotIndex].weapon.SetWeaponData(data);
+            slots[slotIndex].unlocked = true;
+            slots[slotIndex].name = data.name;
+
+            // Сразу экипируем подобранное
+            EquipSlot(slotIndex);
+            return true;
         }
     }
 }

@@ -10,25 +10,23 @@ namespace Project.Combat
         public EnemyState CurrentState => currentState;
         public Transform Target { get; private set; }
 
-        private DetectionModule _detection;
-        private MovementModule  _movement;
-        private ShootingModule  _shooting;
+        private EnemyModule[] _modules;
 
         private void Awake()
         {
-            _detection = GetComponent<DetectionModule>();
-            _movement  = GetComponent<MovementModule>();
-            _shooting  = GetComponent<ShootingModule>();
-
-            _detection?.Init(this);
-            _movement?.Init(this);
-            _shooting?.Init(this);
+            // Находим и инициализируем ВСЕ модули на враге
+            _modules = GetComponents<EnemyModule>();
+            foreach (var module in _modules)
+                module.Init(this);
         }
 
         private void Update()
         {
-            _detection?.UpdateModule();
-            _shooting?.UpdateModule();
+            // Вызываем UpdateModule у тех модулей, что используют его
+            // (Detection, Shooting). Movement и Patrol работают через FixedUpdate.
+            if (_modules == null) return;
+            foreach (var module in _modules)
+                if (module != null) module.UpdateModule();
         }
 
         public void SetTarget(Transform target) => Target = target;
