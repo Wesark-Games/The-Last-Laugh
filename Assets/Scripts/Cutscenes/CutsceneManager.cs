@@ -69,6 +69,7 @@ namespace Project.Visuals
         [SerializeField] private GameObject skipTextGO;
         [SerializeField] private float      skipShowDelay    = 2f;
         [SerializeField] private float      skipFadeDuration = 0.6f;
+        [SerializeField] [Range(0f, 1f)] private float maxOverlayAlpha = 1f;
 
         [Header("[ UI — ДИАЛОГ ]")]
         [SerializeField] private GameObject      dialoguePanel;
@@ -122,7 +123,7 @@ namespace Project.Visuals
             if (fadeOverlayImage != null)
             {
                 fadeOverlayImage.gameObject.SetActive(true);
-                SetFadeAlpha(1f);
+                SetFadeAlpha(maxOverlayAlpha);
             }
 
             SetGraphicAlpha(skipTextGO, 0f);
@@ -285,12 +286,12 @@ namespace Project.Visuals
 
                 case StepType.FadeOverlayIn:
                     if (fadeOverlayImage != null) fadeOverlayImage.gameObject.SetActive(true);
-                    yield return StartCoroutine(FadeOverlay(0f, 1f, step.duration));
+                    yield return StartCoroutine(FadeOverlay(0f, maxOverlayAlpha, step.duration)); 
                     break;
 
                 case StepType.FadeOverlayOut:
                     if (pauseGameDuringCutscene) Time.timeScale = 1f;
-                    yield return StartCoroutine(FadeOverlay(1f, 0f, step.duration));
+                    yield return StartCoroutine(FadeOverlay(maxOverlayAlpha, 0f, step.duration)); 
                     if (fadeOverlayImage != null) fadeOverlayImage.gameObject.SetActive(false);
                     break;
 
@@ -500,14 +501,14 @@ namespace Project.Visuals
             Time.timeScale = 1f;
 
             if (fadeOverlayImage != null) fadeOverlayImage.gameObject.SetActive(true);
-            SetFadeAlpha(1f);
+            SetFadeAlpha(maxOverlayAlpha); 
             yield return new WaitForSecondsRealtime(0.3f);
 
             float t = 0f;
             while (t < 1f)
             {
                 t += Time.unscaledDeltaTime / 0.6f;
-                SetFadeAlpha(Mathf.Lerp(1f, 0f, EaseInOut(Mathf.Clamp01(t))));
+                SetFadeAlpha(Mathf.Lerp(maxOverlayAlpha, 0f, EaseInOut(Mathf.Clamp01(t)))); 
                 yield return null;
             }
 
@@ -567,7 +568,26 @@ namespace Project.Visuals
         private void SetPlayerControl(bool enabled)
         {
             if (playerController != null)
+            {
                 playerController.enabled = enabled;
+
+                // --- ДОБАВЛЕННЫЙ КОД ДЛЯ СБРОСА ДВИЖЕНИЯ ---
+                GameObject playerGO = playerController.gameObject;
+                
+                // 1. Останавливаем физику (инерцию), чтобы персонаж не скользил
+                Rigidbody2D rb = playerGO.GetComponent<Rigidbody2D>();
+                if (rb != null)
+                {
+                    rb.linearVelocity = Vector2.zero;
+                }
+
+                // 2. Сбрасываем анимацию бега (опционально)
+                Animator anim = playerGO.GetComponent<Animator>();
+                if (anim != null)
+                {
+                  anim.SetBool("IsMoving", false);
+                }
+            }
         }
 
         // ─── АУДИО ───────────────────────────────────────────────────────
