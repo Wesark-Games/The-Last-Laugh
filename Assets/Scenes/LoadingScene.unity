@@ -226,7 +226,6 @@ MonoBehaviour:
   minimumLoadTime: 6
   progressBarFill: {fileID: 774533010}
   barSpeed: 0.2
-  audioMixer: {fileID: 24100000, guid: 43f8e1ef11d564a9696d43d55e6bd426, type: 2}
   loadingText: {fileID: 0}
   dotsSpeed: 0.4
   artImage: {fileID: 68087563}
@@ -237,9 +236,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c08492b21fe744ec88576b98e3b5ca58, type: 3}
   - {fileID: 21300000, guid: e3a6b3139234043a79d777bc1696f142, type: 3}
   - {fileID: 21300000, guid: b6bf39e0df87540faa76c407558ae994, type: 3}
-  - {fileID: 21300000, guid: 2ee7c3e7260f74c3392af489e242bf33, type: 3}
-  - {fileID: 21300000, guid: 4c9e362853aed4631bc2f625fb4cbf98, type: 3}
   - {fileID: 21300000, guid: d9a5d2b7fdc474b169da878137083f5e, type: 3}
+  audioMixer: {fileID: 24100000, guid: 43f8e1ef11d564a9696d43d55e6bd426, type: 2}
+  gameMixerVolumeParam: GameVolume
 --- !u!4 &99754689
 Transform:
   m_ObjectHideFlags: 0

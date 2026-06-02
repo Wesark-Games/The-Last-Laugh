@@ -2043,10 +2043,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5565b0b534ca449eb7cd7a7392ffac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Project.UI.MainMenuManager
-  firstGameSceneName: Prologue
-  loadingSceneName: LoadingScene
+  firstGameSceneName: Prologue_Level_0
   settingsSceneName: SettingsScene
-  saveExistsKey: SaveExists
   backgroundVideoPlayer: {fileID: 0}
   backgroundImage: {fileID: 251601863}
   noirBackgroundSprite: {fileID: 0}
