@@ -574,7 +574,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a936054b9a75f4f94a1d42ef313be36e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1b5893efda84544c79c87eb74a523c1a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1023,7 +1023,6 @@ RectTransform:
   - {fileID: 1689703601}
   - {fileID: 61296837}
   - {fileID: 1028054964}
-  - {fileID: 1842593097}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2020,16 +2019,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842593096}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.4, y: 2.4, z: 2.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 711542147}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 399.99997, y: 224.99998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1842593099
@@ -2044,6 +2043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5565b0b534ca449eb7cd7a7392ffac8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Project.UI.MainMenuManager
+  firstGameSceneName: Prologue
   loadingSceneName: LoadingScene
   settingsSceneName: SettingsScene
   saveExistsKey: SaveExists
@@ -2057,6 +2057,8 @@ MonoBehaviour:
   musicSource: {fileID: 61296836}
   menuMusic: {fileID: 8300000, guid: 362dbea01acae4a7196d24a39cbd9448, type: 3}
   musicVolume: 0.24
+  audioMixer: {fileID: 24100000, guid: 43f8e1ef11d564a9696d43d55e6bd426, type: 2}
+  gameMixerVolumeParam: MusicVolume
   newGameButton: {fileID: 334761934}
   continueButton: {fileID: 795134719}
   settingsButton: {fileID: 153857447}
@@ -2251,6 +2253,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 850067938}
   - {fileID: 39075326}
-  - {fileID: 1939558527}
   - {fileID: 711542147}
+  - {fileID: 1939558527}
+  - {fileID: 1842593097}
   - {fileID: 1260886264}

@@ -1,0 +1,4249 @@
+fileFormatVersion: 2
+guid: 783d0c82664b043c291b4c9fab31e63a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 562
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2249548789949c2bc4ab04468f0b33
+      internalID: -996743170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 564
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec30d1dcdf200438dac34d1b9d890b80
+      internalID: -402421917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_2
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 562
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20a6fbb50b6e426ba4986dd02561b5c
+      internalID: 836552747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 562
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e373f643897c54e638baba92b6bd8bf9
+      internalID: -1186401014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 563
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c529e615ea5440d93be122d0035d94
+      internalID: -1386514676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_5
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 562
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3d5ca23d1944e1785a40cacd124209
+      internalID: 497021518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_6
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 561
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1083491c91a47168ff4ff28a17de31
+      internalID: 226120460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 561
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9a98d53b3c54dd2a00da3bacfb1ac0
+      internalID: -1560450325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_8
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 561
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de715f723489b466397e27b6a92ebc72
+      internalID: 1464142471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 561
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89581a300f0f1433a814849730c3f31e
+      internalID: 335510201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 561
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3d1ee45b3114180a3b15ffbc72ebcd
+      internalID: -607567258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 561
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a8067dc28c04bfeacac2280d901c2a
+      internalID: -721647490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_12
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 560
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac94aef04d6642dca397396c86da03c
+      internalID: -734468214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 561
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c114674af354b07a0351059a56545d
+      internalID: -1190902682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_14
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 562
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765f9012025a141908bbb754dfa775b3
+      internalID: -954248914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_15
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 561
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9528eaeaa4591494396c5c30d92110ff
+      internalID: -1002502323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 544
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f351dab16c2164a27a5b3fe0414bceb0
+      internalID: -1984307254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 549
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f32c0936ac14d09a5538c502a795b8
+      internalID: -683198433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_18
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 549
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a14a2022ee5c4a2090296e2d7923641
+      internalID: 43630784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_19
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 546
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b3a1ba2d63246029ad127348cf2adf
+      internalID: -333930514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_20
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 549
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3289ef6e560aa41ae8faaa3830c0dc25
+      internalID: -1118462553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_21
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 544
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5ceb1b302cc4017b4d59b9a77d2c58
+      internalID: -1441516375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 547
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6721bb704e747a486d12e2256081aa
+      internalID: -1793272242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_23
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 546
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579b09a9a2d7c4022bd011863edb313c
+      internalID: 447557802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_24
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 546
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261530161b2f34284a453d1dd4ef73f3
+      internalID: -1537166302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 546
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f121a04c1764e708fe4ed04867ea52
+      internalID: 991879825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 548
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981de3c252a0e49c98d2b172db4c9cb0
+      internalID: -225816584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_27
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 547
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cd1af7a6e52494e9ba39e5e073c1f4
+      internalID: -140976108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_28
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 545
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99360f966f065411d90bbe233dad622a
+      internalID: 1783168593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 546
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e951c80ef8e484584b7aa9e11a9dd642
+      internalID: 793416684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_30
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 546
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3e61e960320440abd2513aae92f405
+      internalID: -2122476819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_31
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 546
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d94f9d1237a42debe14354ddb136e6
+      internalID: 1695162131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_32
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 546
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf137c9d1494b46088806f1bccaa6ff4
+      internalID: -1327718943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_33
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 545
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e349fbd7cfd24334aebb2eeea8c7092
+      internalID: 2072120928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_34
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 544
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c1c81cecf4446bea90160a8e155a4b
+      internalID: 1354641733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_35
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 545
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6931b4e6955cd45c09590abad4456c36
+      internalID: 848452674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_36
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 545
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7472285f3cf47439b4d9b50a0dc2d3
+      internalID: -1399881925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_37
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 546
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8f6527f4b464a15b0257b3a10154d0
+      internalID: 538224065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_38
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 545
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9411f399551f24e49aeef49d1096885c
+      internalID: 1575022388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_39
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 545
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec233a39000642fa9df9e3b69a203d4
+      internalID: 886150952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_40
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 545
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a3b2952e2e045c2b34a737f2fd4722
+      internalID: -2050166068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_41
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 533
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ef2816bab1d4469bcceed805e6fa67
+      internalID: 1094374227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 530
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596d01000f4af4b1b8c8ec9f9fc9a16a
+      internalID: 2012283863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 529
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68a1623c75fd4010bf940480f10fa5b
+      internalID: -1160294182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_44
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 529
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911dd3750784c4ae29320502c27dd249
+      internalID: 1544863083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_45
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 529
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2529ca1d59f6461ca94da7170bb7822
+      internalID: -1008234924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_46
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 513
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c965153900e44f949ac6e2222556ee0
+      internalID: 1711396718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_47
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 513
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73d62362a8c249deb08ff52d9cbdf89
+      internalID: -2072148262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_48
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 513
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1a9b66e8e3d4751b173a9e5c6a3e44
+      internalID: -1851963520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_49
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 513
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0be1440cddaa4839a64df2528d522db
+      internalID: -128076841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_50
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 513
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5182f91e01b4309a36a0a518bbe2d2
+      internalID: 1603122836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_51
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 513
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce01268bf86f4bdcb16688ad4b2ea08
+      internalID: 1055667286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_52
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 513
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44568230b057e4040ace30e41cbc8521
+      internalID: 1199592566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_53
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 529
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b67783962e04996898f495983a5d6c
+      internalID: -2100923739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_54
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 531
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f8087dac1654f618d2e96a4623c474
+      internalID: 1023321672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_55
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 520
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05553b2c02fa1401aa83597af125df8e
+      internalID: 97799181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_56
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 518
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb16df56919143a1875ebc36ce7dd53
+      internalID: 1403918396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_57
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 512
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a3479f54f6c459d9f59e72a384e8e2
+      internalID: 1777748257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_58
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 512
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca364af02e164bc5ba61e0a448abb37
+      internalID: -1962007431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_59
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 505
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66524601b7fb14ac39b8393ced868570
+      internalID: -189503868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_60
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 496
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3e6b105080143c6af525763f96a73b
+      internalID: 1671032077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_61
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 512
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce18224fbd7f34d82a176f174e0d86de
+      internalID: 369755233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_62
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 512
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6538a09cf453405b8039d7749e5c156
+      internalID: 807799489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_63
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 513
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2d7409d164d40f4b1fcd4071b4d0f1
+      internalID: 1531762382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_64
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 513
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f0a13be73024d46bd76f748b110245
+      internalID: -238700248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_65
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 512
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5168a57c13d9c46d09acef1591dfe459
+      internalID: 1629990121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_66
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 512
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef0ee2f7d7204304b20b442035e0320
+      internalID: -896898528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_67
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 512
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b48a7d7521c3473bab0e3a9599164cd
+      internalID: 351377058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 464
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56ba27d60e8842ec9625c3405093b6f
+      internalID: 1490564019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_69
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 464
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fd0599194ac48c783351bd5ee6087e
+      internalID: 538989028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_70
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 465
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a43efaffd0c44c2a11d8394f9a899f
+      internalID: 1065133097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_71
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 480
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bc7a72b932a4d7ea258b08e940248c
+      internalID: -1124330258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_72
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 480
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51042b0a2bf04a61b360278b03cd4e6
+      internalID: -490380296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_73
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 480
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4728562482b884f8cb2ce5a86a476681
+      internalID: -1554827322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_74
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 480
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62be03b21b873405db5ca65cb0c277a0
+      internalID: -608645603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_75
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 496
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6462504f1c4494f7a87c0e529bf09c83
+      internalID: 1593681740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_76
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 496
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ea60b516294465ba9277093c57d66c
+      internalID: 547350684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_77
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 499
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3257fbc8d6dff4f4d822b2849bb1fae3
+      internalID: -1592731686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_78
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 480
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8175579ca4354407a904882415b45cd1
+      internalID: 291286081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_79
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 481
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d66cc27a8c3a4013bd6e5b3b175e1d8
+      internalID: -1686375060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_80
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 416
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c8c173c139a248a284c7b1d9848d523
+      internalID: -48502156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_81
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 416
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05c4aecf12c2412abc57604d14e006e
+      internalID: -177968001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_82
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 417
+        width: 27
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae74069ea510c448da1b4bc82cedefbf
+      internalID: 782796083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_83
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 417
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070f14506911c488cb3d36b6194875e2
+      internalID: -1360132933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_84
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 416
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130dc53d953ab48108258385f86eef50
+      internalID: -2126489013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_85
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 416
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cc69cf8ee4b457791325d3df994ef8
+      internalID: 1555915710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_86
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 417
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b346501d7b43afb1f5bf7f33017bd
+      internalID: 351807534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_87
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 456
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144c67542cab14ca495b6c13fef157fd
+      internalID: 1847672452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_88
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 463
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f188d621e544c629e9de547bdb20d7
+      internalID: -1126956317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_89
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 400
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bded8a2993ed945c7ab8bcea0fce2691
+      internalID: -594178491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_90
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 416
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587ce5cb0c4f747d3bcc91ef8dd44879
+      internalID: -22773122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_91
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 416
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f038f8c1d2f34266aa94df19b2bedba
+      internalID: -3799439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_92
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 416
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82344d7bf708f44ff85d55ce886ec165
+      internalID: 839058620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_93
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 417
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262cff01122284057b711441b48fc3c4
+      internalID: -1392455869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_94
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 369
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650fa32e87e794a0cb620792411c3670
+      internalID: 1237099326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_95
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 400
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0136ed69d6343494594ef01cc915484b
+      internalID: 117889920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_96
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 368
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389eb42f3936d4a78abf217c42954916
+      internalID: 98222904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_97
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 368
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afdf3888a32247fc8faabce626f77d4
+      internalID: -1408127352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_98
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 368
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948368c9da2654c3d9aa9410aa535661
+      internalID: -1094083381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_99
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 368
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75016684508d437e84c50a61355ec1c
+      internalID: -1437176100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_100
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 369
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ccd601b64934298a05b4f12ed24978
+      internalID: -215506750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_101
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 369
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453160b38dcbe4c1382e0baf782f3056
+      internalID: -1100575068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_102
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 368
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb808c2c04c644e808b4b12569b5ca81
+      internalID: 2129527744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_103
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 368
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0b1c8a7e9de4a6d84284d4bdc0f0dc
+      internalID: 1591231799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_104
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 368
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a4382c6c0ba4135bc92243d5f497cb
+      internalID: 239834236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_105
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 368
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd27197a8b2c1474a8a4ae1d6edf1624
+      internalID: 306154331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_106
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 369
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8e9b7ac22bf402982164395bb52c18
+      internalID: -1231434460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_107
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 380
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c86cb25f8f44f829b0f9ab459d8498
+      internalID: 312320207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_108
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 380
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a0d567da0d74f7d98adb1146d97bf5
+      internalID: 1911244515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_109
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 384
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8571968ac99744cccb853598e39519e9
+      internalID: 1972741174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_110
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 384
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa6c2ddac99449c5a8365fc515c5567
+      internalID: 28035563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_111
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 352
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed47a781873b54cb88410c626b70ef90
+      internalID: -206545056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_112
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 353
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1296972850a042029eae529700b9cdd
+      internalID: 1917714115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_113
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 353
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13fb84ece9474598a59ffc8e552512b
+      internalID: -1548444842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_114
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 353
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aac425678034da68014ffe96dca681
+      internalID: 2115809877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_115
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 305
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5ddc4d04cd7416c9907f279daee0b6
+      internalID: 1284881405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_116
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 304
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0cacdd7d4fd4bd0ac666290d0c16e3
+      internalID: -55745163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_117
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 304
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80180536ffa9c45d39365d18ed51cfd7
+      internalID: -1307643258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_118
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 304
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488f1855925874583be0edfe2b5bfff2
+      internalID: 724695792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_119
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 304
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0020532f6c7714ab88e04a1a6cb8efc2
+      internalID: -981478904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_120
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 304
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44642a5b3236545f0ae0c8f348ede7cc
+      internalID: -468879669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_121
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 304
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ac027ccba9d4dc8a406b1759248319
+      internalID: 591645005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_122
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 304
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb45475074be49688999b123445ae3d
+      internalID: -1771136134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_123
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 304
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec65e19bc16346dc8390a041d6afdb9
+      internalID: -1703423230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_124
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 304
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8b6263ba1b047d5b38f89e51da5454
+      internalID: -1401270365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_125
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 304
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f0964c0f1f246c7a88b6526a2d1584
+      internalID: -437370592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_126
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 305
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc49151a1669465f8ba7a06760530b1
+      internalID: -987943196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_127
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 227
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d01ffbaff0964f3ca37514318a119d1
+      internalID: 953885063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_128
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 224
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e34e1619a0b64709b3f6ca0240c6e84
+      internalID: 1932249528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_129
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 224
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e7e107c0db24fad8476a674d23de42
+      internalID: 330117187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_130
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 224
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9249df91222cc4c119734c953252cbb9
+      internalID: -1344062543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_131
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 224
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99bc78e4305e4fe5b0bfcd05b65a25b
+      internalID: -1415843005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_132
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 227
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326dca27c55b64c96a284dbb33164f06
+      internalID: -1124753770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_133
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 226
+        width: 19
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3bdcda0a52448aea1c340cdcdb7b1a
+      internalID: 111068137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_134
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 226
+        width: 34
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c631c04bc17f44cdbf033cb2a5465a7
+      internalID: 1253255700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_135
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 226
+        width: 34
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9995ff576f31b41b1a4e3e386b901fc9
+      internalID: 1034487816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_136
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 226
+        width: 34
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d8e01087650486f8ccafe086df2bf8
+      internalID: -1519308039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_137
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 147
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4fd58686d544758b38bd170db1aa7f
+      internalID: 602431972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_138
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 147
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f682fef890f647d6be18a2a9b27d975
+      internalID: -2059293580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_139
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 145
+        width: 15
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6df1bb6be0049a3a5c505dcb1cbff4
+      internalID: 542558436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_140
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 145
+        width: 15
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b5c624cb0e64f0580fddb2b7ddb37d
+      internalID: -491762308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_141
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 208
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca17ab74b2f794b2fa856d6580ec4ddb
+      internalID: 116084924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_142
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 160
+        width: 47
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4159b9412ab254dc38d433dcdf9a7d28
+      internalID: 1045434740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_143
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 145
+        width: 15
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976b7c2f409dc435c8fca02ef7435291
+      internalID: 630957394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_144
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 145
+        width: 15
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a503f9d90c34bc9bec93a7bfa7e626
+      internalID: -1606686719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_145
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 192
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb68bde58ffcf48f5a4d3f9258aca184
+      internalID: -93763838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_146
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 144
+        width: 15
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db76ffcb54cd407dae407758a265462
+      internalID: -555829874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_147
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 145
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b7caf0ef85fe49feadbdbaf0e130642
+      internalID: 988657672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_148
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 147
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af47982b286c40de92013e488ec7536
+      internalID: -2115435458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_149
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 147
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6684e82ccd9e4385a05a530080246b9
+      internalID: 545647354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_150
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 144
+        width: 14
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2646cde81124d29a8e9942fbfb1fa0
+      internalID: 1656196882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_151
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 144
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a102dc17feec24001b69e12a970db8d5
+      internalID: 1239152113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_152
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 144
+        width: 15
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc547e880255b41e093769e1480466ad
+      internalID: -1881978139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_153
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 144
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f212fac5a9334e1194cbfd0575e1592
+      internalID: 850301017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_154
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 144
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6918347a308fd4e9fb9ee0fe4d542973
+      internalID: 1981309402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_155
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 145
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3784c39075e849958d7f0d745a93808
+      internalID: -2004397990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_156
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe34d42a80e94151844bf93d8a58870
+      internalID: -2020611634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_157
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 65
+        width: 25
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2a2e652b24b4cc4b934c3b0ffe050f
+      internalID: 1150846949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_158
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 64
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d02d32584f6143a49a1c9aee2364151
+      internalID: -707829513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_159
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 65
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb2825b81de5498bab40bd2437798a1
+      internalID: -320525559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_160
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 64
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd73587012314282a4a82ccb8c072e9
+      internalID: -61010963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_161
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 64
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e429ee80c5904062b2a7e5d7af3cba7
+      internalID: 2026521305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_162
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 67
+        width: 47
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0752cc6c38054b0abcfe82fed4d5cb2
+      internalID: 1378253169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 65
+        width: 16
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ecb86bcccc64c1eb5051d58e06b098
+      internalID: 1710985862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_164
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 65
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633d5100327144b569c05d506c9e278f
+      internalID: -2018133147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_165
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 47
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25083468bde9a43f289e93df94fed69c
+      internalID: 2012061690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_166
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 64
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2d8b1b73fec405bb3a955e725c2dc8
+      internalID: 1476783081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_167
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 0
+        width: 79
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0ef079b5a4f44e0ac405200cef2dc5
+      internalID: 655182856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_168
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b59b3bf477774462be85a4b8870fff1
+      internalID: 1509740466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_169
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e557735ecfb442e7a909bc34c61f9b9
+      internalID: -1832109778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_170
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08fe95f24af643a3a8d95b949857f8b
+      internalID: 1250970696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_171
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730d02735e112453ea5ed57139211304
+      internalID: 835005579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_172
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f5c17fc804641319e477b6a200578a
+      internalID: 1313662134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_173
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 16
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77639357ad444016a2893eb3c3fbebe
+      internalID: -2064599099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_174
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9856732268f9403eb88aedba0fe974b
+      internalID: -1619381080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_175
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff994230138de4cbba1b33c2e7b2cf7e
+      internalID: -514243645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e9394027c7843f9886c8ffefea9931
+      internalID: -148177752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_177
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55bedd405b6e48bcb09f59bf09b4819
+      internalID: -1924440102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: professional_kitchen_withshadows_178
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7174ad329f7eb43d28ef10c6b6f10379
+      internalID: 159492579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c56dc5121f08b4e3095942a17090aaf1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      professional_kitchen_withshadows_0: -996743170
+      professional_kitchen_withshadows_1: -402421917
+      professional_kitchen_withshadows_10: -607567258
+      professional_kitchen_withshadows_100: -215506750
+      professional_kitchen_withshadows_101: -1100575068
+      professional_kitchen_withshadows_102: 2129527744
+      professional_kitchen_withshadows_103: 1591231799
+      professional_kitchen_withshadows_104: 239834236
+      professional_kitchen_withshadows_105: 306154331
+      professional_kitchen_withshadows_106: -1231434460
+      professional_kitchen_withshadows_107: 312320207
+      professional_kitchen_withshadows_108: 1911244515
+      professional_kitchen_withshadows_109: 1972741174
+      professional_kitchen_withshadows_11: -721647490
+      professional_kitchen_withshadows_110: 28035563
+      professional_kitchen_withshadows_111: -206545056
+      professional_kitchen_withshadows_112: 1917714115
+      professional_kitchen_withshadows_113: -1548444842
+      professional_kitchen_withshadows_114: 2115809877
+      professional_kitchen_withshadows_115: 1284881405
+      professional_kitchen_withshadows_116: -55745163
+      professional_kitchen_withshadows_117: -1307643258
+      professional_kitchen_withshadows_118: 724695792
+      professional_kitchen_withshadows_119: -981478904
+      professional_kitchen_withshadows_12: -734468214
+      professional_kitchen_withshadows_120: -468879669
+      professional_kitchen_withshadows_121: 591645005
+      professional_kitchen_withshadows_122: -1771136134
+      professional_kitchen_withshadows_123: -1703423230
+      professional_kitchen_withshadows_124: -1401270365
+      professional_kitchen_withshadows_125: -437370592
+      professional_kitchen_withshadows_126: -987943196
+      professional_kitchen_withshadows_127: 953885063
+      professional_kitchen_withshadows_128: 1932249528
+      professional_kitchen_withshadows_129: 330117187
+      professional_kitchen_withshadows_13: -1190902682
+      professional_kitchen_withshadows_130: -1344062543
+      professional_kitchen_withshadows_131: -1415843005
+      professional_kitchen_withshadows_132: -1124753770
+      professional_kitchen_withshadows_133: 111068137
+      professional_kitchen_withshadows_134: 1253255700
+      professional_kitchen_withshadows_135: 1034487816
+      professional_kitchen_withshadows_136: -1519308039
+      professional_kitchen_withshadows_137: 602431972
+      professional_kitchen_withshadows_138: -2059293580
+      professional_kitchen_withshadows_139: 542558436
+      professional_kitchen_withshadows_14: -954248914
+      professional_kitchen_withshadows_140: -491762308
+      professional_kitchen_withshadows_141: 116084924
+      professional_kitchen_withshadows_142: 1045434740
+      professional_kitchen_withshadows_143: 630957394
+      professional_kitchen_withshadows_144: -1606686719
+      professional_kitchen_withshadows_145: -93763838
+      professional_kitchen_withshadows_146: -555829874
+      professional_kitchen_withshadows_147: 988657672
+      professional_kitchen_withshadows_148: -2115435458
+      professional_kitchen_withshadows_149: 545647354
+      professional_kitchen_withshadows_15: -1002502323
+      professional_kitchen_withshadows_150: 1656196882
+      professional_kitchen_withshadows_151: 1239152113
+      professional_kitchen_withshadows_152: -1881978139
+      professional_kitchen_withshadows_153: 850301017
+      professional_kitchen_withshadows_154: 1981309402
+      professional_kitchen_withshadows_155: -2004397990
+      professional_kitchen_withshadows_156: -2020611634
+      professional_kitchen_withshadows_157: 1150846949
+      professional_kitchen_withshadows_158: -707829513
+      professional_kitchen_withshadows_159: -320525559
+      professional_kitchen_withshadows_16: -1984307254
+      professional_kitchen_withshadows_160: -61010963
+      professional_kitchen_withshadows_161: 2026521305
+      professional_kitchen_withshadows_162: 1378253169
+      professional_kitchen_withshadows_163: 1710985862
+      professional_kitchen_withshadows_164: -2018133147
+      professional_kitchen_withshadows_165: 2012061690
+      professional_kitchen_withshadows_166: 1476783081
+      professional_kitchen_withshadows_167: 655182856
+      professional_kitchen_withshadows_168: 1509740466
+      professional_kitchen_withshadows_169: -1832109778
+      professional_kitchen_withshadows_17: -683198433
+      professional_kitchen_withshadows_170: 1250970696
+      professional_kitchen_withshadows_171: 835005579
+      professional_kitchen_withshadows_172: 1313662134
+      professional_kitchen_withshadows_173: -2064599099
+      professional_kitchen_withshadows_174: -1619381080
+      professional_kitchen_withshadows_175: -514243645
+      professional_kitchen_withshadows_176: -148177752
+      professional_kitchen_withshadows_177: -1924440102
+      professional_kitchen_withshadows_178: 159492579
+      professional_kitchen_withshadows_18: 43630784
+      professional_kitchen_withshadows_19: -333930514
+      professional_kitchen_withshadows_2: 836552747
+      professional_kitchen_withshadows_20: -1118462553
+      professional_kitchen_withshadows_21: -1441516375
+      professional_kitchen_withshadows_22: -1793272242
+      professional_kitchen_withshadows_23: 447557802
+      professional_kitchen_withshadows_24: -1537166302
+      professional_kitchen_withshadows_25: 991879825
+      professional_kitchen_withshadows_26: -225816584
+      professional_kitchen_withshadows_27: -140976108
+      professional_kitchen_withshadows_28: 1783168593
+      professional_kitchen_withshadows_29: 793416684
+      professional_kitchen_withshadows_3: -1186401014
+      professional_kitchen_withshadows_30: -2122476819
+      professional_kitchen_withshadows_31: 1695162131
+      professional_kitchen_withshadows_32: -1327718943
+      professional_kitchen_withshadows_33: 2072120928
+      professional_kitchen_withshadows_34: 1354641733
+      professional_kitchen_withshadows_35: 848452674
+      professional_kitchen_withshadows_36: -1399881925
+      professional_kitchen_withshadows_37: 538224065
+      professional_kitchen_withshadows_38: 1575022388
+      professional_kitchen_withshadows_39: 886150952
+      professional_kitchen_withshadows_4: -1386514676
+      professional_kitchen_withshadows_40: -2050166068
+      professional_kitchen_withshadows_41: 1094374227
+      professional_kitchen_withshadows_42: 2012283863
+      professional_kitchen_withshadows_43: -1160294182
+      professional_kitchen_withshadows_44: 1544863083
+      professional_kitchen_withshadows_45: -1008234924
+      professional_kitchen_withshadows_46: 1711396718
+      professional_kitchen_withshadows_47: -2072148262
+      professional_kitchen_withshadows_48: -1851963520
+      professional_kitchen_withshadows_49: -128076841
+      professional_kitchen_withshadows_5: 497021518
+      professional_kitchen_withshadows_50: 1603122836
+      professional_kitchen_withshadows_51: 1055667286
+      professional_kitchen_withshadows_52: 1199592566
+      professional_kitchen_withshadows_53: -2100923739
+      professional_kitchen_withshadows_54: 1023321672
+      professional_kitchen_withshadows_55: 97799181
+      professional_kitchen_withshadows_56: 1403918396
+      professional_kitchen_withshadows_57: 1777748257
+      professional_kitchen_withshadows_58: -1962007431
+      professional_kitchen_withshadows_59: -189503868
+      professional_kitchen_withshadows_6: 226120460
+      professional_kitchen_withshadows_60: 1671032077
+      professional_kitchen_withshadows_61: 369755233
+      professional_kitchen_withshadows_62: 807799489
+      professional_kitchen_withshadows_63: 1531762382
+      professional_kitchen_withshadows_64: -238700248
+      professional_kitchen_withshadows_65: 1629990121
+      professional_kitchen_withshadows_66: -896898528
+      professional_kitchen_withshadows_67: 351377058
+      professional_kitchen_withshadows_68: 1490564019
+      professional_kitchen_withshadows_69: 538989028
+      professional_kitchen_withshadows_7: -1560450325
+      professional_kitchen_withshadows_70: 1065133097
+      professional_kitchen_withshadows_71: -1124330258
+      professional_kitchen_withshadows_72: -490380296
+      professional_kitchen_withshadows_73: -1554827322
+      professional_kitchen_withshadows_74: -608645603
+      professional_kitchen_withshadows_75: 1593681740
+      professional_kitchen_withshadows_76: 547350684
+      professional_kitchen_withshadows_77: -1592731686
+      professional_kitchen_withshadows_78: 291286081
+      professional_kitchen_withshadows_79: -1686375060
+      professional_kitchen_withshadows_8: 1464142471
+      professional_kitchen_withshadows_80: -48502156
+      professional_kitchen_withshadows_81: -177968001
+      professional_kitchen_withshadows_82: 782796083
+      professional_kitchen_withshadows_83: -1360132933
+      professional_kitchen_withshadows_84: -2126489013
+      professional_kitchen_withshadows_85: 1555915710
+      professional_kitchen_withshadows_86: 351807534
+      professional_kitchen_withshadows_87: 1847672452
+      professional_kitchen_withshadows_88: -1126956317
+      professional_kitchen_withshadows_89: -594178491
+      professional_kitchen_withshadows_9: 335510201
+      professional_kitchen_withshadows_90: -22773122
+      professional_kitchen_withshadows_91: -3799439
+      professional_kitchen_withshadows_92: 839058620
+      professional_kitchen_withshadows_93: -1392455869
+      professional_kitchen_withshadows_94: 1237099326
+      professional_kitchen_withshadows_95: 117889920
+      professional_kitchen_withshadows_96: 98222904
+      professional_kitchen_withshadows_97: -1408127352
+      professional_kitchen_withshadows_98: -1094083381
+      professional_kitchen_withshadows_99: -1437176100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

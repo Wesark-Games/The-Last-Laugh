@@ -6,22 +6,24 @@ using TMPro;
 
 namespace Project.UI
 {
-    /// <summary>
-    /// Управляет двумя заставками при запуске:
-    /// 1. Видео студии
-    /// 2. Картинка игры с музыкой и кнопкой пропуска
-    /// После обеих — переход в главное меню.
-    /// </summary>
     public class SplashManager : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
         [Header("[ НАЗВАНИЯ СЦЕН ]")]
         [SerializeField] private string mainMenuScene = "MainMenu";
+
+        [Header("[ ПРЕДУПРЕЖДЕНИЕ 18+ ]")]
+        [SerializeField] private GameObject warningSplashGO;
+        [SerializeField] private Image      warningArtImage;
+        [SerializeField] private float warningHoldDuration = 4f;
+
+        [Header("[ ПРЕДУПРЕЖДЕНИЕ ОБ АВТОСОХРАНЕНИИ ]")]
+        [SerializeField] private GameObject saveWarningSplashGO;
+        [SerializeField] private Image      saveWarningArtImage;
+        [SerializeField] private float saveWarningHoldDuration = 4f;
 
         [Header("[ ЗАСТАВКА СТУДИИ ]")]
         [SerializeField] private GameObject studioSplashGO;
         [SerializeField] private VideoPlayer studioVideoPlayer;
-        [Tooltip("Максимальное время ожидания видео (секунд)")]
         [SerializeField] private float studioMaxWait = 10f;
 
         [Header("[ ЗАСТАВКА ИГРЫ ]")]
@@ -30,13 +32,9 @@ namespace Project.UI
         [SerializeField] private AudioSource musicSource;
         [SerializeField] private AudioClip   splashMusic;
         [SerializeField] private TextMeshProUGUI skipText;
-        [Tooltip("Время появления картинки")]
         [SerializeField] private float artFadeInDuration  = 2f;
-        [Tooltip("Как долго показывается заставка игры")]
         [SerializeField] private float splashHoldDuration = 20f;
-        [Tooltip("Задержка перед появлением кнопки пропуска")]
         [SerializeField] private float skipTextDelay      = 2.5f;
-        [Tooltip("Скорость появления текста пропуска")]
         [SerializeField] private float skipTextFadeDuration = 0.8f;
         [Range(0f, 1f)]
         [SerializeField] private float musicVolume = 0.7f;
@@ -44,21 +42,24 @@ namespace Project.UI
         [Header("[ ОБЩИЙ ФЕЙД ]")]
         [SerializeField] private Image fadeOverlay;
         [SerializeField] private float globalFadeDuration = 0.8f;
-        // ─────────────────────────────────────────────────────────────────
 
         private bool skipPressed;
+        private bool isInteractableSplashActive;
         private bool gameSplashActive;
 
         private void Start()
         {
             Time.timeScale = 1f;
 
-            // Начинаем с чёрного экрана
             SetFadeAlpha(1f);
-            SetArtAlpha(0f);
-            SetSkipAlpha(0f);
+            SetArtAlpha(artImage, 0f);
+            SetArtAlpha(warningArtImage, 0f);
+            SetArtAlpha(saveWarningArtImage, 0f);
+            SetTextAlpha(skipText, 0f);
 
-            studioSplashGO?.SetActive(true);
+            warningSplashGO?.SetActive(true);
+            saveWarningSplashGO?.SetActive(false);
+            studioSplashGO?.SetActive(false);
             gameSplashGO?.SetActive(false);
 
             StartCoroutine(RunSplashSequence());
@@ -66,23 +67,81 @@ namespace Project.UI
 
         private void Update()
         {
-            // Пропуск кликом или пробелом — только во время заставки игры
-            if (!gameSplashActive) return;
-
-            if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
-                skipPressed = true;
+            if (isInteractableSplashActive || gameSplashActive)
+            {
+                if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
+                    skipPressed = true;
+            }
         }
-
-        // ─── Основная последовательность ─────────────────────────────────
 
         private IEnumerator RunSplashSequence()
         {
+            yield return StartCoroutine(PlayWarningSplash());
+            yield return StartCoroutine(PlaySaveWarningSplash());
             yield return StartCoroutine(PlayStudioSplash());
             yield return StartCoroutine(PlayGameSplash());
             yield return StartCoroutine(GoToMainMenu());
         }
 
-        // ─── Заставка студии ─────────────────────────────────────────────
+        private IEnumerator PlayWarningSplash()
+        {
+            if (warningSplashGO == null) yield break;
+
+            isInteractableSplashActive = true;
+            skipPressed                = false;
+
+            if (musicSource != null && splashMusic != null)
+            {
+                musicSource.clip   = splashMusic;
+                musicSource.volume = 0f;
+                musicSource.loop   = true;
+                musicSource.Play();
+                StartCoroutine(FadeMusicVolume(0f, musicVolume, globalFadeDuration));
+            }
+
+            StartCoroutine(FadeGraphic(warningArtImage, 0f, 1f, globalFadeDuration));
+            yield return StartCoroutine(Fade(1f, 0f, globalFadeDuration));
+
+            float elapsed = 0f;
+            while (elapsed < warningHoldDuration && !skipPressed)
+            {
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            StartCoroutine(FadeGraphic(warningArtImage, 1f, 0f, globalFadeDuration));
+            yield return StartCoroutine(Fade(0f, 1f, globalFadeDuration));
+
+            warningSplashGO.SetActive(false);
+            isInteractableSplashActive = false;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        private IEnumerator PlaySaveWarningSplash()
+        {
+            if (saveWarningSplashGO == null) yield break;
+
+            saveWarningSplashGO.SetActive(true);
+            isInteractableSplashActive = true;
+            skipPressed                = false;
+
+            StartCoroutine(FadeGraphic(saveWarningArtImage, 0f, 1f, globalFadeDuration));
+            yield return StartCoroutine(Fade(1f, 0f, globalFadeDuration));
+
+            float elapsed = 0f;
+            while (elapsed < saveWarningHoldDuration && !skipPressed)
+            {
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            StartCoroutine(FadeGraphic(saveWarningArtImage, 1f, 0f, globalFadeDuration));
+            yield return StartCoroutine(Fade(0f, 1f, globalFadeDuration));
+
+            saveWarningSplashGO.SetActive(false);
+            isInteractableSplashActive = false;
+            yield return new WaitForSeconds(0.1f);
+        }
 
         private IEnumerator PlayStudioSplash()
         {
@@ -92,7 +151,7 @@ namespace Project.UI
                 yield break;
             }
 
-            // Фейд появления
+            studioSplashGO?.SetActive(true);
             yield return StartCoroutine(Fade(1f, 0f, globalFadeDuration));
 
             studioVideoPlayer.Play();
@@ -100,7 +159,6 @@ namespace Project.UI
             float elapsed = 0f;
             while (studioVideoPlayer.isPlaying && elapsed < studioMaxWait)
             {
-                // Пропуск кликом
                 if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
                 {
                     studioVideoPlayer.Stop();
@@ -111,14 +169,11 @@ namespace Project.UI
                 yield return null;
             }
 
-            // Фейд исчезновения
             yield return StartCoroutine(Fade(0f, 1f, globalFadeDuration));
             studioSplashGO?.SetActive(false);
 
             yield return new WaitForSeconds(0.2f);
         }
-
-        // ─── Заставка игры ───────────────────────────────────────────────
 
         private IEnumerator PlayGameSplash()
         {
@@ -126,28 +181,23 @@ namespace Project.UI
             gameSplashActive = false;
             skipPressed      = false;
 
-            // Запускаем музыку
-            if (musicSource != null && splashMusic != null)
+            if (musicSource != null && !musicSource.isPlaying && splashMusic != null)
             {
                 musicSource.clip   = splashMusic;
-                musicSource.volume = 0f;
+                musicSource.volume = musicVolume;
                 musicSource.loop   = true;
                 musicSource.Play();
             }
 
-            // Фейд появления экрана
             yield return StartCoroutine(Fade(1f, 0f, globalFadeDuration));
 
             gameSplashActive = true;
 
-            // Плавное появление картинки + нарастание музыки
-            yield return StartCoroutine(FadeInArtAndMusic());
+            yield return StartCoroutine(FadeGraphic(artImage, 0f, 1f, artFadeInDuration));
 
-            // Ждём появления кнопки пропуска
             yield return new WaitForSeconds(skipTextDelay);
-            yield return StartCoroutine(FadeSkipText(0f, 1f));
+            yield return StartCoroutine(FadeText(skipText, 0f, 1f, skipTextFadeDuration));
 
-            // Держим заставку — ждём таймер или нажатие
             float holdTimer = 0f;
             while (holdTimer < splashHoldDuration && !skipPressed)
             {
@@ -155,42 +205,16 @@ namespace Project.UI
                 yield return null;
             }
 
-            // Плавное исчезновение текста пропуска
-            yield return StartCoroutine(FadeSkipText(1f, 0f));
+            yield return StartCoroutine(FadeText(skipText, 1f, 0f, skipTextFadeDuration));
         }
-
-        private IEnumerator FadeInArtAndMusic()
-        {
-            float t = 0f;
-            while (t < 1f)
-            {
-                t += Time.deltaTime / artFadeInDuration;
-                float eased = EaseInOut(Mathf.Clamp01(t));
-
-                SetArtAlpha(eased);
-
-                if (musicSource != null)
-                    musicSource.volume = Mathf.Lerp(0f, musicVolume, eased);
-
-                yield return null;
-            }
-
-            SetArtAlpha(1f);
-            if (musicSource != null)
-                musicSource.volume = musicVolume;
-        }
-
-        // ─── Переход в главное меню ──────────────────────────────────────
 
         private IEnumerator GoToMainMenu()
         {
-            // Затухание музыки и экрана одновременно
             StartCoroutine(FadeOutMusic());
             yield return StartCoroutine(Fade(0f, 1f, globalFadeDuration));
 
             gameSplashGO?.SetActive(false);
 
-            // Используем SceneTransitionManager если есть, иначе напрямую
             if (SceneTransitionManager.Instance != null)
                 SceneTransitionManager.Instance.LoadScene(mainMenuScene);
             else
@@ -214,8 +238,6 @@ namespace Project.UI
             musicSource.Stop();
         }
 
-        // ─── Вспомогательные методы ──────────────────────────────────────
-
         private IEnumerator Fade(float from, float to, float duration)
         {
             float t = 0f;
@@ -228,18 +250,43 @@ namespace Project.UI
             SetFadeAlpha(to);
         }
 
-        private IEnumerator FadeSkipText(float from, float to)
+        private IEnumerator FadeGraphic(Image img, float from, float to, float duration)
         {
-            if (skipText == null) yield break;
-
+            if (img == null) yield break;
             float t = 0f;
             while (t < 1f)
             {
-                t += Time.deltaTime / skipTextFadeDuration;
-                SetSkipAlpha(Mathf.Lerp(from, to, EaseInOut(Mathf.Clamp01(t))));
+                t += Time.deltaTime / duration;
+                SetArtAlpha(img, Mathf.Lerp(from, to, EaseInOut(Mathf.Clamp01(t))));
                 yield return null;
             }
-            SetSkipAlpha(to);
+            SetArtAlpha(img, to);
+        }
+
+        private IEnumerator FadeText(TextMeshProUGUI txt, float from, float to, float duration)
+        {
+            if (txt == null) yield break;
+            float t = 0f;
+            while (t < 1f)
+            {
+                t += Time.deltaTime / duration;
+                SetTextAlpha(txt, Mathf.Lerp(from, to, EaseInOut(Mathf.Clamp01(t))));
+                yield return null;
+            }
+            SetTextAlpha(txt, to);
+        }
+
+        private IEnumerator FadeMusicVolume(float from, float to, float duration)
+        {
+            if (musicSource == null) yield break;
+            float t = 0f;
+            while (t < 1f)
+            {
+                t += Time.deltaTime / duration;
+                musicSource.volume = Mathf.Lerp(from, to, EaseInOut(Mathf.Clamp01(t)));
+                yield return null;
+            }
+            musicSource.volume = to;
         }
 
         private void SetFadeAlpha(float a)
@@ -250,25 +297,22 @@ namespace Project.UI
             fadeOverlay.color = c;
         }
 
-        private void SetArtAlpha(float a)
+        private void SetArtAlpha(Image img, float a)
         {
-            if (artImage == null) return;
-            Color c = artImage.color;
+            if (img == null) return;
+            Color c = img.color;
             c.a = a;
-            artImage.color = c;
+            img.color = c;
         }
 
-        private void SetSkipAlpha(float a)
+        private void SetTextAlpha(TextMeshProUGUI txt, float a)
         {
-            if (skipText == null) return;
-            Color c = skipText.color;
+            if (txt == null) return;
+            Color c = txt.color;
             c.a = a;
-            skipText.color = c;
+            txt.color = c;
         }
 
-        private float EaseInOut(float t)
-        {
-            return t * t * (3f - 2f * t);
-        }
+        private float EaseInOut(float t) => t * t * (3f - 2f * t);
     }
 }

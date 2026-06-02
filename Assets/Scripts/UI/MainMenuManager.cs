@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Video;
+using UnityEngine.Audio;
+using Project.SaveSystem;
 
 namespace Project.UI
 {
@@ -9,11 +11,9 @@ namespace Project.UI
     {
         // ─── CONFIGURATION ───────────────────────────────────────────────────
         [Header("[ НАЗВАНИЯ СЦЕН ]")]
-        [SerializeField] private string loadingSceneName  = "LoadingScene";
+        [Tooltip("Имя сцены, с которой начинается сама игра (например, Prologue)")]
+        [SerializeField] private string firstGameSceneName = "Prologue";
         [SerializeField] private string settingsSceneName = "SettingsScene";
-
-        [Header("[ КЛЮЧ СОХРАНЕНИЯ ]")]
-        [SerializeField] private string saveExistsKey = "SaveExists";
 
         [Header("[ ФОН ]")]
         [SerializeField] private VideoPlayer backgroundVideoPlayer;
@@ -31,6 +31,10 @@ namespace Project.UI
         [SerializeField] private AudioClip menuMusic;
         [Range(0f, 1f)]
         [SerializeField] private float musicVolume = 0.4f;
+
+        [Header("[ АУДИОМИКШЕР ]")]
+        [SerializeField] private AudioMixer audioMixer;
+        [SerializeField] private string gameMixerVolumeParam = "GameVolume";
 
         [Header("[ КНОПКИ ]")]
         [SerializeField] private Button newGameButton;
@@ -54,8 +58,9 @@ namespace Project.UI
         private void SetupContinueButton()
         {
             if (continueButton == null) return;
-            bool saveExists = PlayerPrefs.GetInt(saveExistsKey, 0) == 1;
-            continueButton.gameObject.SetActive(saveExists);
+            
+            bool hasSave = SaveManager.Instance != null && SaveManager.Instance.HasSave();
+            continueButton.gameObject.SetActive(hasSave);
         }
 
         private void SetupBackground()
@@ -81,6 +86,13 @@ namespace Project.UI
             musicSource.volume = musicVolume;
             musicSource.loop   = true;
             musicSource.Play();
+
+            if (audioMixer != null)
+            {
+                float savedMusic = PlayerPrefs.GetFloat("MusicVolume", 0.8f);
+                float db = savedMusic <= 0f ? -80f : Mathf.Log10(savedMusic) * 20f;
+                audioMixer.SetFloat(gameMixerVolumeParam, db);
+            }
         }
 
         private void BindButtons()
@@ -91,25 +103,52 @@ namespace Project.UI
             quitButton?.onClick.AddListener(OnQuitClicked);
         }
 
-        // Новая игра и Продолжить — через LoadingScene (там своя анимация)
         private void OnNewGameClicked()
         {
-            PlayerPrefs.SetInt(saveExistsKey, 1);
-            PlayerPrefs.Save();
-            SceneTransitionManager.Instance.LoadScene(loadingSceneName);
+            if (SaveManager.Instance != null)
+            {
+                SaveManager.Instance.IsLoadingSave = false;
+                SaveManager.Instance.DeleteSave(); 
+            }
+
+            LoadingScreenManager.LoadSceneWithoutLoadingItDirectly(firstGameSceneName);
+
+            if (SceneTransitionManager.Instance != null)
+                SceneTransitionManager.Instance.LoadScene("LoadingScene");
+            else
+                SceneManager.LoadScene("LoadingScene");
         }
 
         private void OnContinueClicked()
         {
-            SceneTransitionManager.Instance.LoadScene(loadingSceneName);
+            if (SaveManager.Instance != null)
+            {
+                if (SaveManager.Instance.Load())
+                {
+                    SaveManager.Instance.IsLoadingSave = true;
+
+                    string targetScene = SaveManager.Instance.Data.currentScene;
+                    if (string.IsNullOrEmpty(targetScene)) targetScene = firstGameSceneName;
+
+                    LoadingScreenManager.LoadSceneWithoutLoadingItDirectly(targetScene);
+
+                    if (SceneTransitionManager.Instance != null)
+                        SceneTransitionManager.Instance.LoadScene("LoadingScene");
+                    else
+                        SceneManager.LoadScene("LoadingScene");
+                }
+            }
         }
 
         private void OnSettingsClicked()
         {
-                // Запоминаем что пришли из главного меню
-    PlayerPrefs.SetString("PreviousScene", "MainMenu");
-    PlayerPrefs.Save();
-    SceneTransitionManager.Instance?.LoadScene(settingsSceneName);
+            PlayerPrefs.SetString("PreviousScene", "MainMenu");
+            PlayerPrefs.Save();
+
+            if (SceneTransitionManager.Instance != null)
+                SceneTransitionManager.Instance.LoadScene(settingsSceneName);
+            else
+                SceneManager.LoadScene(settingsSceneName);
         }
 
         private void OnQuitClicked()

@@ -223,10 +223,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbb791a3c49b94611973071f52c3968e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Project.UI.LoadingScreenManager
-  sceneToLoad: GameScene
   minimumLoadTime: 6
   progressBarFill: {fileID: 774533010}
   barSpeed: 0.2
+  audioMixer: {fileID: 24100000, guid: 43f8e1ef11d564a9696d43d55e6bd426, type: 2}
   loadingText: {fileID: 0}
   dotsSpeed: 0.4
   artImage: {fileID: 68087563}

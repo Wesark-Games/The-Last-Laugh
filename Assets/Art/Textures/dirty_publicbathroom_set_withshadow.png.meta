@@ -1,0 +1,2777 @@
+fileFormatVersion: 2
+guid: d9d9e65aa24b944239431982ca558708
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dd5e073fc4f4a4e8423fd3abed7d8d
+      internalID: 77948696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 256
+        width: 14
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7abaa18463f491ea53e6d68571df4a
+      internalID: -1080827053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 270
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a907a0d688d43e7a2c838dbb6baf01
+      internalID: -1540261700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 289
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 3, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98adf33d0d7aa4d609fd03d50f19298e
+      internalID: -1350256691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 288
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac47a1ee04c040049f60f6fe939d772
+      internalID: 530522065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 288
+        width: 4
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54a953e052304881ad1a49dff6c6a58
+      internalID: 366509814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1e26bad03c44b3999dc9fef8fd6991
+      internalID: 1007042922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_7
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 258
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82ab0f6b14904c7183cee7b990bd12d
+      internalID: -345356021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 257
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f01c75fb4bfe43139a7a09c02f50226
+      internalID: 1183606438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 257
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b5430396390495cb40a69b59833eae
+      internalID: -1104761308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6037a81688d254d538cc6ced4ff98dcd
+      internalID: -276073123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a22bd941c17c49a4b9fd189bceb8a31
+      internalID: -1644433181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 243
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa034a2fed4214adc821bbeb303ef69d
+      internalID: -712627773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 228
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c23239900a640508a35ced1260e3a8
+      internalID: 1470751729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 246
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04c99c14de5e41dfb36b5faccd53d59
+      internalID: -1824065438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_15
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8ee7075c5dc40eca382a3496a846d5
+      internalID: -542161433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_16
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 192
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f490c3ae9c09c4c8593fbde20ccd0566
+      internalID: 50100267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 186
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06e313b9f0834c00878a25b0cedb988
+      internalID: -289330928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_18
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b841463c4d1f2411c854a404eab11526
+      internalID: -497099175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_19
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 193
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b2687e211b54672bc8a79922780446
+      internalID: 1096316535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 206
+        width: 13
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5014836, y: 0.46644646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b353e171af6493688b0a3e5337a1ef
+      internalID: 315019797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_21
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 208
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbe64e35f08f4f9685828556cd688d7
+      internalID: -802238128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 205
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85e00f82aac74e68b45b5565ad290e9
+      internalID: 61351203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_23
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 200
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caad923bcd9194f3ca7586aeb487a6cb
+      internalID: -1177094249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_24
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5335e023ad2a240709d69332adcf2708
+      internalID: -2001996375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_25
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 212
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145e6a814f212406aa60bc0e4be40f00
+      internalID: -553530185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad572eb09cb04e56813dab2b931a389
+      internalID: -58115328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_27
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 193
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b49a518ccd1452da9f505ee77654c0
+      internalID: 954807364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_28
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 193
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91720c4f4c0ed47298c42a2335d4cf7a
+      internalID: -1857229465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_29
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 196
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c3f7428f135452c8f82285ac84bb1e
+      internalID: -1618560319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_30
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 194
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f051b78c5e04435c945e96b22fea955
+      internalID: -92159914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_31
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 200
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff055a13def6d4a0383942e949ac17fb
+      internalID: -1486234923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_32
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 193
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f17df918d0e546e4b2b064060ec75b6
+      internalID: -771740450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_33
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 177
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6c90c4ea5f846ee80f76288151d75d
+      internalID: 892679187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_34
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 177
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a3d6332b96d40a3b6833f1544ec0f8
+      internalID: -1501100284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_35
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 164
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1e6f77036c348b3af34717a614be83
+      internalID: -300989738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_36
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 162
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00dde14797ea745afbff4e10d098d6cb
+      internalID: 1069933663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_37
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 163
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db998e8fcb1b4cbebb2cd53e42eb042
+      internalID: 202188743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 160
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54df7e2e2eae34ee9a819ac3026df607
+      internalID: -1206635018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_39
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 180
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d30e34d11c7a4af4b13a0da578db084
+      internalID: 1537634750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_40
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 178
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb1234b844bd4b70a56481ad0d61264
+      internalID: -1198436264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_41
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 168
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97da59bcc4e94253b5c47c3673b6e0f
+      internalID: -941274623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_42
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 175
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6fb4510bd384823b15ce18553a26b2
+      internalID: -1437832932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_43
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 162
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7063382022f4678b5b64fa98beb91a
+      internalID: 1675419130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_44
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 163
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d07ceecc2a5e47f989ac3e9ab42f332
+      internalID: 160074963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_45
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 163
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93be2017616341d1a50cf12ce6fc1c8
+      internalID: -369632452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_46
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19ae22b3ff7b4287b5ef5b5af0afb29
+      internalID: -1941857419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_47
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b31217837244966a8be01ab9d8513b
+      internalID: -1822331681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_48
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ba31a6ff17d4e0fa5b224f6e9b5867
+      internalID: -1775405299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_49
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 161
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6264fc3c39e024ef7a4420e0d0929765
+      internalID: 2059893611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_50
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 144
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a088be76b894e93bbb98c777238c47
+      internalID: 676706382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 32
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e225b04d6ddc9469da7731b523a50041
+      internalID: 838204667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_52
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 145
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127a2029f965f40d28fe0c0fc511c30a
+      internalID: 732702900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 144
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4bc507a1a724360a5bcbf6c3284c87
+      internalID: -286706479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 130
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6687dfc54bcb4b6fbf5ab11ad1e16bc
+      internalID: -75117277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_55
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 130
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc04096628cee47c8b9d586533d54b69
+      internalID: -487613483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_56
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 144
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a8f6292e1b14c44b7d2628064259f4
+      internalID: -2108037868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_57
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 130
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcef3756c4da449019e8cb59d30b33bf
+      internalID: -1390535539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_58
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 129
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb0ac31244ef476cb013ed738fce56f
+      internalID: 701298706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_59
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 128
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8f74bfc6ce240099e14e6441c702d4
+      internalID: -180444806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 129
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd460409b54c84d58b61ebc45a84cbc0
+      internalID: 1605541241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_61
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 128
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9830c7a692b4f62b5d77666d364dce
+      internalID: 1230543981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_62
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 132
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bab095a1fe54a62b82c01d88d9ef88
+      internalID: -393960136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_63
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 113
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598e4ee51d48e4b4cbb136a857258e39
+      internalID: 913143097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_64
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 103
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9636c5b550985432492e3c66c7132b50
+      internalID: -939542712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_65
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 112
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639b214e970b243cd975ec426bd1488c
+      internalID: -2038872584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_66
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 112
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013d7ef086b804cfcb0c4acdb3971558
+      internalID: -1510406225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_67
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 98
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d774971189b49749bd4fcd4d3a971c
+      internalID: 1274020220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_68
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 80
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e230f06abb7040aca1f766725a9c3ae
+      internalID: 348052497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_69
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 164
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19f620935aed45928b5909c420017e1
+      internalID: 1961227042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_70
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 83
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f572672f7c01d401e8dfbdef05e7e9d7
+      internalID: 502846418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_71
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 84
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b88ef44a1f0e4403bad74bbdb0f1316
+      internalID: -33341739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_72
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 81
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a55efd01dc904df7baab62ecc06786c
+      internalID: 1213033294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_73
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 80
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12eb1f2b3d79842fb8d074e77ce4550b
+      internalID: 177356238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_74
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 65
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0c3daa60dfc4d6cbd1c468f2b5e6bb
+      internalID: -234709022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_75
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 80
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced64e8831fec4c95ba9c20c373a03c3
+      internalID: 1425623149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_76
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 66
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5557c13f1f84ca3b4dd4cb25469d5b
+      internalID: -277548461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_77
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 66
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dcbef92babb44249ac754ef3ec0c09
+      internalID: -1657397516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_78
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f4de0bb2add4a6a9f9cf1f3e7cd6ff
+      internalID: -1516058264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_79
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 66
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c5ea76cac094c12b12f94587fb7d7e
+      internalID: 1568496988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_80
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 50
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c593e67ca4a4104bc8fa0782474091
+      internalID: 1197728855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_81
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 31
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73fe7e93f46442078869ba40c10f81c
+      internalID: -174077858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_82
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 33
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c7161475b17413c9cc7eebed71d37d
+      internalID: 1611529713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb3102d0d2bd4673bfe038337722ad5
+      internalID: 1739538177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_84
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 23
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cb5d7b4d18146db9cf688ed021223d
+      internalID: 1724190780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_85
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 23
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8613d59945e14ec09f8a76167c05a4c
+      internalID: 1262359461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_86
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 24
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7206000063cae4867b55593a3dc87712
+      internalID: -841453931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_87
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 192
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5e7c752c6e2409a97a2f75803de614
+      internalID: -155724221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_88
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd6e099dd94447769e32191d2ee2e54
+      internalID: -1147775850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_89
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22e6fb0e534845bdaabab701c787ed2
+      internalID: 1228503269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_90
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 192
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca0bcac2ba50483fa15683c286e3489
+      internalID: -746243460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 235
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d1619413374634ae7127f2329b036
+      internalID: -1577295755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_92
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 227
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d08c113f2a5114ad7ae45ac6a5d358b9
+      internalID: 1009960274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_93
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 236
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bef6f68627844b0857f31d287bdb5a
+      internalID: 1703584637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_94
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 232
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7c7838b3bc8424fbd29fb4796c826c
+      internalID: -1606682931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_95
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e019516a81f344ea5bcb86e4e52a9627
+      internalID: -215483943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_96
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 77
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3a70704254c4660816feeaf0e28409
+      internalID: -1304100972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_97
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 145
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efffdd8415f6b4ffcbff3d4bc294df73
+      internalID: 1038420135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_98
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 128
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165a36ca7941e4d8e8a28e75d3a7e90a
+      internalID: 1024952113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_99
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 128
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1780f92dd104b0ea58c236c9b817f5
+      internalID: 115056977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_100
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 288
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c961e39d4180a4d56a7a9a5508de8d97
+      internalID: 1728168358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_101
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 288
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004f99a6510a94088adab3d708717bef
+      internalID: -1048106267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_102
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 224
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f1b79a2c6b142bbbc0904ff97157db
+      internalID: -1346862963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_103
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8232ad7fc79ec4f1dbd441efe804c8bc
+      internalID: -145963893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_104
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 112
+        width: 34
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc60fbb1e2fc84bbfa96b542cf08741a
+      internalID: -756214691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_105
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b02c79bc099645bb803653cae00af59
+      internalID: -1215472070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_106
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 33
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109c64887e4574289952050c3bf50c24
+      internalID: -1246602356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_107
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 112
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a247bdc4377641198de4e5987800776
+      internalID: 783118372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_108
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 101
+        width: 33
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cddda2a82103429eb2567d158312f33
+      internalID: 1352283408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_109
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 81
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb4eae76ffc54529af345b665d44dab
+      internalID: 1418021298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_110
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 64
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352fa265f43a04254a456d9189c161cc
+      internalID: -379390316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_111
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 55
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa78e242739b49aabd2879daf99774b
+      internalID: -443293660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_112
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 265
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4010b71e0d54fd7b3ec75e67597e8d
+      internalID: 238918761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 265
+        width: 16
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc149e271b25435e88fecc451676eb7
+      internalID: -685789778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirty_publicbathroom_set_withshadow_114
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 270
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f1eedabb617470e8f4cf5f3e9a96ee
+      internalID: -1155284839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b7d2510253e044b09f5df743d720f17
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      dirty_publicbathroom_set_withshadow_0: 77948696
+      dirty_publicbathroom_set_withshadow_1: -1080827053
+      dirty_publicbathroom_set_withshadow_10: -276073123
+      dirty_publicbathroom_set_withshadow_100: 1728168358
+      dirty_publicbathroom_set_withshadow_101: -1048106267
+      dirty_publicbathroom_set_withshadow_102: -1346862963
+      dirty_publicbathroom_set_withshadow_103: -145963893
+      dirty_publicbathroom_set_withshadow_104: -756214691
+      dirty_publicbathroom_set_withshadow_105: -1215472070
+      dirty_publicbathroom_set_withshadow_106: -1246602356
+      dirty_publicbathroom_set_withshadow_107: 783118372
+      dirty_publicbathroom_set_withshadow_108: 1352283408
+      dirty_publicbathroom_set_withshadow_109: 1418021298
+      dirty_publicbathroom_set_withshadow_11: -1644433181
+      dirty_publicbathroom_set_withshadow_110: -379390316
+      dirty_publicbathroom_set_withshadow_111: -443293660
+      dirty_publicbathroom_set_withshadow_112: 238918761
+      dirty_publicbathroom_set_withshadow_113: -685789778
+      dirty_publicbathroom_set_withshadow_114: -1155284839
+      dirty_publicbathroom_set_withshadow_12: -712627773
+      dirty_publicbathroom_set_withshadow_13: 1470751729
+      dirty_publicbathroom_set_withshadow_14: -1824065438
+      dirty_publicbathroom_set_withshadow_15: -542161433
+      dirty_publicbathroom_set_withshadow_16: 50100267
+      dirty_publicbathroom_set_withshadow_17: -289330928
+      dirty_publicbathroom_set_withshadow_18: -497099175
+      dirty_publicbathroom_set_withshadow_19: 1096316535
+      dirty_publicbathroom_set_withshadow_2: -1540261700
+      dirty_publicbathroom_set_withshadow_20: 315019797
+      dirty_publicbathroom_set_withshadow_21: -802238128
+      dirty_publicbathroom_set_withshadow_22: 61351203
+      dirty_publicbathroom_set_withshadow_23: -1177094249
+      dirty_publicbathroom_set_withshadow_24: -2001996375
+      dirty_publicbathroom_set_withshadow_25: -553530185
+      dirty_publicbathroom_set_withshadow_26: -58115328
+      dirty_publicbathroom_set_withshadow_27: 954807364
+      dirty_publicbathroom_set_withshadow_28: -1857229465
+      dirty_publicbathroom_set_withshadow_29: -1618560319
+      dirty_publicbathroom_set_withshadow_3: -1350256691
+      dirty_publicbathroom_set_withshadow_30: -92159914
+      dirty_publicbathroom_set_withshadow_31: -1486234923
+      dirty_publicbathroom_set_withshadow_32: -771740450
+      dirty_publicbathroom_set_withshadow_33: 892679187
+      dirty_publicbathroom_set_withshadow_34: -1501100284
+      dirty_publicbathroom_set_withshadow_35: -300989738
+      dirty_publicbathroom_set_withshadow_36: 1069933663
+      dirty_publicbathroom_set_withshadow_37: 202188743
+      dirty_publicbathroom_set_withshadow_38: -1206635018
+      dirty_publicbathroom_set_withshadow_39: 1537634750
+      dirty_publicbathroom_set_withshadow_4: 530522065
+      dirty_publicbathroom_set_withshadow_40: -1198436264
+      dirty_publicbathroom_set_withshadow_41: -941274623
+      dirty_publicbathroom_set_withshadow_42: -1437832932
+      dirty_publicbathroom_set_withshadow_43: 1675419130
+      dirty_publicbathroom_set_withshadow_44: 160074963
+      dirty_publicbathroom_set_withshadow_45: -369632452
+      dirty_publicbathroom_set_withshadow_46: -1941857419
+      dirty_publicbathroom_set_withshadow_47: -1822331681
+      dirty_publicbathroom_set_withshadow_48: -1775405299
+      dirty_publicbathroom_set_withshadow_49: 2059893611
+      dirty_publicbathroom_set_withshadow_5: 366509814
+      dirty_publicbathroom_set_withshadow_50: 676706382
+      dirty_publicbathroom_set_withshadow_51: 838204667
+      dirty_publicbathroom_set_withshadow_52: 732702900
+      dirty_publicbathroom_set_withshadow_53: -286706479
+      dirty_publicbathroom_set_withshadow_54: -75117277
+      dirty_publicbathroom_set_withshadow_55: -487613483
+      dirty_publicbathroom_set_withshadow_56: -2108037868
+      dirty_publicbathroom_set_withshadow_57: -1390535539
+      dirty_publicbathroom_set_withshadow_58: 701298706
+      dirty_publicbathroom_set_withshadow_59: -180444806
+      dirty_publicbathroom_set_withshadow_6: 1007042922
+      dirty_publicbathroom_set_withshadow_60: 1605541241
+      dirty_publicbathroom_set_withshadow_61: 1230543981
+      dirty_publicbathroom_set_withshadow_62: -393960136
+      dirty_publicbathroom_set_withshadow_63: 913143097
+      dirty_publicbathroom_set_withshadow_64: -939542712
+      dirty_publicbathroom_set_withshadow_65: -2038872584
+      dirty_publicbathroom_set_withshadow_66: -1510406225
+      dirty_publicbathroom_set_withshadow_67: 1274020220
+      dirty_publicbathroom_set_withshadow_68: 348052497
+      dirty_publicbathroom_set_withshadow_69: 1961227042
+      dirty_publicbathroom_set_withshadow_7: -345356021
+      dirty_publicbathroom_set_withshadow_70: 502846418
+      dirty_publicbathroom_set_withshadow_71: -33341739
+      dirty_publicbathroom_set_withshadow_72: 1213033294
+      dirty_publicbathroom_set_withshadow_73: 177356238
+      dirty_publicbathroom_set_withshadow_74: -234709022
+      dirty_publicbathroom_set_withshadow_75: 1425623149
+      dirty_publicbathroom_set_withshadow_76: -277548461
+      dirty_publicbathroom_set_withshadow_77: -1657397516
+      dirty_publicbathroom_set_withshadow_78: -1516058264
+      dirty_publicbathroom_set_withshadow_79: 1568496988
+      dirty_publicbathroom_set_withshadow_8: 1183606438
+      dirty_publicbathroom_set_withshadow_80: 1197728855
+      dirty_publicbathroom_set_withshadow_81: -174077858
+      dirty_publicbathroom_set_withshadow_82: 1611529713
+      dirty_publicbathroom_set_withshadow_83: 1739538177
+      dirty_publicbathroom_set_withshadow_84: 1724190780
+      dirty_publicbathroom_set_withshadow_85: 1262359461
+      dirty_publicbathroom_set_withshadow_86: -841453931
+      dirty_publicbathroom_set_withshadow_87: -155724221
+      dirty_publicbathroom_set_withshadow_88: -1147775850
+      dirty_publicbathroom_set_withshadow_89: 1228503269
+      dirty_publicbathroom_set_withshadow_9: -1104761308
+      dirty_publicbathroom_set_withshadow_90: -746243460
+      dirty_publicbathroom_set_withshadow_91: -1577295755
+      dirty_publicbathroom_set_withshadow_92: 1009960274
+      dirty_publicbathroom_set_withshadow_93: 1703584637
+      dirty_publicbathroom_set_withshadow_94: -1606682931
+      dirty_publicbathroom_set_withshadow_95: -215483943
+      dirty_publicbathroom_set_withshadow_96: -1304100972
+      dirty_publicbathroom_set_withshadow_97: 1038420135
+      dirty_publicbathroom_set_withshadow_98: 1024952113
+      dirty_publicbathroom_set_withshadow_99: 115056977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
