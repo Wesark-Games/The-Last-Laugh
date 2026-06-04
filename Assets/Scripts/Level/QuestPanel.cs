@@ -32,6 +32,18 @@ public class QuestPanel : MonoBehaviour
         rectTransform.anchoredPosition = pos;
     }
 
+    private void Start()
+    {
+        // ПРИ ВОЗВРАТЕ ИЛИ ЗАГРУЗКЕ СЕЙВА: выводим актуальный текст
+        if (SaveManager.Instance != null && !string.IsNullOrEmpty(SaveManager.Instance.Data.activeQuestText))
+        {
+            if (questText != null)
+            {
+                questText.text = SaveManager.Instance.Data.activeQuestText;
+            }
+        }
+    }
+
     // ВАРИАНТ 1: Вызов без параметров
     public void ShowQuest()
     {
@@ -41,17 +53,20 @@ public class QuestPanel : MonoBehaviour
 
     // ВАРИАНТ 2: Вызов с текстом
     public void ShowQuest(string newQuestMessage)
-{
-    if (questText != null)
-        questText.text = newQuestMessage;
+    {
+        if (questText != null)
+            questText.text = newQuestMessage;
 
-    // Сохраняем активное задание
-    if (SaveManager.Instance != null)
-        SaveManager.Instance.SetActiveQuest(newQuestMessage);
+        // Сохраняем активное задание в менеджер сохранений
+        if (SaveManager.Instance != null)
+        {
+            // Здесь напрямую пишем в Data, так как в SaveData у тебя поле называется activeQuestText
+            SaveManager.Instance.Data.activeQuestText = newQuestMessage;
+        }
 
-    Slide(targetX);
-    StartAutoHide();
-}
+        Slide(targetX);
+        StartAutoHide();
+    }
 
     // Метод для ручного скрытия панели, если нужно убрать её раньше времени
     public void HideQuest()
@@ -66,7 +81,6 @@ public class QuestPanel : MonoBehaviour
 
     private void StartAutoHide()
     {
-        // Если таймер автоскрытия уже шёл (например, игрок наступил на новый триггер), сбрасываем его
         if (autoHideRoutine != null)
             StopCoroutine(autoHideRoutine);
 
@@ -75,10 +89,7 @@ public class QuestPanel : MonoBehaviour
 
     private IEnumerator AutoHideSequence()
     {
-        // Ждем 10 секунд (или сколько указано в инспекторе)
         yield return new WaitForSeconds(displayDuration);
-        
-        // Плавно уводим панель обратно
         Slide(hiddenX);
         autoHideRoutine = null;
     }
@@ -102,7 +113,7 @@ public class QuestPanel : MonoBehaviour
             time += Time.deltaTime;
             
             float t = time / slideDuration;
-            t = t * t * (3f - 2f * t); // SmoothStep сглаживание
+            t = t * t * (3f - 2f * t); // SmoothStep
 
             rectTransform.anchoredPosition = Vector2.Lerp(startPosition, targetPosition, t);
             yield return null;

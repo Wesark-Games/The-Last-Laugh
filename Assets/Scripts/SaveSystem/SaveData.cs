@@ -30,11 +30,38 @@ namespace Project.SaveSystem
         public string activeQuestText = "";
         public int activeQuestIndex = 0;
         public List<string> completedFlags = new List<string>();
+        public int activeArrowIndex = 0;
 
         // Шляпа
         public bool hasHat = false;
 
-        // ВСЕ NPC НА СЦЕНЕ
+        // NPC
         public List<NPCData> npcs = new List<NPCData>();
+
+        // Данные для стрелок
+        public List<string> arrowIDs = new List<string>();
+        public List<int> arrowIndices = new List<int>();
+
+        // Методы для работы с прогрессом стрелок
+        public int GetArrowProgress(string id)
+        {
+            int index = arrowIDs.IndexOf(id);
+            if (index != -1) return arrowIndices[index];
+            return 0;
+        }
+
+        public void SetArrowProgress(string id, int index)
+        {
+            int foundIndex = arrowIDs.IndexOf(id);
+            if (foundIndex != -1)
+            {
+                arrowIndices[foundIndex] = index;
+            }
+            else
+            {
+                arrowIDs.Add(id);
+                arrowIndices.Add(index);
+            }
+        }
     }
 }

@@ -27,22 +27,22 @@ namespace Project.SaveSystem
         public bool IsLoadingSave { get; set; } = false;
 
         private void Awake()
-        {
-            if (Instance != null && Instance != this)
-            {
-                Destroy(gameObject);
-                return;
-            }
+{
+    if (Instance != null && Instance != this)
+    {
+        Destroy(gameObject);
+        return;
+    }
 
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+    Instance = this;
+    DontDestroyOnLoad(gameObject);
 
-            savePath     = Path.Combine(Application.persistentDataPath, saveFileName);
-            currentData  = new SaveData();
-            saveAnimator = GetComponent<SaveAnimator>();
+    savePath = Path.Combine(Application.persistentDataPath, saveFileName);
+    currentData = new SaveData(); // Оставляем чистым при старте!
+    saveAnimator = GetComponent<SaveAnimator>();
 
-            Debug.Log($"[SaveManager] Путь к сохранению: {savePath}");
-        }
+    Debug.Log($"[SaveManager] Путь к сохранению: {savePath}");
+}
 
         public void StartNewGame(string gameSceneName)
         {
@@ -256,5 +256,30 @@ namespace Project.SaveSystem
                 chars[i] = (char)(chars[i] ^ encryptKey[i % encryptKey.Length]);
             return new string(chars);
         }
+
+        [ContextMenu("Open Save Folder")]
+public void OpenSavePath()
+{
+    // Это работает только в редакторе Unity
+    System.Diagnostics.Process.Start(Application.persistentDataPath);
+    Debug.Log($"[SaveManager] Папка открыта: {Application.persistentDataPath}");
+}
+
+[ContextMenu("Delete Save File")]
+public void DeleteSaveFileFromEditor()
+{
+    if (File.Exists(savePath))
+    {
+        File.Delete(savePath);
+        Debug.Log($"[SaveManager] Файл удален по пути: {savePath}");
+    }
+    else
+    {
+        Debug.LogWarning("[SaveManager] Файл для удаления не найден!");
+    }
+    
+    // Сбрасываем данные в памяти, чтобы текущая сессия стала "чистой"
+    currentData = new SaveData();
+}
     }
 }
