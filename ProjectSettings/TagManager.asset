@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Arrow
   - NPC
+  - Walll
   layers:
   - Default
   - TransparentFX
