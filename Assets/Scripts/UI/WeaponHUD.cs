@@ -19,12 +19,13 @@ namespace Project.UI
         private float _reloadStartTime;
         private float _reloadDuration;
         private bool _isReloading;
+        private int _reserve;
 
         private void Start()
         {
             if (inventory == null) return;
             inventory.OnWeaponChanged += OnWeaponChanged;
-            OnWeaponChanged(inventory.CurrentIndex, inventory.CurrentSlot);
+            OnWeaponChanged();
         }
 
         private void OnDestroy()
@@ -42,31 +43,32 @@ namespace Project.UI
             }
         }
 
-        private void OnWeaponChanged(int index, Project.Player.WeaponInventory.WeaponSlot slot)
+        private void OnWeaponChanged()
         {
             UnsubscribeFromWeapon();
-            if (slot == null) return;
 
             if (weaponIcon != null)
             {
-                weaponIcon.sprite = slot.icon;
-                weaponIcon.enabled = slot.icon != null;
+                weaponIcon.sprite = inventory.CurrentIcon;
+                weaponIcon.enabled = inventory.CurrentIcon != null;
             }
-            if (weaponName != null) weaponName.text = slot.name;
+            if (weaponName != null) weaponName.text = inventory.CurrentName;
             if (reloadText != null) reloadText.gameObject.SetActive(false);
             if (reloadBar != null) reloadBar.gameObject.SetActive(false);
 
-            if (slot.isMelee || slot.weapon == null)
+            if (!inventory.UsingRanged || inventory.RangedWeapon == null)
             {
                 if (ammoText != null) ammoText.text = "∞";
                 return;
             }
 
-            _trackedWeapon = slot.weapon;
+            _trackedWeapon = inventory.RangedWeapon;
             _trackedWeapon.OnAmmoChanged += OnAmmoChanged;
+            _trackedWeapon.OnReserveChanged += OnReserveChanged;
             _trackedWeapon.OnReloadStart += OnReloadStart;
             _trackedWeapon.OnReloadEnd   += OnReloadEnd;
 
+            _reserve = _trackedWeapon.ReserveAmmo;
             OnAmmoChanged(_trackedWeapon.CurrentAmmo, _trackedWeapon.Data.MagazineSize);
         }
 
@@ -74,6 +76,7 @@ namespace Project.UI
         {
             if (_trackedWeapon == null) return;
             _trackedWeapon.OnAmmoChanged -= OnAmmoChanged;
+            _trackedWeapon.OnReserveChanged -= OnReserveChanged;
             _trackedWeapon.OnReloadStart -= OnReloadStart;
             _trackedWeapon.OnReloadEnd   -= OnReloadEnd;
             _trackedWeapon = null;
@@ -81,7 +84,14 @@ namespace Project.UI
 
         private void OnAmmoChanged(int current, int max)
         {
-            if (ammoText != null) ammoText.text = $"{current} / {max}";
+            if (ammoText != null) ammoText.text = $"{current} / {_reserve}";
+        }
+
+        private void OnReserveChanged(int reserve)
+        {
+            _reserve = reserve;
+            if (_trackedWeapon != null)
+                OnAmmoChanged(_trackedWeapon.CurrentAmmo, _trackedWeapon.Data.MagazineSize);
         }
 
         private void OnReloadStart()
