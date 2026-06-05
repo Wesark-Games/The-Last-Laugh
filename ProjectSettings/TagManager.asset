@@ -7,9 +7,6 @@ TagManager:
   - DoorStop
   - SaveUI
   - Enemy
-  - Arrow
-  - NPC
-  - Walll
   layers:
   - Default
   - TransparentFX
@@ -24,8 +21,8 @@ TagManager:
   - NPC
   - Closed Door
   - Checkpoint
-  - BarrierPlayer
-  - 
+  - Wall
+  - Enemy
   - 
   - 
   - 
