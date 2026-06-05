@@ -47,6 +47,7 @@ namespace Project.UI
         private float currentSFXVolume;
         private bool  currentFullscreen;
         private bool  currentVSync;
+        private bool hasChanges;
 
         private bool  initialized;
         private bool  isLoading;
@@ -56,22 +57,19 @@ namespace Project.UI
         // ─── ЖИЗНЕННЫЙ ЦИКЛ ──────────────────────────────────────────────
 
         private void Awake()
-        {
-            // Инициализируем сразу в Awake — до того как PausePanel скроется
-            EnsureInitialized();
+{
+    EnsureInitialized();
+    LoadSettings(); 
 
-            if (settingsPanelObject     != null) settingsPanelObject.SetActive(false);
-            if (confirmationPopupObject != null) confirmationPopupObject.SetActive(false);
-        }
+    if (settingsPanelObject     != null) settingsPanelObject.SetActive(false);
+    if (confirmationPopupObject != null) confirmationPopupObject.SetActive(false);
+}
 
         private void Start()
         {
-            // Start оставляем пустым — всё делает Awake
+            // Пусто
         }
 
-        /// <summary>
-        /// Вызывай перед OpenSettingsPanel если не уверен что инициализация прошла
-        /// </summary>
         public void EnsureInitialized()
         {
             if (initialized) return;
@@ -114,9 +112,12 @@ namespace Project.UI
 
         public void AttemptCloseSettings()
         {
-            if (confirmationPopupObject != null)
+            if (hasChanges)
             {
-                confirmationPopupObject.SetActive(true);
+                if (confirmationPopupObject != null)
+                    confirmationPopupObject.SetActive(true);
+                else
+                    ForceCloseWithoutSaving();
             }
             else
             {
@@ -156,96 +157,121 @@ namespace Project.UI
 
         // ─── ЗАГРУЗКА НАСТРОЕК В UI ───────────────────────────────────────
 
-        private void LoadSettings()
-        {
-            isLoading = true;
+    private void LoadSettings()
+{
+    isLoading = true;
+    hasChanges = false; // Сбрасываем флаг изменений перед загрузкой
 
-            currentMusicVolume  = PlayerPrefs.GetFloat(musicVolumeKey, 0.8f);
-            currentSFXVolume    = PlayerPrefs.GetFloat(sfxVolumeKey,   1.0f);
-            currentFullscreen   = PlayerPrefs.GetInt(fullscreenKey, 1) == 1;
-            currentVSync        = PlayerPrefs.GetInt(vsyncKey, 1) == 1;
-            currentShadowIndex  = PlayerPrefs.GetInt(shadowsKey, 2);
-            currentFPSIndex     = PlayerPrefs.GetInt(fpsLimitKey, 1);
-            currentQualityIndex = PlayerPrefs.GetInt(qualityKey, QualitySettings.GetQualityLevel());
+    currentMusicVolume  = PlayerPrefs.GetFloat(musicVolumeKey, 0.8f);
+    currentSFXVolume    = PlayerPrefs.GetFloat(sfxVolumeKey,   1.0f);
+    currentFullscreen   = PlayerPrefs.GetInt(fullscreenKey, 1) == 1;
+    currentVSync        = PlayerPrefs.GetInt(vsyncKey, 1) == 1;
+    currentShadowIndex  = PlayerPrefs.GetInt(shadowsKey, 2);
+    currentFPSIndex     = PlayerPrefs.GetInt(fpsLimitKey, 1);
+    currentQualityIndex = PlayerPrefs.GetInt(qualityKey, QualitySettings.GetQualityLevel());
 
-            if (musicVolumeSlider  != null) { musicVolumeSlider.value  = currentMusicVolume; UpdateMusicText(currentMusicVolume); }
-            if (sfxVolumeSlider    != null) { sfxVolumeSlider.value    = currentSFXVolume;   UpdateSFXText(currentSFXVolume); }
-            if (fullscreenToggle   != null)   fullscreenToggle.isOn    = currentFullscreen;
-            if (vsyncToggle        != null)   vsyncToggle.isOn         = currentVSync;
-            if (qualityDropdown    != null)   qualityDropdown.value    = currentQualityIndex;
-            if (shadowsDropdown    != null)   shadowsDropdown.value    = currentShadowIndex;
-            if (fpsDropdown        != null)   fpsDropdown.value        = currentFPSIndex;
+    if (musicVolumeSlider  != null) { musicVolumeSlider.value  = currentMusicVolume; UpdateMusicText(currentMusicVolume); }
+    if (sfxVolumeSlider    != null) { sfxVolumeSlider.value    = currentSFXVolume;   UpdateSFXText(currentSFXVolume); }
+    if (fullscreenToggle   != null)   fullscreenToggle.isOn    = currentFullscreen;
+    if (vsyncToggle        != null)   vsyncToggle.isOn         = currentVSync;
+    if (qualityDropdown    != null)   qualityDropdown.value    = currentQualityIndex;
+    if (shadowsDropdown    != null)   shadowsDropdown.value    = currentShadowIndex;
+    if (fpsDropdown        != null)   fpsDropdown.value        = currentFPSIndex;
 
-            if (resolutionDropdown != null && availableResolutions != null)
-            {
-                currentResolutionIndex = PlayerPrefs.GetInt(resolutionKey, 0);
-                currentResolutionIndex = Mathf.Clamp(currentResolutionIndex, 0, availableResolutions.Length - 1);
-                resolutionDropdown.value = currentResolutionIndex;
-            }
+    if (resolutionDropdown != null && availableResolutions != null)
+    {
+        currentResolutionIndex = PlayerPrefs.GetInt(resolutionKey, 0);
+        currentResolutionIndex = Mathf.Clamp(currentResolutionIndex, 0, availableResolutions.Length - 1);
+        resolutionDropdown.value = currentResolutionIndex;
+    }
 
-            // Применяем системные настройки
-            ApplyAllSystemSettings();
-
-            isLoading = false;
-        }
-
+    ApplyAllSystemSettings();
+    
+    isLoading = false;
+    hasChanges = false; // Фиксируем, что изменений точно нет после прыжков UI
+}
         // ─── ПРИВЯЗКА ЛИСТЕНЕРОВ ─────────────────────────────────────────
 
         private void BindControls()
+{
+    musicVolumeSlider?.onValueChanged.AddListener(v =>
+    {
+        // Если настройки сбрасываются кодом (isLoading == true), мы выходим и не меняем громкость
+        if (isLoading) return;
+        
+        currentMusicVolume = v;
+        UpdateMusicText(v);
+        UpdateActiveManagers(v, true); // Меняем звук "на лету" только при ручном перетаскивании
+        hasChanges = true;
+    });
+
+    sfxVolumeSlider?.onValueChanged.AddListener(v =>
+    {
+        if (isLoading) return;
+        
+        currentSFXVolume = v;
+        UpdateSFXText(v);
+        UpdateActiveManagers(v, false);
+        hasChanges = true;
+    });
+
+    qualityDropdown?.onValueChanged.AddListener(v =>
+    {
+        if (isLoading) return;
+        currentQualityIndex = v;
+        hasChanges = true;
+    });
+
+    resolutionDropdown?.onValueChanged.AddListener(v =>
+    {
+        if (isLoading) return;
+        currentResolutionIndex = v;
+        hasChanges = true;
+    });
+
+    shadowsDropdown?.onValueChanged.AddListener(v =>
+    {
+        if (isLoading) return;
+        currentShadowIndex = v;
+        hasChanges = true;
+    });
+
+    fpsDropdown?.onValueChanged.AddListener(v =>
+    {
+        if (isLoading) return;
+        currentFPSIndex = v;
+        hasChanges = true;
+    });
+
+    fullscreenToggle?.onValueChanged.AddListener(v =>
+    {
+        if (isLoading) return;
+        currentFullscreen = v;
+        hasChanges = true;
+    });
+
+    vsyncToggle?.onValueChanged.AddListener(v =>
+    {
+        if (isLoading) return;
+        currentVSync = v;
+        hasChanges = true;
+    });
+}
+
+        // ─── ВСПУМОГАТЕЛЬНЫЙ МЕТОД ДЛЯ УПРАВЛЕНИЯ АУДИО МЕНЕДЖЕРАМИ ──────
+
+        private void UpdateActiveManagers(float value, bool isMusic)
         {
-            musicVolumeSlider?.onValueChanged.AddListener(v =>
+            if (isMusic)
             {
-                if (isLoading) return;
-
-                currentMusicVolume = v;
-                UpdateMusicText(v);
-                AudioManager.Instance?.SetMusicVolume(v);
-            });
-
-            sfxVolumeSlider?.onValueChanged.AddListener(v =>
+                if (MenuAudioManager.Instance != null) MenuAudioManager.Instance.SetMusicVolume(value);
+                if (AudioManager.Instance != null)     AudioManager.Instance.SetMusicVolume(value);
+            }
+            else
             {
-                if (isLoading) return;
-
-                currentSFXVolume = v;
-                UpdateSFXText(v);
-                AudioManager.Instance?.SetSFXVolume(v);
-            });
-
-            qualityDropdown?.onValueChanged.AddListener(v =>
-            {
-                if (isLoading) return;
-                currentQualityIndex = v;
-            });
-
-            resolutionDropdown?.onValueChanged.AddListener(v =>
-            {
-                if (isLoading) return;
-                currentResolutionIndex = v;
-            });
-
-            shadowsDropdown?.onValueChanged.AddListener(v =>
-            {
-                if (isLoading) return;
-                currentShadowIndex = v;
-            });
-
-            fpsDropdown?.onValueChanged.AddListener(v =>
-            {
-                if (isLoading) return;
-                currentFPSIndex = v;
-            });
-
-            fullscreenToggle?.onValueChanged.AddListener(v =>
-            {
-                if (isLoading) return;
-                currentFullscreen = v;
-            });
-
-            vsyncToggle?.onValueChanged.AddListener(v =>
-            {
-                if (isLoading) return;
-                currentVSync = v;
-            });
+                if (MenuAudioManager.Instance != null) MenuAudioManager.Instance.SetSFXVolume(value);
+                if (AudioManager.Instance != null)     AudioManager.Instance.SetSFXVolume(value);
+            }
         }
 
         // ─── СОХРАНЕНИЕ И ПРИМЕНЕНИЕ ─────────────────────────────────────
@@ -265,29 +291,39 @@ namespace Project.UI
             PlayerPrefs.Save();
 
             ApplyAllSystemSettings();
+            hasChanges = false;
         }
 
-        private void ApplyAllSystemSettings()
-        {
-            AudioManager.Instance?.SetMusicVolume(currentMusicVolume);
-            AudioManager.Instance?.SetSFXVolume(currentSFXVolume);
+       private void ApplyAllSystemSettings()
+{
+    if (MenuAudioManager.Instance != null)
+    {
+        MenuAudioManager.Instance.SetMusicVolume(currentMusicVolume);
+        MenuAudioManager.Instance.SetSFXVolume(currentSFXVolume);
+    }
 
-            if (currentQualityIndex >= 0 && currentQualityIndex < QualitySettings.names.Length)
-                QualitySettings.SetQualityLevel(currentQualityIndex, true);
+    if (AudioManager.Instance != null)
+    {
+        AudioManager.Instance.SetMusicVolume(currentMusicVolume);
+        AudioManager.Instance.SetSFXVolume(currentSFXVolume);
+    }
 
-            if (availableResolutions != null &&
-                currentResolutionIndex >= 0 &&
-                currentResolutionIndex < availableResolutions.Length)
-            {
-                Resolution r = availableResolutions[currentResolutionIndex];
-                Screen.SetResolution(r.width, r.height, currentFullscreen);
-            }
+    if (currentQualityIndex >= 0 && currentQualityIndex < QualitySettings.names.Length)
+        QualitySettings.SetQualityLevel(currentQualityIndex, true);
 
-            Screen.fullScreen = currentFullscreen;
-            ApplyShadows(currentShadowIndex);
-            ApplyFPS(currentFPSIndex);
-            QualitySettings.vSyncCount = currentVSync ? 1 : 0;
-        }
+    if (availableResolutions != null &&
+        currentResolutionIndex >= 0 &&
+        currentResolutionIndex < availableResolutions.Length)
+    {
+        Resolution r = availableResolutions[currentResolutionIndex];
+        Screen.SetResolution(r.width, r.height, currentFullscreen);
+    }
+
+    Screen.fullScreen = currentFullscreen;
+    ApplyShadows(currentShadowIndex);
+    ApplyFPS(currentFPSIndex);
+    QualitySettings.vSyncCount = currentVSync ? 1 : 0;
+}
 
         private void ApplyShadows(int index)
         {

@@ -32,6 +32,8 @@ namespace Project.NPC
         private bool dialogueCompleted = false;
 
         [Header("[ СОБЫТИЯ ]")]
+        public UnityEvent onPlayerEnterTrigger; // <-- Добавлено событие входа в зону
+        public UnityEvent onPlayerExitTrigger;  // <-- Добавлено событие выхода из зоны
         public UnityEvent onDialogueStart;
         public UnityEvent onDialogueEnd;
         public UnityEvent onLastLineReached;
@@ -52,7 +54,6 @@ namespace Project.NPC
 
         private void Start()
         {
-            // Ждем один кадр для безопасности, чтобы все синглтоны проснулись
             StartCoroutine(InitNPCDeferred());
         }
 
@@ -60,18 +61,15 @@ namespace Project.NPC
         {
             yield return new WaitForEndOfFrame();
 
-            // Проверяем статус завершения диалога
             if (SaveManager.Instance != null && SaveManager.Instance.GetFlag(npcSaveID + "_talked"))
             {
                 dialogueCompleted = true;
                 isInDialogue = false;
                 playerInRange = false;
                 
-                // Железно включаем движение NPC обратно, чтобы он ходил по траектории
                 if (npcMovement != null)
                     npcMovement.enabled = true;
 
-                // Полностью прячем UI взаимодействия
                 if (interactHint != null) 
                     interactHint.SetActive(false);
                 
@@ -80,8 +78,6 @@ namespace Project.NPC
                     dialogueSystem.ResetDialogue();
                     dialogueSystem.Hide(instant: true);
                     
-                    // ДОПОЛНИТЕЛЬНАЯ ЗАЩИТА: Принудительно выключаем bubbleRoot, 
-                    // чтобы облачко не висело фантомом над головой
                     var field = typeof(DialogueSystem).GetField("bubbleRoot", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
                     if (field != null)
                     {
@@ -124,6 +120,9 @@ namespace Project.NPC
 
             if (interactHint != null)
                 interactHint.SetActive(true);
+
+            // Вызываем событие входа в триггер
+            onPlayerEnterTrigger?.Invoke(); 
         }
 
         private void OnTriggerExit2D(Collider2D other)
@@ -140,6 +139,9 @@ namespace Project.NPC
 
             if (hideOnExit && dialogueSystem != null)
                 dialogueSystem.Hide();
+
+            // Вызываем событие выхода из триггера
+            onPlayerExitTrigger?.Invoke();
         }
 
         // ─── ВЗАИМОДЕЙСТВИЕ ──────────────────────────────────────────────
@@ -183,26 +185,23 @@ namespace Project.NPC
         {
             isInDialogue = false;
 
-            // Возвращаем бег NPC на место
             if (npcMovement != null)
                 npcMovement.enabled = true;
 
             if (dialogueSystem != null)
                 dialogueSystem.Hide();
 
-            // Если пролистали до конца — сохраняем статус
             if (dialogueSystem != null && dialogueSystem.CurrentLineIndex >= GetTotalLines() - 1)
             {
+                bool wasCompleted = dialogueCompleted; 
                 dialogueCompleted = true;
 
                 if (interactHint != null) interactHint.SetActive(false);
 
-                if (SaveManager.Instance != null && !string.IsNullOrEmpty(npcSaveID))
+                if (!wasCompleted && SaveManager.Instance != null && !string.IsNullOrEmpty(npcSaveID))
                 {
                     SaveManager.Instance.SetFlag(npcSaveID + "_talked");
                     
-                    // Чтобы анимация сохранения в углу экрана не зависала из-за замороженного времени,
-                    // возвращаем timeScale в 1 перед сохранением файлов
                     float oldTimeScale = Time.timeScale;
                     Time.timeScale = 1f;
                     

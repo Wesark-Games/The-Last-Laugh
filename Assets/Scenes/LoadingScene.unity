@@ -236,6 +236,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: c08492b21fe744ec88576b98e3b5ca58, type: 3}
   - {fileID: 21300000, guid: e3a6b3139234043a79d777bc1696f142, type: 3}
   - {fileID: 21300000, guid: b6bf39e0df87540faa76c407558ae994, type: 3}
+  - {fileID: 21300000, guid: c1dc6116f5b03429ba0972b2d7daa020, type: 3}
   - {fileID: 21300000, guid: d9a5d2b7fdc474b169da878137083f5e, type: 3}
   audioMixer: {fileID: 24100000, guid: 43f8e1ef11d564a9696d43d55e6bd426, type: 2}
   gameMixerVolumeParam: GameVolume
