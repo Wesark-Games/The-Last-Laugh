@@ -26,7 +26,7 @@ namespace Project.World
         public UnityEvent onActivated;
         // ─────────────────────────────────────────────────────────────────
 
-        private Project.Movement.NPCMovement  npcMovement;
+      private Project.Movement.NPCMovement  npcMovement;
         private Project.NPC.DialogueSystem    dialogueSystem;
         private bool                          isActivated = false;
 
@@ -43,9 +43,6 @@ namespace Project.World
             // Устанавливаем начальное состояние
             if (npcMovement != null)
                 npcMovement.enabled = false;
-
-            if (!string.IsNullOrEmpty(idleDialogueLine) && dialogueSystem != null)
-                dialogueSystem.ShowLine(idleDialogueLine);
 
             // Направление взгляда
             npcMovement?.SetFacingDirection(idleFacingDirection);
@@ -73,6 +70,15 @@ namespace Project.World
         {
             yield return new WaitForSeconds(activationDelay);
             DoActivate();
+        }
+
+public void ShowIdleLine()
+        {
+            // Показываем фразу только если NPC еще не активирован
+            if (!isActivated && !string.IsNullOrEmpty(idleDialogueLine) && dialogueSystem != null)
+            {
+                dialogueSystem.ShowLine(idleDialogueLine);
+            }
         }
 
         private void DoActivate()

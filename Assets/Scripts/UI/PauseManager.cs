@@ -2,28 +2,31 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using TMPro; 
+using Project.SaveSystem;
 
 namespace Project.UI
 {
     public class PauseManager : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
         [Header("[ КЛАВИШИ ]")]
         [SerializeField] private KeyCode pauseKey = KeyCode.Escape;
 
         [Header("[ НАЗВАНИЯ СЦЕН ]")]
-        // [SerializeField] private string mainMenuSceneName = "MainMenu";
         [SerializeField] private AudioMixer audioMixer;
 
         [Header("[ АНИМАЦИЯ ОВЕРЛЕЯ ]")]
         [SerializeField] private float overlayFadeDuration = 0.3f;
-        // ─────────────────────────────────────────────────────────────────
 
         [Header("[ UI ЭЛЕМЕНТЫ ]")]
         [SerializeField] private GameObject pausePanel;
         [SerializeField] private GameObject pauseMenu;
         [SerializeField] private GameObject settingsPanel;
         [SerializeField] private Image      overlayImage;
+
+        [Header("[ ТЕКСТ ЗАДАНИЯ В ПАУЗЕ ]")]
+        [Tooltip("Перетащи сюда текстовый компонент из панели паузы, где должно быть написано задание")]
+        [SerializeField] private TextMeshProUGUI pauseQuestText; 
 
         [Header("[ КНОПКИ ПАУЗЫ ]")]
         [SerializeField] private Button resumeButton;
@@ -55,13 +58,23 @@ namespace Project.UI
         {
             if (pausePanel != null)
             {
-                pauseAnimator   = pausePanel.GetComponent<PauseAnimator>();
-                settingsManager = pausePanel.GetComponentInChildren<SettingsManager>(true);
+                pauseAnimator = pausePanel.GetComponent<PauseAnimator>();
                 pausePanel.SetActive(false);
             }
 
             if (settingsPanel != null)
+            {
+                settingsManager = settingsPanel.GetComponentInChildren<SettingsManager>(true);
+                
+                // Инициализируем настройки и загружаем сохранения
+                settingsManager?.EnsureInitialized();
+                
+                // ИСПРАВЛЕНИЕ РАССИНХРОНА: Принудительно закрываем внутреннее состояние менеджера.
+                // Загрузка сохранений могла активировать триггеры UI, заставив скрипт думать, что он открыт.
+                settingsManager?.AttemptCloseSettings();
+
                 settingsPanel.SetActive(false);
+            }
 
             if (overlayImage != null)
                 SetOverlayAlpha(0f);
@@ -73,26 +86,25 @@ namespace Project.UI
         }
 
         private void Update()
-{
-    if (Input.GetKeyDown(pauseKey))
-    {
-        if (!IsPaused)
         {
-            Pause();
-            return;
-        }
+            if (Input.GetKeyDown(pauseKey))
+            {
+                if (!IsPaused)
+                {
+                    Pause();
+                    return;
+                }
 
-        // Если открыты настройки — передаём Escape в SettingsManager
-        if (settingsPanel != null && settingsPanel.activeSelf)
-        {
-            if (settingsManager != null)
-                settingsManager.AttemptCloseSettings();
-            return;
-        }
+                if (settingsPanel != null && settingsPanel.activeSelf)
+                {
+                    if (settingsManager != null)
+                        settingsManager.AttemptCloseSettings();
+                    return;
+                }
 
-        Resume();
-    }
-}
+                Resume();
+            }
+        }
 
         private void BindButtons()
         {
@@ -100,7 +112,15 @@ namespace Project.UI
             settingsButton?.onClick.AddListener(OpenSettings);
             mainMenuButton?.onClick.AddListener(GoToMainMenu);
             applyButton?.onClick.AddListener(ApplySettings);
-            backButton?.onClick.AddListener(ShowPauseMenu);
+            backButton?.onClick.AddListener(OnBackFromSettings);
+        }
+        
+        private void OnBackFromSettings()
+        {
+            if (settingsManager != null)
+                settingsManager.AttemptCloseSettings();
+            else
+                ShowPauseMenu();
         }
 
         // ─── ПАУЗА ───────────────────────────────────────────────────────
@@ -116,10 +136,11 @@ namespace Project.UI
             IsPaused       = true;
             Time.timeScale = 0f;
 
+            UpdatePauseQuestText();
+
             if (pausePanel != null)
                 pausePanel.SetActive(true);
 
-            // Показываем меню паузы, скрываем настройки
             ShowPauseMenu();
 
             FadeOverlay(0f, 1f);
@@ -149,35 +170,40 @@ namespace Project.UI
             }
         }
 
+        private void UpdatePauseQuestText()
+        {
+            if (pauseQuestText == null) return;
+
+            if (SaveManager.Instance != null && !string.IsNullOrEmpty(SaveManager.Instance.Data.activeQuestText))
+            {
+                pauseQuestText.text = SaveManager.Instance.Data.activeQuestText;
+            }
+            else
+            {
+                pauseQuestText.text = "Нет активных заданий"; 
+            }
+        }
+
         // ─── НАВИГАЦИЯ МЕЖДУ ПАНЕЛЯМИ ─────────────────────────────────────
 
-        /// <summary>
-        /// Показать основное меню паузы
-        /// </summary>
         public void ShowPauseMenu()
         {
             if (pauseMenu     != null) pauseMenu.SetActive(true);
             if (settingsPanel != null) settingsPanel.SetActive(false);
         }
 
-        /// <summary>
-        /// Открыть настройки внутри паузы
-        /// </summary>
         public void OpenSettings()
-{
-    if (settingsManager != null)
-    {
-        // Инициализируем если ещё не было
-        settingsManager.EnsureInitialized();
-        settingsManager.OpenSettingsPanel();
-    }
-    else
-    {
-        // Fallback если settingsManager не найден через GetComponentInChildren
-        if (pauseMenu     != null) pauseMenu.SetActive(false);
-        if (settingsPanel != null) settingsPanel.SetActive(true);
-    }
-}
+        {
+            if (settingsManager != null)
+            {
+                if (pauseMenu != null) pauseMenu.SetActive(false);
+                
+                // ИСПРАВЛЕНИЕ: Явно включаем саму панель перед вызовом логики внутри менеджера
+                if (settingsPanel != null) settingsPanel.SetActive(true);
+                
+                settingsManager.OpenSettingsPanel();
+            }
+        }
 
         private void ApplySettings()
         {
@@ -189,14 +215,12 @@ namespace Project.UI
 
         public void GoToMainMenu()
         {
-            // Жестко тушим все AudioSource на сцене, чтобы они не лезли в меню
             AudioSource[] allAudioSources = FindObjectsByType<AudioSource>(FindObjectsSortMode.None);
             foreach (AudioSource source in allAudioSources)
             {
                 source.Stop();
             }
 
-            // Глушим микшер
             if (audioMixer != null)
             {
                 audioMixer.SetFloat("GameVolume", -80f);
@@ -204,10 +228,8 @@ namespace Project.UI
 
             Time.timeScale = 1f;
 
-            // Запоминаем, что после экрана загрузки надо открыть Главное меню
             Project.UI.LoadingScreenManager.LoadSceneWithoutLoadingItDirectly("MainMenu");
 
-            // Запускаем плавный переход в LoadingScene через твой менеджер
             if (SceneTransitionManager.Instance != null)
                 SceneTransitionManager.Instance.LoadScene("LoadingScene");
             else
