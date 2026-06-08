@@ -1,0 +1,1972 @@
+fileFormatVersion: 2
+guid: d0022dda615ff47daa2ef7c1220391ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9297bcbf98a2742b99939b3694b4f616
+      internalID: 1957001400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 270
+        width: 15
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0517ab8772ced443283c05206401370f
+      internalID: 1141328115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 270
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0dfed40568f4d2a849739ddc789ac7
+      internalID: -1144207951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 290
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ea9541f33a741c1a76e6fc355cc999
+      internalID: 1813732704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 288
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffd8613e2fc649e982715a33f1a9d78
+      internalID: -1921118915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 288
+        width: 4
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19e7f4f78c68439c8333d9ed52c00fa
+      internalID: -1573654832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 128
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31e40846fdee4cd59a2455ca99711e7
+      internalID: -922192585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_7
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 258
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d139e783ad856433d8da1f40601cddd3
+      internalID: -295342012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 259
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25813f2df97f4f7487d3f1f4d333440
+      internalID: 937645563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 259
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39163c45ab1594daea85c7c6746a9fbe
+      internalID: 1190479580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 257
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f04b1b060be243eda789d1f698f9893
+      internalID: -1314543431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 192
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf5fa673574c49679a13ae65be67edf
+      internalID: -1392445423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76838937834b54d1aa7f0a6b26a47a35
+      internalID: 308810187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 192
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d84ff40770ad499985c6c898aa64807
+      internalID: -1759439144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_14
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 242
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5434a42e73547118776bfbee17b3a4
+      internalID: -1867597753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 228
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831574d71462b447db28fac8555b4613
+      internalID: 1284159949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 246
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8736a8384ffa44430a5a2b9e50e2e097
+      internalID: 842879657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d69bb08d8004280a4d4f40d601a916
+      internalID: -18650648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_18
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 192
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524a7c59018ff4b5bbde20cfcadfb321
+      internalID: -588823198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_19
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 192
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a3652d1d3ff4ea4a86296065a19f6e
+      internalID: -391974424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_20
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 192
+        width: 17
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a7022a3786c46e2aa966949684ee97
+      internalID: 906004163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_21
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 192
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d44d4e908fdf45b28b59794f706200d
+      internalID: -2147228426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76acdd9a69c0a45f1869e602a1efeba1
+      internalID: -148694606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_23
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 193
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63010153caed4b1ea31a7c74f79156d
+      internalID: -2119032237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_24
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 209
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbf827729a964eea8da079b10934aa5
+      internalID: 1071356719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_25
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 208
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c3c3e33988b4eaba674ff383bbff11
+      internalID: 1144277953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 202
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4735dfb8a96d42619592543414e820b
+      internalID: 541275587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_27
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 199
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab962ce42f8ee4748a7bde9f02875b36
+      internalID: -1147871704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_28
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 192
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba3fe929966542c19ad90780cd10175
+      internalID: -1947895060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_29
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 212
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307909148195342b0976b3cc42b40061
+      internalID: 1402176227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_30
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ef601ed0edf46309fc436163b22653
+      internalID: 1016316426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_31
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 193
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16ff562fa97744398fcabec00b135e1
+      internalID: -1708673770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_32
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 193
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdc6f945678d4985813b5b4d05cd654
+      internalID: -1386710628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 194
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4130d2726415c4b0a9f1396e39f0b677
+      internalID: -1348841389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_34
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 192
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cf997065d6d477c9ed3efede0f5d2a
+      internalID: 974258659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_35
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 200
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b02378455e154aab847d16d22bed23b
+      internalID: -599795299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_36
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 193
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2322dccc730d94336b5fb616b7ba72f1
+      internalID: 1423973144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_37
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 101
+        width: 164
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3dbbe1e56d34279b54f598d9be24a5
+      internalID: -65889841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_38
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 179
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559bc64763241474d8c33c3d4861fe93
+      internalID: 212609210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_39
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 177
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b8232972dd74a3eace94e6ee6ed0f0
+      internalID: -762881922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_40
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 163
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bab843daca940ba9692867c419031c
+      internalID: 429695822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_41
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 160
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389cf024faef24e90a0c15214ac18bcf
+      internalID: 706812684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 180
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189b687084ecd42bdbe989c254a4b835
+      internalID: 1130288585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_43
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 178
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ec1a5a56ed74bb08be1b09cce541dc
+      internalID: -1238487689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_44
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 168
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b00958c4c12495f8f03607a6e2b918
+      internalID: 228406921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_45
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 175
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a1a9308c67542c990601ca46d426ae
+      internalID: 1766081963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_46
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 162
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc249ac8979ae41bf95299363ef21005
+      internalID: 2080231136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_47
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 163
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56710ef509d96456eae6e6b27f2226a5
+      internalID: 516666688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_48
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4c9b7ee9ada4a0a843241bd4a83ddd
+      internalID: -2090159257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_49
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 162
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2051df2b2a720495cbc71dc4f1057d88
+      internalID: -1810966133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_50
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 161
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdc6e9361561437abfeda34d4c25590
+      internalID: 679439594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 57
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c055e829dbf834ed3ae4f1a1f08fd19d
+      internalID: -2097794759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_52
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 144
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a1636fb573d45938115e05fe53f997
+      internalID: 31487838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_53
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 145
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2aa12ed2228c4c61a0445e41a6ccaec
+      internalID: -1043709347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_54
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 144
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3090ed188a646c6830a6fb563a7298
+      internalID: -415853259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_55
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 130
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36c7c18444ec4fbb9012078859f198e
+      internalID: 117663161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_56
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 130
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13f8d8816ef74d73b7074766d3ba695
+      internalID: 1269668935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_57
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 144
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8844d3618047c4a30b457abd8860ca43
+      internalID: -1698842344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_58
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 130
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b092734a59e1f45dcbcbdc49d86f9d52
+      internalID: 1199024667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_59
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 128
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4063dc849514817bfd7ded22ed09fb
+      internalID: -1089297152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_60
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 129
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecebb564b28034f578bb69c970664820
+      internalID: 2104690337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_61
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 96
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c32721a615f442aa04b1aa0ad953bf
+      internalID: -2039576351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_62
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 132
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36aead9b21ec8488fabcd12966157166
+      internalID: -1032090432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_63
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 103
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c356df0d0f6544cf9d094d9263657db
+      internalID: 23299505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_64
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 112
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b916be3ef874578846aca9dea6fbaf
+      internalID: 2020655973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_65
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 112
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984ed7210d91143739ac4da922baa64b
+      internalID: 777422312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_66
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 98
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1b65c1d68a545febe25057469297ce
+      internalID: -1224337691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_67
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 80
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46150e08eb1b844a6bbf969807395570
+      internalID: -42538636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_68
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 164
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372408b5b04fe44b5ad9ba419903f158
+      internalID: -895206292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_69
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 81
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f66a19123d9742e0aa0e12e28bceeaa
+      internalID: -1077680359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_70
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 80
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9676744dfa23248698deea52752e2960
+      internalID: -996497240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_71
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 65
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ac9a0cef7184dfc91baecb84b13fe9
+      internalID: 728916187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_72
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 80
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9cad289039b4125bcd6de35cc85a73
+      internalID: 484858329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_73
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 66
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fac7579d64f141ec8073a857943f156
+      internalID: -629701775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_74
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 66
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856c5a97218944b4fb0eb868b5ac240f
+      internalID: -1004010782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_75
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 66
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2aa9170ee6844ddbe347d3627680ac
+      internalID: 1081622994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_76
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 33
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbd7eb3e18d34bc2bf60d0b09bc557e
+      internalID: 610380816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_77
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b15bab85092d4f0abdcf0f6683eb9a2
+      internalID: 2104985728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 270
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf7d346a71504510b9414a879991272
+      internalID: 1067626704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clean_publicbathroom_set_withshadow_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 270
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7337307da96f046f69ea0c19e57d0336
+      internalID: -1767425839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d25d2dbfb58eb42698ac55fe83303c89
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      clean_publicbathroom_set_withshadow_0: 1957001400
+      clean_publicbathroom_set_withshadow_1: 1141328115
+      clean_publicbathroom_set_withshadow_10: -1314543431
+      clean_publicbathroom_set_withshadow_11: -1392445423
+      clean_publicbathroom_set_withshadow_12: 308810187
+      clean_publicbathroom_set_withshadow_13: -1759439144
+      clean_publicbathroom_set_withshadow_14: -1867597753
+      clean_publicbathroom_set_withshadow_15: 1284159949
+      clean_publicbathroom_set_withshadow_16: 842879657
+      clean_publicbathroom_set_withshadow_17: -18650648
+      clean_publicbathroom_set_withshadow_18: -588823198
+      clean_publicbathroom_set_withshadow_19: -391974424
+      clean_publicbathroom_set_withshadow_2: -1144207951
+      clean_publicbathroom_set_withshadow_20: 906004163
+      clean_publicbathroom_set_withshadow_21: -2147228426
+      clean_publicbathroom_set_withshadow_22: -148694606
+      clean_publicbathroom_set_withshadow_23: -2119032237
+      clean_publicbathroom_set_withshadow_24: 1071356719
+      clean_publicbathroom_set_withshadow_25: 1144277953
+      clean_publicbathroom_set_withshadow_26: 541275587
+      clean_publicbathroom_set_withshadow_27: -1147871704
+      clean_publicbathroom_set_withshadow_28: -1947895060
+      clean_publicbathroom_set_withshadow_29: 1402176227
+      clean_publicbathroom_set_withshadow_3: 1813732704
+      clean_publicbathroom_set_withshadow_30: 1016316426
+      clean_publicbathroom_set_withshadow_31: -1708673770
+      clean_publicbathroom_set_withshadow_32: -1386710628
+      clean_publicbathroom_set_withshadow_33: -1348841389
+      clean_publicbathroom_set_withshadow_34: 974258659
+      clean_publicbathroom_set_withshadow_35: -599795299
+      clean_publicbathroom_set_withshadow_36: 1423973144
+      clean_publicbathroom_set_withshadow_37: -65889841
+      clean_publicbathroom_set_withshadow_38: 212609210
+      clean_publicbathroom_set_withshadow_39: -762881922
+      clean_publicbathroom_set_withshadow_4: -1921118915
+      clean_publicbathroom_set_withshadow_40: 429695822
+      clean_publicbathroom_set_withshadow_41: 706812684
+      clean_publicbathroom_set_withshadow_42: 1130288585
+      clean_publicbathroom_set_withshadow_43: -1238487689
+      clean_publicbathroom_set_withshadow_44: 228406921
+      clean_publicbathroom_set_withshadow_45: 1766081963
+      clean_publicbathroom_set_withshadow_46: 2080231136
+      clean_publicbathroom_set_withshadow_47: 516666688
+      clean_publicbathroom_set_withshadow_48: -2090159257
+      clean_publicbathroom_set_withshadow_49: -1810966133
+      clean_publicbathroom_set_withshadow_5: -1573654832
+      clean_publicbathroom_set_withshadow_50: 679439594
+      clean_publicbathroom_set_withshadow_51: -2097794759
+      clean_publicbathroom_set_withshadow_52: 31487838
+      clean_publicbathroom_set_withshadow_53: -1043709347
+      clean_publicbathroom_set_withshadow_54: -415853259
+      clean_publicbathroom_set_withshadow_55: 117663161
+      clean_publicbathroom_set_withshadow_56: 1269668935
+      clean_publicbathroom_set_withshadow_57: -1698842344
+      clean_publicbathroom_set_withshadow_58: 1199024667
+      clean_publicbathroom_set_withshadow_59: -1089297152
+      clean_publicbathroom_set_withshadow_6: -922192585
+      clean_publicbathroom_set_withshadow_60: 2104690337
+      clean_publicbathroom_set_withshadow_61: -2039576351
+      clean_publicbathroom_set_withshadow_62: -1032090432
+      clean_publicbathroom_set_withshadow_63: 23299505
+      clean_publicbathroom_set_withshadow_64: 2020655973
+      clean_publicbathroom_set_withshadow_65: 777422312
+      clean_publicbathroom_set_withshadow_66: -1224337691
+      clean_publicbathroom_set_withshadow_67: -42538636
+      clean_publicbathroom_set_withshadow_68: -895206292
+      clean_publicbathroom_set_withshadow_69: -1077680359
+      clean_publicbathroom_set_withshadow_7: -295342012
+      clean_publicbathroom_set_withshadow_70: -996497240
+      clean_publicbathroom_set_withshadow_71: 728916187
+      clean_publicbathroom_set_withshadow_72: 484858329
+      clean_publicbathroom_set_withshadow_73: -629701775
+      clean_publicbathroom_set_withshadow_74: -1004010782
+      clean_publicbathroom_set_withshadow_75: 1081622994
+      clean_publicbathroom_set_withshadow_76: 610380816
+      clean_publicbathroom_set_withshadow_77: 2104985728
+      clean_publicbathroom_set_withshadow_78: 1067626704
+      clean_publicbathroom_set_withshadow_79: -1767425839
+      clean_publicbathroom_set_withshadow_8: 937645563
+      clean_publicbathroom_set_withshadow_9: 1190479580
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
