@@ -17,7 +17,7 @@ public class AmbientZone : MonoBehaviour
     // Проверяем, существует ли менеджер и не уничтожен ли он
     if (AudioManager.Instance != null && AudioManager.Instance.gameObject.activeInHierarchy)
     {
-        // Передаем нужное состояние (например false, если вышли наружу)
+        // Передаем нужное состояние 
         AudioManager.Instance.ChangeZone(false); 
     }
 }

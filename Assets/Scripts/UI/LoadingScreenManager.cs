@@ -9,7 +9,6 @@ namespace Project.UI
 {
     public class LoadingScreenManager : MonoBehaviour
     {
-        // ─── STATIC CONTROL ──────────────────────────────────────────────────
         private static string targetSceneToLoad = "Prologue";
 
         public static void LoadScene(string sceneName)
@@ -22,7 +21,7 @@ namespace Project.UI
         {
             targetSceneToLoad = sceneName;
         }
-        // ─────────────────────────────────────────────────────────────────────
+
 
         [Header("[ МИНИМАЛЬНОЕ ВРЕМЯ ЗАГРУЗКИ ]")]
         [SerializeField] private float minimumLoadTime = 2f;

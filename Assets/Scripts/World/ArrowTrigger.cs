@@ -19,9 +19,7 @@ namespace Project.World
                 triggered = true;
                 mainHider.AdvanceSequence(); // Прямой приказ менеджеру переключить шаг
                 
-                // Если скрипт висит прямо на стрелочке, выключать объект кнопкой SetActive нельзя, 
-                // иначе корутина затухания в ArrowHider сломается. 
-                // Поэтому просто отключаем этот триггер, чтобы он не срабатывал дважды.
+                
                 if (TryGetComponent<Collider2D>(out var col))
                 {
                     col.enabled = false;

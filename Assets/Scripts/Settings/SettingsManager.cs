@@ -6,7 +6,6 @@ namespace Project.UI
 {
     public class SettingsManager : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
         [Header("[ КЛЮЧИ PLAYERPREFS ]")]
         [SerializeField] private string musicVolumeKey = "MusicVolume";
         [SerializeField] private string sfxVolumeKey   = "SFXVolume";
@@ -16,7 +15,6 @@ namespace Project.UI
         [SerializeField] private string shadowsKey     = "ShadowQuality";
         [SerializeField] private string fpsLimitKey    = "FPSLimit";
         [SerializeField] private string vsyncKey       = "VSync";
-        // ─────────────────────────────────────────────────────────────────
 
         [Header("[ ЗВУК ]")]
         [SerializeField] private Slider          musicVolumeSlider;
@@ -54,7 +52,6 @@ namespace Project.UI
 
         private readonly int[] fpsOptions = { 30, 60, 120, 144, 240, 0 };
 
-        // ─── ЖИЗНЕННЫЙ ЦИКЛ ──────────────────────────────────────────────
 
         private void Awake()
 {
@@ -92,7 +89,6 @@ namespace Project.UI
             }
         }
 
-        // ─── ОТКРЫТИЕ / ЗАКРЫТИЕ ─────────────────────────────────────────
 
         public void OpenSettingsPanel()
         {
@@ -155,7 +151,7 @@ namespace Project.UI
                 pauseMenuObject.SetActive(true);
         }
 
-        // ─── ЗАГРУЗКА НАСТРОЕК В UI ───────────────────────────────────────
+        // Загрузка настроек в UI
 
     private void LoadSettings()
 {
@@ -190,18 +186,17 @@ namespace Project.UI
     isLoading = false;
     hasChanges = false; // Фиксируем, что изменений точно нет после прыжков UI
 }
-        // ─── ПРИВЯЗКА ЛИСТЕНЕРОВ ─────────────────────────────────────────
+        // Привязка листенеров
 
         private void BindControls()
 {
     musicVolumeSlider?.onValueChanged.AddListener(v =>
     {
-        // Если настройки сбрасываются кодом (isLoading == true), мы выходим и не меняем громкость
         if (isLoading) return;
         
         currentMusicVolume = v;
         UpdateMusicText(v);
-        UpdateActiveManagers(v, true); // Меняем звук "на лету" только при ручном перетаскивании
+        UpdateActiveManagers(v, true); 
         hasChanges = true;
     });
 
@@ -258,7 +253,7 @@ namespace Project.UI
     });
 }
 
-        // ─── ВСПУМОГАТЕЛЬНЫЙ МЕТОД ДЛЯ УПРАВЛЕНИЯ АУДИО МЕНЕДЖЕРАМИ ──────
+        // Вспомогательные методы
 
         private void UpdateActiveManagers(float value, bool isMusic)
         {
@@ -274,7 +269,6 @@ namespace Project.UI
             }
         }
 
-        // ─── СОХРАНЕНИЕ И ПРИМЕНЕНИЕ ─────────────────────────────────────
 
         public void ApplyAndSavePublic() => ApplyAndSave();
 
@@ -356,7 +350,6 @@ namespace Project.UI
                 Application.targetFrameRate = fpsOptions[index];
         }
 
-        // ─── ДРОПДАУНЫ ───────────────────────────────────────────────────
 
         private void SetupResolutions()
         {
@@ -426,7 +419,6 @@ namespace Project.UI
             fpsDropdown.RefreshShownValue();
         }
 
-        // ─── ТЕКСТ ───────────────────────────────────────────────────────
 
         private void UpdateMusicText(float v)
         {

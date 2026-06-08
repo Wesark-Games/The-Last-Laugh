@@ -39,7 +39,7 @@ namespace Project.Player
         private static readonly int DirYHash     = Animator.StringToHash("DirY");
         private static readonly int IsMovingHash  = Animator.StringToHash("IsMoving");
 
-        // Свойство для перехвата управления внешними скриптами (автопилот)
+        // Свойство для перехвата управления внешними скриптами 
         public Vector2 CustomInput { get; set; } = Vector2.zero;
 
         private void Awake()
@@ -87,9 +87,7 @@ namespace Project.Player
             Move();
         }
 
-        // ─── ЗВУКИ ШАГОВ И ОПРЕДЕЛЕНИЕ ПОВЕРХНОСТИ ────────────────────────
-
-     // ─── ЗВУКИ ШАГОВ И ОПРЕДЕЛЕНИЕ ПОВЕРХНОСТИ ────────────────────────
+    
 
         private void HandleFootsteps()
 {
@@ -105,7 +103,6 @@ namespace Project.Player
     else
     {
         stepTimer = 0f;
-        // PlayOneShot не нужно останавливать — звук доиграет сам
     }
 }
 
@@ -118,7 +115,6 @@ namespace Project.Player
 
     AudioClip clip = currentClips[Random.Range(0, currentClips.Length)];
 
-    // Громкость контролирует AudioMixer через группу SFX
     audioSource.PlayOneShot(clip, stepVolume);
 }
 
@@ -137,17 +133,17 @@ namespace Project.Player
                 if (hitLayer == tileLayerMask) return "Tile";
             }
 
-            return "Wood"; // Возвращаем дерево, если игрок оказался вне настроенных коллайдеров пола
+            return "Wood"; 
         }
 
-        // Вызови этот метод в Unity редакторе (OnDrawGizmos), чтобы визуально видеть круг проверки под игроком
+        
         private void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.green;
             Gizmos.DrawWireSphere(transform.position, 0.15f);
         }
 
-        // ─── ВВОД ────────────────────────────────────────────────────────
+      
 
         private void ReadInput()
         {
@@ -171,7 +167,7 @@ namespace Project.Player
                 moveInput.Normalize();
         }
 
-        // ─── НАПРАВЛЕНИЕ ─────────────────────────────────────────────────
+        // Направление
 
         private Vector2 GetDirection8Way(Vector2 direction)
         {
@@ -190,7 +186,7 @@ namespace Project.Player
             else                                         return new Vector2( 1f,  0f);
         }
 
-        // ─── ДВИЖЕНИЕ ────────────────────────────────────────────────────
+        // Движение
 
         private void Move()
         {
@@ -207,7 +203,7 @@ namespace Project.Player
             UpdateAnimation(currentVelocity);
         }
 
-        // ─── АНИМАЦИЯ ────────────────────────────────────────────────────
+        // Анимация
 
         private void UpdateAnimation(Vector2 velocity)
         {
@@ -246,7 +242,7 @@ namespace Project.Player
             animator.SetBool(IsMovingHash, isMoving);
         }
 
-        // ─── ПУБЛИЧНЫЕ МЕТОДЫ ─────────────────────────────────────────────
+        // Публичные методы
 
         public void SetMovementEnabled(bool enabled)
         {

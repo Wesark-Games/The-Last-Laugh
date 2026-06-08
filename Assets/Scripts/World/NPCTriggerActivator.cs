@@ -3,13 +3,10 @@ using UnityEngine.Events;
 
 namespace Project.World
 {
-    /// <summary>
-    /// Запускает NPC после определённого события.
-    /// Вешай на NPC. Вызывай Activate() из диалога, триггера или другого скрипта.
-    /// </summary>
+   
     public class NPCTriggerActivator : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
+        
         [Header("[ АКТИВАЦИЯ ]")]
         [Tooltip("Тип движения который запустится после активации")]
         [SerializeField] private string movementTypeOnActivate = "Waypoints";
@@ -24,7 +21,7 @@ namespace Project.World
 
         [Header("[ СОБЫТИЯ ]")]
         public UnityEvent onActivated;
-        // ─────────────────────────────────────────────────────────────────
+      
 
       private Project.Movement.NPCMovement  npcMovement;
         private Project.NPC.DialogueSystem    dialogueSystem;
@@ -40,18 +37,15 @@ namespace Project.World
 
         private void Start()
         {
-            // Устанавливаем начальное состояние
+           
             if (npcMovement != null)
                 npcMovement.enabled = false;
 
-            // Направление взгляда
+           
             npcMovement?.SetFacingDirection(idleFacingDirection);
         }
 
-        /// <summary>
-        /// Активировать NPC. Вызывай из onLastLineReached в NPCInteraction
-        /// или из любого другого события.
-        /// </summary>
+        
         public void Activate()
         {
             if (isActivated) return;

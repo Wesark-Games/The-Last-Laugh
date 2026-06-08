@@ -3,15 +3,10 @@ using System.Collections;
 
 namespace Project.SaveSystem
 {
-    /// <summary>
-    /// Анимация сохранения в углу экрана.
-    /// Автоматически находит панели сохранения на текущей активной сцене.
-    /// </summary>
     public class SaveAnimator : MonoBehaviour
     {
         [Header("[ НАСТРОЙКИ ТАЙМИНГОВ ]")]
         [SerializeField] private float fadeInDuration  = 0.3f;
-        [Tooltip("Сколько секунд кролик будет прыгать из шляпы")]
         [SerializeField] private float holdDuration    = 2.5f;
         [SerializeField] private float fadeOutDuration = 0.5f;
 
@@ -20,10 +15,7 @@ namespace Project.SaveSystem
         private GameObject currentSavePanel;
         private GameObject currentHatObject;
 
-        /// <summary>
-        /// Этот метод вызывается из SaveManager перед началом анимации, 
-        /// чтобы принудительно найти UI сохранения на загруженной сцене.
-        /// </summary>
+    
         public void FindSceneUIReferences()
         {
             // Находим абсолютно все CanvasGroup на сцене, даже выключенные
@@ -73,7 +65,7 @@ namespace Project.SaveSystem
             Animator anim = currentHatObject.GetComponent<Animator>();
             if (anim != null)
             {
-                // ИГНОРИРОВАНИЕ ПАУЗЫ ДЛЯ АНИМАТОРА:
+        
                 // Заставляем сам компонент Animator обновляться независимо от Time.timeScale
                 anim.updateMode = AnimatorUpdateMode.UnscaledTime;
                 anim.Play(0, -1, 0f);
@@ -82,7 +74,7 @@ namespace Project.SaveSystem
             if (currentGroup != null)
                 yield return StartCoroutine(FadeTo(1f, fadeInDuration));
 
-            // ИСПРАВЛЕНИЕ: Ждем в реальном времени, даже если игра на паузе
+        
             yield return new WaitForSecondsRealtime(holdDuration);
 
             if (currentGroup != null)
@@ -103,7 +95,7 @@ namespace Project.SaveSystem
 
             while (t < 1f)
             {
-                // ИСПРАВЛЕНИЕ: Используем unscaledDeltaTime вместо обычного deltaTime
+        
                 t += Time.unscaledDeltaTime / duration;
                 currentGroup.alpha = Mathf.Lerp(start, target, t);
                 yield return null;
@@ -112,10 +104,7 @@ namespace Project.SaveSystem
             currentGroup.alpha = target;
         }
 
-        /// <summary>
-        /// Принудительно останавливает анимацию и прячет шляпу.
-        /// Вызывается при старте катсцен или открытии настроек.
-        /// </summary>
+      
         public void ForceHide()
         {
             if (animCoroutine != null)
@@ -124,7 +113,7 @@ namespace Project.SaveSystem
                 animCoroutine = null;
             }
 
-            // Находим ссылки, если они ещё не были привязаны
+           
             if (currentSavePanel == null || currentHatObject == null)
             {
                 FindSceneUIReferences();

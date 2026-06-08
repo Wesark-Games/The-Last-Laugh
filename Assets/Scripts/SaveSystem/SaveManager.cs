@@ -9,13 +9,10 @@ namespace Project.SaveSystem
 {
     public class SaveManager : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
         [Header("[ НАСТРОЙКИ ]")]
         [SerializeField] private string saveFileName = "savegame.json";
-        [Tooltip("Шифровать файл сохранения (защита от читерства)")]
         [SerializeField] private bool   encryptSave  = false;
         [SerializeField] private string encryptKey   = "noir_clown_2024";
-        // ─────────────────────────────────────────────────────────────────
 
         public static SaveManager Instance { get; private set; }
 
@@ -38,7 +35,7 @@ namespace Project.SaveSystem
     DontDestroyOnLoad(gameObject);
 
     savePath = Path.Combine(Application.persistentDataPath, saveFileName);
-    currentData = new SaveData(); // Оставляем чистым при старте!
+    currentData = new SaveData(); // Оставляем чистым при старте
     saveAnimator = GetComponent<SaveAnimator>();
 
     Debug.Log($"[SaveManager] Путь к сохранению: {savePath}");
@@ -127,7 +124,7 @@ namespace Project.SaveSystem
         {
             if (currentData == null) return;
 
-            // 1. Восстанавливаем позицию игрока
+            // Восстанавливаем позицию игрока
             GameObject player = GameObject.FindWithTag("Player");
             if (player != null)
             {
@@ -143,7 +140,7 @@ namespace Project.SaveSystem
                 }
             }
 
-            // 2. Восстанавливаем позиции и состояние ВСЕХ NPC со сцены
+            // Восстанавливаем позиции и состояние NPC со сцены
             NPCMovement[] sceneNpcs = FindObjectsByType<NPCMovement>(FindObjectsSortMode.None);
             foreach (var npc in sceneNpcs)
             {
@@ -155,7 +152,7 @@ namespace Project.SaveSystem
                 }
             }
 
-            // 3. Восстанавливаем активное задание
+            // Восстанавливаем активное задание
             if (!string.IsNullOrEmpty(currentData.activeQuestText))
             {
                 QuestPanel questPanel = FindFirstObjectByType<QuestPanel>();
@@ -209,7 +206,7 @@ namespace Project.SaveSystem
                 currentData.playerY = player.transform.position.y;
             }
 
-            // Запись ВСЕХ NPC
+            // Запись NPC
             currentData.npcs.Clear();
             NPCMovement[] sceneNpcs = FindObjectsByType<NPCMovement>(FindObjectsSortMode.None);
             foreach (var npc in sceneNpcs)
@@ -278,7 +275,7 @@ public void DeleteSaveFileFromEditor()
         Debug.LogWarning("[SaveManager] Файл для удаления не найден!");
     }
     
-    // Сбрасываем данные в памяти, чтобы текущая сессия стала "чистой"
+    // Сбрасываем данные в памяти, чтобы текущая сессия стала чистой
     currentData = new SaveData();
 }
     }

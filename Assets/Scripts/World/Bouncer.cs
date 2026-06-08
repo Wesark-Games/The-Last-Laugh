@@ -12,7 +12,6 @@ public class AutopilotBarrier : MonoBehaviour
     [TextArea(3, 5)]
     public string message          = "Туда нельзя.";
     public float  fadeDuration     = 0.3f;
-    [Tooltip("Минимальное время показа текста в секундах")]
     public float  minShowDuration  = 2f;
 
     [Header("[ АВТОПИЛОТ ]")]
@@ -41,7 +40,7 @@ public class AutopilotBarrier : MonoBehaviour
 
         if (player != null && rb != null && autopilotRoutine == null)
         {
-            // Направление отката — противоположно движению
+            // Направление отката 
             Vector2 rollback = -rb.linearVelocity.normalized;
 
             if (rollback.sqrMagnitude < 0.01f)
@@ -64,18 +63,18 @@ public class AutopilotBarrier : MonoBehaviour
     {
         if (!collision.CompareTag("Player")) return;
 
-        // Скрываем текст не сразу а через minShowDuration
+       
         if (hideRoutine != null)
             StopCoroutine(hideRoutine);
 
         hideRoutine = StartCoroutine(HideAfterDelay());
     }
 
-    // ─── АВТОПИЛОТ ────────────────────────────────────────────────────────
+   
 
     private IEnumerator Autopilot(Project.Player.PlayerController player, Rigidbody2D rb, Vector2 direction)
     {
-        // Отключаем управление
+       
         player.SetMovementEnabled(false);
 
         // Устанавливаем направление взгляда в сторону отката
@@ -118,7 +117,7 @@ public class AutopilotBarrier : MonoBehaviour
         autopilotRoutine = null;
     }
 
-    // ─── ТЕКСТ ────────────────────────────────────────────────────────────
+    
 
     private void ShowText()
     {
@@ -164,8 +163,7 @@ public class AutopilotBarrier : MonoBehaviour
         fadeRoutine = null;
     }
 
-    // ─── УТИЛИТЫ ──────────────────────────────────────────────────────────
-
+    
     private Vector2 GetCardinalDirection(Vector2 direction)
     {
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;

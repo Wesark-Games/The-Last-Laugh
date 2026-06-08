@@ -6,10 +6,8 @@ public class LightCulling : MonoBehaviour
     private Camera cam;
     
     [Header("Настройки оптимизации")]
-    [Tooltip("Как часто проверять свет (в секундах). Не нужно проверять каждый кадр.")]
     public float checkInterval = 0.2f;
     
-    [Tooltip("Дополнительный запасной отступ за пределами экрана, чтобы свет не включался прямо на глазах у игрока")]
     public float bufferDistance = 5f;
 
     private Light2D[] allLights;
@@ -32,7 +30,6 @@ public class LightCulling : MonoBehaviour
         }
     }
 
-    // Метод можно вызывать вручную, если ты спавнишь свет во время игры
     public void FindAllLights()
     {
         allLights = Object.FindObjectsByType<Light2D>(FindObjectsSortMode.None);
@@ -66,13 +63,10 @@ public class LightCulling : MonoBehaviour
             bool isVisible = (lightPos.x >= minX && lightPos.x <= maxX &&
                               lightPos.y >= minY && lightPos.y <= maxY);
 
-            // Если свет должен быть выключен, но он включен (или наоборот) — меняем состояние
             if (light.enabled != isVisible)
             {
                 light.enabled = isVisible;
 
-                // ДОПОЛНИТЕЛЬНО: Если на объекте со светом висят твои скрипты мерцания 
-                // (TvLightFlicker или FlickeringLight), отключаем и их, чтобы не тратить процессорное время
                 var flickerScript1 = light.GetComponent<MonoBehaviour>(); // Ищет любые кастомные скрипты
                 if (flickerScript1 != null && flickerScript1 != this)
                 {

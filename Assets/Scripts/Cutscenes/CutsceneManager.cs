@@ -96,11 +96,9 @@ namespace Project.Visuals
         [SerializeField] private bool  pauseGameDuringCutscene = true;
         [SerializeField] private bool  playOnStart             = false;
         [SerializeField] private float startDelay              = 0f;
-        [Tooltip("Нужно ли глушить фоновые звуки игры при старте этой катсцены?")]
         [SerializeField] private bool  muteGameAudioOnStart    = true;
 
         [Header("[ СОХРАНЕНИЕ КАТСЦЕНЫ ]")]
-        [Tooltip("Уникальный ID катсцены. Если он сохранен, катсцена будет пропущена при старте сцены.")]
         [SerializeField] private string cutsceneSaveID = "prologue_intro";
 
         [Header("[ СОБЫТИЯ ]")]
@@ -113,8 +111,6 @@ namespace Project.Visuals
 
         private void Awake()
         {
-            // Принудительно открываем игровой микшер на полную громкость при старте уровня,
-            // чтобы сбросить глушение от прошлых сессий или меню
             if (audioMixer != null)
             {
                 audioMixer.SetFloat(gameMixerVolumeParam, 0f);
@@ -157,7 +153,6 @@ namespace Project.Visuals
                 onSequenceComplete?.Invoke();
                 if (fadeOverlayImage != null) fadeOverlayImage.gameObject.SetActive(false);
                 
-                // Раскрываем микшер при авто-пропуске уже завершенной катсцены
                 if (audioMixer != null)
                 {
                     audioMixer.SetFloat(gameMixerVolumeParam, 0f);
@@ -181,7 +176,7 @@ namespace Project.Visuals
             }
         }
 
-        // ─── ПУБЛИЧНЫЕ МЕТОДЫ ─────────────────────────────────────────────
+        // Публичные методы
 
         public void Play()
         {
@@ -219,7 +214,6 @@ namespace Project.Visuals
             }
         }
 
-        // ─── ПОСЛЕДОВАТЕЛЬНОСТЬ ──────────────────────────────────────────
 
         private IEnumerator RunWithDelay()
         {
@@ -260,7 +254,7 @@ namespace Project.Visuals
                 yield return StartCoroutine(Finish());
         }
 
-        // ─── ВЫПОЛНЕНИЕ ШАГА ─────────────────────────────────────────────
+        // Выполнение шага
 
         private IEnumerator ExecuteStep(CutsceneStep step)
         {
@@ -408,7 +402,7 @@ namespace Project.Visuals
             }
         }
 
-        // ─── ДИАЛОГ ──────────────────────────────────────────────────────
+        // Диалог (прототип)
 
         private IEnumerator ShowDialogueRoutine(CutsceneStep step)
         {
@@ -444,7 +438,7 @@ namespace Project.Visuals
             }
         }
 
-        // ─── ФИНАЛ ───────────────────────────────────────────────────────
+        // Финал
 
         private IEnumerator Finish()
         {
@@ -478,7 +472,7 @@ namespace Project.Visuals
                 onSequenceComplete?.Invoke();
         }
 
-        // ─── ПРОПУСК ─────────────────────────────────────────────────────
+        // Пропуск
 
         private IEnumerator SkipToEndRoutine()
         {
@@ -536,7 +530,6 @@ namespace Project.Visuals
                 onSequenceComplete?.Invoke();
         }
 
-        // ─── КНОПКА ПРОПУСКА ─────────────────────────────────────────────
 
         private IEnumerator ShowSkipTextDelayed()
         {
@@ -548,7 +541,7 @@ namespace Project.Visuals
             }
         }
 
-        // ─── ИГРОК ───────────────────────────────────────────────────────
+        // Игрок
 
         private void FindPlayerController()
         {
@@ -571,17 +564,14 @@ namespace Project.Visuals
             {
                 playerController.enabled = enabled;
 
-                // --- ДОБАВЛЕННЫЙ КОД ДЛЯ СБРОСА ДВИЖЕНИЯ ---
                 GameObject playerGO = playerController.gameObject;
                 
-                // 1. Останавливаем физику (инерцию), чтобы персонаж не скользил
                 Rigidbody2D rb = playerGO.GetComponent<Rigidbody2D>();
                 if (rb != null)
                 {
                     rb.linearVelocity = Vector2.zero;
                 }
 
-                // 2. Сбрасываем анимацию бега (опционально)
                 Animator anim = playerGO.GetComponent<Animator>();
                 if (anim != null)
                 {
@@ -590,7 +580,7 @@ namespace Project.Visuals
             }
         }
 
-        // ─── АУДИО ───────────────────────────────────────────────────────
+        // Аудио
 
         private void PlayCutsceneMusic(AudioClip clip, float volume, bool loop)
         {
@@ -642,7 +632,7 @@ namespace Project.Visuals
             audioMixer.SetFloat(gameMixerVolumeParam, 0f);
         }
 
-        // ─── КАМЕРА ──────────────────────────────────────────────────────
+        // Камера
 
         private IEnumerator ShakeCameraRoutine(float duration, float strength)
         {
@@ -673,7 +663,7 @@ namespace Project.Visuals
             gameCamera.orthographicSize = targetSize;
         }
 
-        // ─── АНИМАЦИИ ────────────────────────────────────────────────────
+        // Анимации
 
         private IEnumerator FadeOverlay(float from, float to, float duration)
         {
@@ -733,7 +723,6 @@ namespace Project.Visuals
             go.transform.localPosition = originalPos;
         }
 
-        // ─── УТИЛИТЫ ─────────────────────────────────────────────────────
 
         private IEnumerator WaitUnscaled(float seconds)
         {

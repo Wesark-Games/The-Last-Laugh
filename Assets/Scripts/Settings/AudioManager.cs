@@ -42,7 +42,6 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        // Применяем сохранённые настройки через миксер
         ApplyMixerVolume(musicVolumeParam,  PlayerPrefs.GetFloat("MusicVolume", 0.8f));
         ApplyMixerVolume(sfxVolumeParam,    PlayerPrefs.GetFloat("SFXVolume",   1.0f));
     }
@@ -89,19 +88,12 @@ public class AudioManager : MonoBehaviour
         if (indoorAmbientSource != null) indoorAmbientSource.Stop();
     }
 
-    // ─── ГРОМКОСТЬ ЧЕРЕЗ МИКСЕР ───────────────────────────────────────────
 
-    /// <summary>
-    /// Установить громкость музыки (0-1). Вызывается из SettingsManager.
-    /// </summary>
     public void SetMusicVolume(float volume)
     {
         ApplyMixerVolume(musicVolumeParam, volume);
     }
 
-    /// <summary>
-    /// Установить громкость SFX (0-1). Вызывается из SettingsManager.
-    /// </summary>
     public void SetSFXVolume(float volume)
     {
         ApplyMixerVolume(sfxVolumeParam, volume);
@@ -119,12 +111,10 @@ public class AudioManager : MonoBehaviour
         mainMixer.SetFloat(param, db);
     }
 
-    // GetSFXVolume больше не нужен — громкость контролирует миксер
-    // Оставляем для совместимости со старым кодом
     public float GetSFXVolume()   => 1f;
     public float GetMusicVolume() => 1f;
 
-    // ─── ЗОНЫ ────────────────────────────────────────────────────────────
+    // Зоны
 
     public void ChangeZone(bool isIndoor)
     {

@@ -4,9 +4,7 @@ using UnityEngine.EventSystems;
 
 namespace Project.UI
 {
-    /// <summary>
-    /// Анимация кнопки
-    /// </summary>
+
     [RequireComponent(typeof(Image))]
     public class NoirButtonAnimator : MonoBehaviour,
         IPointerEnterHandler,
@@ -14,24 +12,20 @@ namespace Project.UI
         IPointerDownHandler,
         IPointerUpHandler
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
+       
         [Header("[ НАВЕДЕНИЕ ]")]
-        [Tooltip("Масштаб при наведении (1.08 = увеличение на 8%)")]
         [SerializeField] private float hoverScale = 1.05f;
-        [Tooltip("Скорость анимации")]
         [SerializeField] private float animationSpeed = 8f;
 
         [Header("[ НАЖАТИЕ ]")]
-        [Tooltip("Цвет затемнения при нажатии")]
         [SerializeField] private Color pressedColor = new Color(0.5f, 0.5f, 0.5f, 1f);
-        [Tooltip("Масштаб при нажатии")]
         [SerializeField] private float pressedScale = 0.96f;
 
         [Header("[ ЗВУК ]")]
         [SerializeField] private AudioClip hoverSound;
         [SerializeField] private AudioClip clickSound;
         [SerializeField] private AudioSource audioSource;
-        // ─────────────────────────────────────────────────────────────────
+
 
         private Vector3 originalScale;
         private Vector3 targetScale;
@@ -57,7 +51,7 @@ namespace Project.UI
             );
         }
 
-        // ─── Наведение ───────────────────────────────────────────────────
+
 
         public void OnPointerEnter(PointerEventData eventData)
         {
@@ -75,7 +69,6 @@ namespace Project.UI
             image.color = originalColor;
         }
 
-        // ─── Нажатие ─────────────────────────────────────────────────────
 
         public void OnPointerDown(PointerEventData eventData)
         {
@@ -93,7 +86,7 @@ namespace Project.UI
             image.color = originalColor;
         }
 
-        // ─── Звук ────────────────────────────────────────────────────────
+
 
         private void PlaySound(AudioClip clip)
         {

@@ -7,22 +7,17 @@ namespace Project.NPC
 {
     public class NPCInteraction : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
         [Header("[ ВЗАИМОДЕЙСТВИЕ ]")]
         [SerializeField] private KeyCode interactKey = KeyCode.E;
         [SerializeField] private DialogueSystem dialogueSystem;
 
         [Header("[ ПОДСКАЗКА ]")]
-        [Tooltip("Объект с иконкой/текстом 'E' над NPC")]
         [SerializeField] private GameObject interactHint;
         [SerializeField] private Vector3    hintOffset = new Vector3(0f, 2.2f, 0f);
 
         [Header("[ ПОВЕДЕНИЕ ]")]
-        [Tooltip("Остановить NPC во время диалога")]
         [SerializeField] private bool stopNPCDuringDialogue = true;
-        [Tooltip("Повернуть NPC к игроку во время диалога")]
         [SerializeField] private bool facePlayerDuringDialogue = true;
-        [Tooltip("Скрыть облачко когда игрок уходит")]
         [SerializeField] private bool hideOnExit = true;
 
         [Header("[ СОХРАНЕНИЕ ДИАЛОГА ]")]
@@ -32,12 +27,12 @@ namespace Project.NPC
         private bool dialogueCompleted = false;
 
         [Header("[ СОБЫТИЯ ]")]
-        public UnityEvent onPlayerEnterTrigger; // <-- Добавлено событие входа в зону
-        public UnityEvent onPlayerExitTrigger;  // <-- Добавлено событие выхода из зоны
+        public UnityEvent onPlayerEnterTrigger; 
+        public UnityEvent onPlayerExitTrigger;  
         public UnityEvent onDialogueStart;
         public UnityEvent onDialogueEnd;
         public UnityEvent onLastLineReached;
-        // ─────────────────────────────────────────────────────────────────
+
 
         private bool      playerInRange = false;
         private bool      isInDialogue  = false;
@@ -108,7 +103,7 @@ namespace Project.NPC
                 FacePlayer();
         }
 
-        // ─── ТРИГГЕРЫ ────────────────────────────────────────────────────
+        // Триггеры
 
         private void OnTriggerEnter2D(Collider2D other)
         {
@@ -121,7 +116,6 @@ namespace Project.NPC
             if (interactHint != null)
                 interactHint.SetActive(true);
 
-            // Вызываем событие входа в триггер
             onPlayerEnterTrigger?.Invoke(); 
         }
 
@@ -140,11 +134,10 @@ namespace Project.NPC
             if (hideOnExit && dialogueSystem != null)
                 dialogueSystem.Hide();
 
-            // Вызываем событие выхода из триггера
             onPlayerExitTrigger?.Invoke();
         }
 
-        // ─── ВЗАИМОДЕЙСТВИЕ ──────────────────────────────────────────────
+        // Взаимодействие
 
         private void Interact()
         {

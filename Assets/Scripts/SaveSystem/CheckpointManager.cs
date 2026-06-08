@@ -3,26 +3,21 @@ using UnityEngine.Events;
 
 namespace Project.SaveSystem
 {
-    /// <summary>
-    /// Чекпоинт — триггер автосохранения.
-    /// Вешай на невидимые зоны или объекты в сцене.
-    /// </summary>
+  
     public class CheckpointManager : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
+      
         [Header("[ ЧЕКПОИНТ ]")]
         [SerializeField] private int    checkpointIndex = 0;
         [SerializeField] private bool   triggerOnce     = true;
-        [Tooltip("Задержка перед сохранением (чтобы не мешало геймплею)")]
         [SerializeField] private float  saveDelay       = 0.5f;
 
         [Header("[ ЗАДАНИЕ ПРИ ЧЕКПОИНТЕ ]")]
-        [Tooltip("Текст задания который активируется в этом чекпоинте")]
+
         [SerializeField] private string questTextOnCheckpoint = "";
 
         [Header("[ СОБЫТИЯ ]")]
         public UnityEvent onCheckpointReached;
-        // ─────────────────────────────────────────────────────────────────
 
         private bool triggered = false;
 

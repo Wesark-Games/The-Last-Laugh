@@ -6,16 +6,10 @@ using TMPro;
 
 namespace Project.World
 {
-    /// <summary>
-    /// Выход на арену. При входе в триггер:
-    ///   - Фризит игрока
-    ///   - Показывает анимированную плашку с кнопками Да / Нет
-    ///   - Да → переход в другую сцену
-    ///   - Нет → возвращает управление
-    /// </summary>
+    
     public class ExitPrompt : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
+        
         [Header("[ СЦЕНА ]")]
         [Tooltip("Сцена в которую переходим при нажатии Да")]
         [SerializeField] private string targetScene = "GameScene";
@@ -41,7 +35,7 @@ namespace Project.World
 
         [Header("[ ИГРОК ]")]
         [SerializeField] private string playerTag = "Player";
-        // ─────────────────────────────────────────────────────────────────
+        
 
         private RectTransform       promptRect;
         private CanvasGroup         promptCanvasGroup;
@@ -86,13 +80,12 @@ namespace Project.World
             ShowPrompt();
         }
 
-        // ─── ПОКАЗ / СКРЫТИЕ ─────────────────────────────────────────────
 
         private void ShowPrompt()
         {
             isPromptOpen = true;
 
-            // Фризим игрока
+
             if (playerController != null)
                 playerController.SetMovementEnabled(false);
 
@@ -113,13 +106,13 @@ namespace Project.World
             {
                 isPromptOpen = false;
 
-                // Возвращаем управление
+               
                 if (playerController != null)
                     playerController.SetMovementEnabled(true);
             }));
         }
 
-        // ─── КНОПКИ ──────────────────────────────────────────────────────
+       
 
         private void OnYesClicked()
         {
@@ -149,7 +142,7 @@ namespace Project.World
             HidePrompt();
         }
 
-        // ─── АНИМАЦИИ ────────────────────────────────────────────────────
+      
 
         private IEnumerator SlideIn()
         {

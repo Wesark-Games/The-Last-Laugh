@@ -5,15 +5,9 @@ using TMPro;
 
 namespace Project.NPC
 {
-    /// <summary>
-    /// Облачко с фразой над головой NPC.
-    /// Требует: дочерний объект BubbleRoot с Image и TextMeshPro.
-    /// </summary>
     public class DialogueSystem : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
         [Header("[ ОБЛАЧКО ]")]
-        [Tooltip("Корневой объект пузыря — содержит Image и Text")]
         [SerializeField] private GameObject bubbleRoot;
         [SerializeField] private TextMeshProUGUI bubbleText;
         [SerializeField] private Image           bubbleImage;
@@ -21,20 +15,15 @@ namespace Project.NPC
         [Header("[ АНИМАЦИЯ ]")]
         [SerializeField] private float fadeInDuration  = 0.2f;
         [SerializeField] private float fadeOutDuration = 0.3f;
-        [Tooltip("Задержка между появлением букв в секундах")]
         [SerializeField] private float typingSpeed = 0.04f;
-        [Tooltip("Автоскрытие через N секунд ПОСЛЕ завершения печати. 0 = не скрывать автоматически")]
         [SerializeField] private float autoHideDuration = 0f;
 
         [Header("[ СМЕЩЕНИЕ НАД ГОЛОВОЙ ]")]
         [SerializeField] private Vector3 bubbleOffset = new Vector3(0.5f, 1.5f, 0f);
 
         [Header("[ ФРАЗЫ ПО УМОЛЧАНИЮ ]")]
-        [Tooltip("Фразы которые NPC говорит при взаимодействии — листаются по порядку")]
         [SerializeField] private string[] dialogueLines;
-        [Tooltip("true = зациклить фразы, false = остановиться на последней")]
         [SerializeField] private bool loopDialogue = false;
-        // ─────────────────────────────────────────────────────────────────
 
         private CanvasGroup canvasGroup;
         private Coroutine   currentCoroutine;
@@ -59,16 +48,11 @@ namespace Project.NPC
 
         private void LateUpdate()
         {
-            // Всегда держим облачко над головой
             if (bubbleRoot != null && bubbleRoot.activeSelf)
                 bubbleRoot.transform.position = transform.position + bubbleOffset;
         }
 
-        // ─── ПУБЛИЧНЫЕ МЕТОДЫ ─────────────────────────────────────────────
 
-        /// <summary>
-        /// Показать следующую фразу из списка
-        /// </summary>
         public void ShowNextLine()
         {
             if (dialogueLines == null || dialogueLines.Length == 0) return;
@@ -81,9 +65,7 @@ namespace Project.NPC
                 currentLineIndex = loopDialogue ? 0 : dialogueLines.Length - 1;
         }
 
-        /// <summary>
-        /// Показать конкретную фразу с эффектом печатной машинки
-        /// </summary>
+      
         public void ShowLine(string text)
         {
             if (currentCoroutine != null)
@@ -95,9 +77,6 @@ namespace Project.NPC
             currentCoroutine = StartCoroutine(ShowRoutine(text));
         }
 
-        /// <summary>
-        /// Скрыть облачко
-        /// </summary>
         public void Hide(bool instant = false)
         {
             if (currentCoroutine != null)
@@ -106,7 +85,6 @@ namespace Project.NPC
             if (typingCoroutine != null)
                 StopCoroutine(typingCoroutine);
 
-            // Если просят мгновенно ИЛИ объект уже выключен в Unity — гасим без корутин
             if (instant || !gameObject.activeInHierarchy)
             {
                 isVisible = false;
@@ -118,12 +96,9 @@ namespace Project.NPC
             currentCoroutine = StartCoroutine(HideRoutine());
         }
 
-        /// <summary>
-        /// Сбросить индекс фраз на начало
-        /// </summary>
+      
         public void ResetDialogue() => currentLineIndex = 0;
 
-        // ─── КОРУТИНЫ ────────────────────────────────────────────────────
 
         private IEnumerator ShowRoutine(string text)
         {
@@ -159,7 +134,6 @@ namespace Project.NPC
                 yield return new WaitForSeconds(typingSpeed);
             }
 
-            // Автоскрытие срабатывает только ПОСЛЕ того, как весь текст напечатался
             if (autoHideDuration > 0f)
             {
                 yield return new WaitForSeconds(autoHideDuration);

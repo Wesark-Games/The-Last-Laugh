@@ -11,11 +11,10 @@ public class QuestPanel : MonoBehaviour
 
     [Header("Animation Settings")]
     [SerializeField] private float slideDuration = 0.5f;
-    [SerializeField] private float hiddenX = -500f; // Координата за экраном
-    [SerializeField] private float targetX = 20f;    // Координата на экране
+    [SerializeField] private float hiddenX = -500f; 
+    [SerializeField] private float targetX = 20f;    
 
     [Header("Timing Settings")]
-    [Tooltip("Сколько секунд задание висит на экране перед тем как уехать обратно")]
     [SerializeField] private float displayDuration = 10f;
 
     private Coroutine animationRoutine;
@@ -26,7 +25,6 @@ public class QuestPanel : MonoBehaviour
         if (rectTransform == null) 
             rectTransform = GetComponent<RectTransform>();
 
-        // На старте игры сразу прячем панель за левый край экрана
         Vector2 pos = rectTransform.anchoredPosition;
         pos.x = hiddenX;
         rectTransform.anchoredPosition = pos;
@@ -34,7 +32,6 @@ public class QuestPanel : MonoBehaviour
 
     private void Start()
     {
-        // ПРИ ВОЗВРАТЕ ИЛИ ЗАГРУЗКЕ СЕЙВА: выводим актуальный текст
         if (SaveManager.Instance != null && !string.IsNullOrEmpty(SaveManager.Instance.Data.activeQuestText))
         {
             if (questText != null)
@@ -44,14 +41,14 @@ public class QuestPanel : MonoBehaviour
         }
     }
 
-    // ВАРИАНТ 1: Вызов без параметров
+    // Вызов без параметров
     public void ShowQuest()
     {
         Slide(targetX);
         StartAutoHide();
     }
 
-    // ВАРИАНТ 2: Вызов с текстом
+    // Вызов с текстом
     public void ShowQuest(string newQuestMessage)
     {
         if (questText != null)
@@ -60,7 +57,7 @@ public class QuestPanel : MonoBehaviour
         // Сохраняем активное задание в менеджер сохранений
         if (SaveManager.Instance != null)
         {
-            // Здесь напрямую пишем в Data, так как в SaveData у тебя поле называется activeQuestText
+            // Здесь напрямую пишем в Data
             SaveManager.Instance.Data.activeQuestText = newQuestMessage;
         }
 
@@ -68,7 +65,7 @@ public class QuestPanel : MonoBehaviour
         StartAutoHide();
     }
 
-    // Метод для ручного скрытия панели, если нужно убрать её раньше времени
+    // Метод для ручного скрытия панели
     public void HideQuest()
     {
         if (autoHideRoutine != null)
