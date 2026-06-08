@@ -6,30 +6,41 @@ namespace Project.Combat
     public class Weapon : MonoBehaviour
     {
         [SerializeField] private WeaponData data;
+        [Tooltip("Сколько запасных магазинов при подборе (1 = один запасной кроме заряженного)")]
+        [SerializeField] private int spareMagazinesOnPickup = 1;
 
         private float _nextFireTime;
         private int _currentAmmo;
+        private int _reserveAmmo;
         private bool _isReloading;
 
         public event Action<int, int> OnAmmoChanged;
+        public event Action<int> OnReserveChanged;
         public event Action OnReloadStart;
         public event Action OnReloadEnd;
 
         public WeaponData Data => data;
         public bool IsReloading => _isReloading;
         public int CurrentAmmo => _currentAmmo;
+        public int ReserveAmmo => _reserveAmmo;
 
         private void Awake()
         {
-            if (data != null) _currentAmmo = data.MagazineSize;
+            if (data != null)
+            {
+                _currentAmmo = data.MagazineSize;
+                _reserveAmmo = data.MagazineSize * spareMagazinesOnPickup;
+            }
         }
 
         public void SetWeaponData(WeaponData newData)
         {
             data = newData;
             _currentAmmo = data.MagazineSize;
+            _reserveAmmo = data.MagazineSize * spareMagazinesOnPickup;
             _isReloading = false;
             OnAmmoChanged?.Invoke(_currentAmmo, data.MagazineSize);
+            OnReserveChanged?.Invoke(_reserveAmmo);
         }
 
         public bool TryShoot(Vector2 direction, bool isPlayerBullet = true)
@@ -68,6 +79,7 @@ namespace Project.Combat
         {
             if (_isReloading || data == null) return;
             if (_currentAmmo == data.MagazineSize) return;
+            if (_reserveAmmo <= 0) return; // нет запасных патронов
             StartCoroutine(ReloadRoutine());
         }
 
@@ -76,10 +88,24 @@ namespace Project.Combat
             _isReloading = true;
             OnReloadStart?.Invoke();
             yield return new WaitForSeconds(data.ReloadTime);
-            _currentAmmo = data.MagazineSize;
+
+            // Берём патроны из запаса
+            int needed = data.MagazineSize - _currentAmmo;
+            int take = Mathf.Min(needed, _reserveAmmo);
+            _currentAmmo += take;
+            _reserveAmmo -= take;
+
             _isReloading = false;
             OnReloadEnd?.Invoke();
             OnAmmoChanged?.Invoke(_currentAmmo, data.MagazineSize);
+            OnReserveChanged?.Invoke(_reserveAmmo);
+        }
+
+        // Подбор патронов с врагов
+        public void AddAmmo(int amount)
+        {
+            _reserveAmmo += amount;
+            OnReserveChanged?.Invoke(_reserveAmmo);
         }
     }
 }

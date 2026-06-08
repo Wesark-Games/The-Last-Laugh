@@ -12,6 +12,7 @@ namespace Project.Combat
         [SerializeField] private float reachThreshold = 0.2f;
 
         private Rigidbody2D _rb;
+        private SpriteRenderer _sprite;
         private Vector2 _currentTarget;
         private float _waitTimer;
         private bool _waiting;
@@ -19,6 +20,7 @@ namespace Project.Combat
         private void Awake()
         {
             _rb = GetComponent<Rigidbody2D>();
+            _sprite = GetComponentInChildren<SpriteRenderer>();
             if (pointA != null) _currentTarget = pointA.position;
         }
 
@@ -28,7 +30,7 @@ namespace Project.Combat
         {
             if (Core == null) return;
 
-            // Если враг увидел игрока — патруль останавливается (управление переходит к MovementModule)
+            // Если враг увидел игрока — патруль останавливается
             if (Core.Target != null) return;
             if (pointA == null || pointB == null) return;
 
@@ -56,6 +58,10 @@ namespace Project.Combat
             {
                 Vector2 dir = (_currentTarget - pos).normalized;
                 _rb.MovePosition(pos + dir * patrolSpeed * Time.fixedDeltaTime);
+
+                // Разворот спрайта по горизонтали
+                if (_sprite != null && Mathf.Abs(dir.x) > 0.01f)
+                    _sprite.flipX = dir.x < 0;
             }
         }
 

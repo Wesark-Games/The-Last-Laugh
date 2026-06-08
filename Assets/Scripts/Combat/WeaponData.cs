@@ -19,5 +19,9 @@ namespace Project.Combat
 
         [Header("[ СНАРЯД ]")]
         public GameObject ProjectilePrefab;
+
+        [Header("[ ВНЕШНИЙ ВИД ]")]
+        public Sprite WeaponSprite;  // спрайт оружия в руках
+        public Sprite Icon;          // иконка для HUD
     }
 }

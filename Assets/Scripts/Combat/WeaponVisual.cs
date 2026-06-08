@@ -6,11 +6,17 @@ namespace Project.Player
     public class WeaponVisual : MonoBehaviour
     {
         [SerializeField] private Transform characterTransform;
-        [SerializeField] private Vector3 holdOffset = new Vector3(0.3f, 0f, 0f);
+        [Tooltip("Расстояние от центра персонажа (в руках)")]
+        [SerializeField] private float holdDistance = 0.5f;
         [SerializeField] private Camera gameCamera;
+        [Tooltip("Включи если спрайт оружия нарисован дулом ВЛЕВО")]
+        [SerializeField] private bool spriteFacesLeft = true;
+
+        private SpriteRenderer _sr;
 
         private void Awake()
         {
+            _sr = GetComponent<SpriteRenderer>();
             if (gameCamera == null) gameCamera = Camera.main;
             if (characterTransform == null)
             {
@@ -23,28 +29,24 @@ namespace Project.Player
         {
             if (characterTransform == null || gameCamera == null) return;
 
-            // Позиция: у персонажа
-            transform.position = characterTransform.position;
-
-            // Направление к курсору
             Vector2 mousePos = gameCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-            Vector2 dir = (mousePos - (Vector2)characterTransform.position).normalized;
+            Vector2 center = characterTransform.position;
+            Vector2 dir = (mousePos - center).normalized;
+
+            // Позиция в руках
+            transform.position = center + dir * holdDistance;
 
             // Поворот к курсору
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0, 0, angle);
 
-            // Отражение по Y если смотрим влево
-            Vector3 scale = transform.localScale;
-            if (Mathf.Abs(angle) > 90f)
+            if (_sr != null)
             {
-                scale.y = -Mathf.Abs(scale.y);
+                // Если спрайт нарисован влево — отражаем по X чтобы смотрел на курсор
+                _sr.flipX = spriteFacesLeft;
+                // Чтобы не был вверх ногами когда целишься в левую половину
+                _sr.flipY = Mathf.Abs(angle) > 90f;
             }
-            else
-            {
-                scale.y = Mathf.Abs(scale.y);
-            }
-            transform.localScale = scale;
         }
     }
 }
