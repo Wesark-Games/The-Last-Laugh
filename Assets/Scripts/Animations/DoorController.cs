@@ -8,10 +8,7 @@ public class DoorController : MonoBehaviour
     private SpriteRenderer playerRenderer;
 
     [Header("Настройки слоев")]
-    [Tooltip("Order in Layer, когда игрок в коридоре (перед дверью)")]
     [SerializeField] private int corridorOrder = 10;
-    
-    [Tooltip("Order in Layer, когда игрок зашел внутрь комнаты (за косяк двери)")]
     [SerializeField] private int roomOrder = 3;
 
     private bool isPlayerInsideTrigger = false;
@@ -19,8 +16,6 @@ public class DoorController : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-
-        // Надежный поиск твердого коллайдера (стены)
         BoxCollider2D[] colliders = GetComponents<BoxCollider2D>();
         foreach (var c in colliders)
         {
@@ -38,7 +33,6 @@ public class DoorController : MonoBehaviour
         if (isPlayerInsideTrigger && playerTransform != null && playerRenderer != null)
         {
             // Сравниваем позицию ног игрока с позицией двери по оси Y
-            // Если игрок выше (ушел вглубь комнаты) -> прячем за косяк. Если ниже -> выводим вперед.
             if (playerTransform.position.y > transform.position.y)
             {
                 playerRenderer.sortingOrder = roomOrder;
@@ -67,8 +61,6 @@ public class DoorController : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             isPlayerInsideTrigger = false;
-            
-            // Когда игрок полностью покинул зону, гарантированно возвращаем его в коридор
             if (playerRenderer != null)
             {
                 playerRenderer.sortingOrder = corridorOrder;

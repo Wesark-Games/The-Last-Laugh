@@ -24,7 +24,6 @@ public class Door : MonoBehaviour
 
     void FixedUpdate()
     {
-        // Опциональный возврат к закрытому положению
         if (returnForce > 0f)
         {
             float angleDiff = Mathf.DeltaAngle(rb.rotation, closedAngle);
@@ -32,10 +31,10 @@ public class Door : MonoBehaviour
         }
     }
 
-    // Звук удара когда дверь достигла стоппера
+  
     void OnCollisionEnter2D(Collision2D col)
     {
-        // Только если это стоппер (тег "DoorStop") и скорость достаточная
+    
         if (col.gameObject.CompareTag("DoorStop"))
         {
             float impactSpeed = Mathf.Abs(rb.angularVelocity);

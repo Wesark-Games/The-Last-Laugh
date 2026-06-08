@@ -3,7 +3,6 @@ using UnityEngine;
 public class QuestTrigger : MonoBehaviour
 {
     [Header("Quest Settings")]
-    [Tooltip("Ссылка на QuestContainer, где висит скрипт QuestPanel")]
     [SerializeField] private QuestPanel questPanel;
     
     [TextArea(2, 4)]
@@ -25,7 +24,6 @@ public class QuestTrigger : MonoBehaviour
                 questPanel.ShowQuest(questMessage);
                 hasTriggered = true;
 
-                // Если нужен только один раз, можно полностью отключить коллайдер объекта
                 if (triggerOnlyOnce)
                 {
                     Collider2D col = GetComponent<Collider2D>();

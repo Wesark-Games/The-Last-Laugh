@@ -26,7 +26,6 @@ namespace Project.NPC
             audioSource = GetComponent<AudioSource>();
             rb          = GetComponent<Rigidbody2D>();
 
-            // Громкость через AudioMixer — здесь не трогаем
             audioSource.playOnAwake = false;
             audioSource.loop        = false;
 
@@ -52,7 +51,6 @@ namespace Project.NPC
             else
             {
                 stepTimer = 0f;
-                // PlayOneShot не нужно останавливать
             }
         }
 
@@ -63,7 +61,6 @@ namespace Project.NPC
 
             AudioClip clip = clips[Random.Range(0, clips.Length)];
 
-            // PlayOneShot — громкость через SFX группу миксера
             audioSource.PlayOneShot(clip, stepVolume);
         }
 

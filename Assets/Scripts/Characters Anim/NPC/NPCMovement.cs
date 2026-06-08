@@ -15,12 +15,11 @@ namespace Project.Movement
         [SerializeField] private float minWaitTime = 1f;
         [SerializeField] private float maxWaitTime = 3f;
 
-        [Header("[ ПАТРУЛИРОВАНИЕ (Waypoints) ]")]
+        [Header("[ ПАТРУЛИРОВАНИЕ ]")]
         [SerializeField] private Transform[] waypoints;
-        [Tooltip("Если включено, NPC дойдет до последней точки и остановится навсегда")]
         [SerializeField] private bool stopAtLastWaypoint = true;
         
-        [Header("[ СЛУЧАЙНЫЕ ТРЕКИ (Random Roaming) ]")]
+        [Header("[ СЛУЧАЙНЫЕ ТРЕКИ ]")]
         [SerializeField] private float roamRadius = 4f;
 
         // Компоненты
@@ -130,7 +129,6 @@ namespace Project.Movement
 
         private void StartWaiting()
         {
-            // Если мы дошли до финиша и нужно остановиться, режим ожидания (таймер) не включаем
             if (routeCompleted)
             {
                 moveDirection = Vector2.zero;
@@ -148,7 +146,6 @@ namespace Project.Movement
             {
                 if (waypoints == null || waypoints.Length == 0) return;
 
-                // Проверяем, не вышли ли мы за пределы массива
                 if (currentWaypointIndex >= waypoints.Length)
                 {
                     if (stopAtLastWaypoint)
@@ -160,17 +157,14 @@ namespace Project.Movement
                     }
                     else
                     {
-                        // Если зациклено — возвращаемся на первую точку
                         currentWaypointIndex = 0;
                     }
                 }
 
                 targetPosition = waypoints[currentWaypointIndex].position;
                 
-                // Проверяем, является ли текущая выбранная точка последней в списке
                 if (stopAtLastWaypoint && currentWaypointIndex == waypoints.Length - 1)
                 {
-                    // Выставляем флаг, что на следующем шаге (когда дойдем до неё) нужно будет замереть
                     routeCompleted = true;
                 }
 
@@ -244,36 +238,27 @@ namespace Project.Movement
             Gizmos.DrawWireSphere(startPos, roamRadius);
         }
 
-        /// <summary>
-        /// Установить направление взгляда — вызывается из NPCInteraction и NPCTriggerActivator
-        /// </summary>
+    
         public void SetFacingDirection(Vector2 direction)
         {
             facingDirection = GetDirection8Way(direction);
             ApplyAnimation(facingDirection, false);
         }
 
-        // ─── МЕТОДЫ ДЛЯ СИСТЕМЫ СОХРАНЕНИЙ ──────────────────────────────
+        // Методы для системы сохранений
 
-        /// <summary>
-        /// Возвращает текущий тип движения строкой для сохранения
-        /// </summary>
         public string GetCurrentMovementType()
         {
             return movementType.ToString();
         }
 
-        /// <summary>
-        /// Проверяет, завершил ли NPC свой путь патрулирования
-        /// </summary>
+       
         public bool IsRouteCompleted()
         {
             return routeCompleted;
         }
 
-        /// <summary>
-        /// Восстанавливает состояние NPC из сохранения
-        /// </summary>
+    
         public void LoadState(string typeName, bool isRouteDone)
         {
             if (System.Enum.TryParse(typeName, out MovementType savedType))

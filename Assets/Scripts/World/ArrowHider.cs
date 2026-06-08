@@ -7,7 +7,6 @@ namespace Project.World
     public class ArrowHider : MonoBehaviour
     {
         [Header("[ СОХРАНЕНИЕ ]")]
-        [Tooltip("Уникальный ID для этого экземпляра стрелок")]
         [SerializeField] private string saveID = "arrow_group_1";
 
         [System.Serializable]
@@ -72,7 +71,6 @@ namespace Project.World
                 ShowStep(currentIndex);
         }
 
-        // --- ВОЗВРАЩЕНЫ УДАЛЕННЫЕ МЕТОДЫ ---
 
         public void ShowActiveElementFromCutscene()
         {
@@ -96,7 +94,7 @@ namespace Project.World
             ShowStep(currentIndex);
         }
 
-        // ------------------------------------
+    
 
         private void ShowStep(int index)
         {

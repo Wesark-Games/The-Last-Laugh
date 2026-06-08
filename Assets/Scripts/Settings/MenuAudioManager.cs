@@ -58,7 +58,6 @@ public class MenuAudioManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Если вышли на игровую сцену (например, Пролог или геймплей), глушим музыку меню
         if (scene.name != "SplashScene" && scene.name != "MainMenu" && scene.name != "LoadingScene")
         {
             if (fadeRoutine != null) StopCoroutine(fadeRoutine);
@@ -82,11 +81,9 @@ public class MenuAudioManager : MonoBehaviour
 
         menuMusicSource.Stop();
         
-        // Когда музыка полностью затихла, этот менеджер меню больше не нужен — уничтожаем его
         Destroy(gameObject);
     }
 
-    // ─── УПРАВЛЕНИЕ ГРОМКОСТЬЮ (Вызывать из UI настроек) ───────────────────
 
     public void SetMusicVolume(float volume)
     {

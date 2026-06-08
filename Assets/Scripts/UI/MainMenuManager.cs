@@ -9,7 +9,6 @@ namespace Project.UI
 {
     public class MainMenuManager : MonoBehaviour
     {
-        // ─── CONFIGURATION ───────────────────────────────────────────────────
         [Header("[ НАЗВАНИЯ СЦЕН ]")]
         [SerializeField] private string firstGameSceneName = "Prologue";
 
@@ -41,11 +40,8 @@ namespace Project.UI
         [SerializeField] private Button quitButton;
 
         [Header("[ НАСТРОЙКИ (панель поверх меню) ]")]
-        [Tooltip("Объект панели настроек — скопирован из PausePanel")]
         [SerializeField] private GameObject settingsPanelRoot;
-        [Tooltip("Главное меню — скрывается когда открыты настройки")]
         [SerializeField] private GameObject mainMenuRoot;
-        [Tooltip("Картинка которая появляется за панелью настроек")]
         [SerializeField] private Image   settingsBackgroundImage;
         [SerializeField] private Sprite  settingsBackgroundSprite;
         [SerializeField] private float   settingsBgFadeDuration = 0.4f;
@@ -68,7 +64,7 @@ namespace Project.UI
                 menuAnimator.SetTrigger(showTrigger);
         }
 
-        // ─── НАСТРОЙКИ ───────────────────────────────────────────────────────
+    
 
         private void SetupSettingsPanel()
         {
@@ -100,9 +96,7 @@ namespace Project.UI
     StartSettingsBgFade(0f, 1f);
 }
 
-        /// <summary>
-        /// Вызывается из SettingsManager.CloseAll() через pauseMenuObject
-        /// </summary>
+       
        public void ShowMainMenu()
 {
     // Плавно скрываем фон настроек, потом показываем меню
@@ -110,8 +104,7 @@ namespace Project.UI
     settingsBgCoroutine = StartCoroutine(HideSettingsBgThenShowMenu());
 }
 
-        // ─── ОСТАЛЬНОЕ ───────────────────────────────────────────────────────
-
+  
         private void SetupContinueButton()
         {
             if (continueButton == null) return;

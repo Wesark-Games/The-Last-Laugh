@@ -25,7 +25,6 @@ namespace Project.UI
         [SerializeField] private Image      overlayImage;
 
         [Header("[ ТЕКСТ ЗАДАНИЯ В ПАУЗЕ ]")]
-        [Tooltip("Перетащи сюда текстовый компонент из панели паузы, где должно быть написано задание")]
         [SerializeField] private TextMeshProUGUI pauseQuestText; 
 
         [Header("[ КНОПКИ ПАУЗЫ ]")]
@@ -68,9 +67,6 @@ namespace Project.UI
                 
                 // Инициализируем настройки и загружаем сохранения
                 settingsManager?.EnsureInitialized();
-                
-                // ИСПРАВЛЕНИЕ РАССИНХРОНА: Принудительно закрываем внутреннее состояние менеджера.
-                // Загрузка сохранений могла активировать триггеры UI, заставив скрипт думать, что он открыт.
                 settingsManager?.AttemptCloseSettings();
 
                 settingsPanel.SetActive(false);
@@ -123,7 +119,7 @@ namespace Project.UI
                 ShowPauseMenu();
         }
 
-        // ─── ПАУЗА ───────────────────────────────────────────────────────
+        
 
         public void TogglePause()
         {
@@ -184,7 +180,7 @@ namespace Project.UI
             }
         }
 
-        // ─── НАВИГАЦИЯ МЕЖДУ ПАНЕЛЯМИ ─────────────────────────────────────
+
 
         public void ShowPauseMenu()
         {
@@ -198,7 +194,7 @@ namespace Project.UI
             {
                 if (pauseMenu != null) pauseMenu.SetActive(false);
                 
-                // ИСПРАВЛЕНИЕ: Явно включаем саму панель перед вызовом логики внутри менеджера
+        
                 if (settingsPanel != null) settingsPanel.SetActive(true);
                 
                 settingsManager.OpenSettingsPanel();
@@ -211,7 +207,7 @@ namespace Project.UI
                 settingsManager.ApplyAndSavePublic();
         }
 
-        // ─── ГЛАВНОЕ МЕНЮ ────────────────────────────────────────────────
+      
 
         public void GoToMainMenu()
         {
@@ -236,7 +232,6 @@ namespace Project.UI
                 SceneManager.LoadScene("LoadingScene");
         }
 
-        // ─── АНИМАЦИЯ ОВЕРЛЕЯ ────────────────────────────────────────────
 
         private void FadeOverlay(float from, float to)
         {

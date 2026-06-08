@@ -4,20 +4,16 @@ using UnityEngine.UI;
 
 namespace Project.UI
 {
-    /// <summary>
-    /// Плавное появление и исчезновение панели паузы.
-    /// Вешается на PausePanel.
-    /// </summary>
+
     [RequireComponent(typeof(CanvasGroup))]
     public class PauseAnimator : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
+   
         [Header("[ АНИМАЦИЯ ]")]
         [SerializeField] private float showDuration = 0.25f;
         [SerializeField] private float hideDuration = 0.2f;
-        [Tooltip("Масштаб с которого появляется меню (0.9 = чуть меньше)")]
         [SerializeField] private float startScale = 0.9f;
-        // ─────────────────────────────────────────────────────────────────
+    
 
         private CanvasGroup canvasGroup;
         private RectTransform rectTransform;
@@ -29,9 +25,7 @@ namespace Project.UI
             rectTransform = GetComponent<RectTransform>();
         }
 
-        /// <summary>
-        /// Плавно показать панель
-        /// </summary>
+     
         public void Show()
         {
             gameObject.SetActive(true);
@@ -42,9 +36,6 @@ namespace Project.UI
             currentCoroutine = StartCoroutine(ShowRoutine());
         }
 
-        /// <summary>
-        /// Плавно скрыть панель
-        /// </summary>
         public void Hide(System.Action onComplete = null)
         {
             if (currentCoroutine != null)
@@ -108,7 +99,6 @@ namespace Project.UI
             onComplete?.Invoke();
         }
 
-        // ─── Функции плавности ───────────────────────────────────────────
 
         private float EaseOutCubic(float t)
         {

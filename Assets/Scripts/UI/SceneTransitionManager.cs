@@ -5,19 +5,15 @@ using UnityEngine.SceneManagement;
 
 namespace Project.UI
 {
-    /// <summary>
-    /// Глобальный менеджер переходов между сценами.
-    /// Добавляется в каждую сцену. Делает плавный фейд при загрузке и выгрузке.
-    /// </summary>
+   
     public class SceneTransitionManager : MonoBehaviour
     {
-        // ─── CONFIGURATION ────────────────────────────────────────────────
+     
         [Header("[ ФЕЙД ]")]
         [SerializeField] private float fadeInDuration  = 0.5f;
         [SerializeField] private float fadeOutDuration = 0.5f;
         [SerializeField] private Color fadeColor = Color.black;
-        // ─────────────────────────────────────────────────────────────────
-
+       
         public static SceneTransitionManager Instance { get; private set; }
 
         private Image fadeImage;
@@ -40,7 +36,7 @@ namespace Project.UI
             StartCoroutine(FadeIn());
         }
 
-        // ─── Создание Canvas для фейда ───────────────────────────────────
+       
 
         private void CreateFadeCanvas()
         {
@@ -71,29 +67,25 @@ namespace Project.UI
         }
 
 
-        /// <summary>
-        /// Плавно перейти в другую сцену.
-        /// </summary>
+      
         public void LoadScene(string sceneName)
         {
             StartCoroutine(FadeOutAndLoad(sceneName));
         }
 
-        // ─── Фейд появления (при входе в сцену) ─────────────────────────
-
         private IEnumerator FadeIn()
 {
-    // Гарантируем, что начинаем с полного черного экрана
+   
     SetAlpha(1f);
     fadeImage.raycastTarget = true;
 
-    // Ждем один кадр или короткую паузу, чтобы Unity успела стабилизировать FPS
+   
     yield return new WaitForEndOfFrame(); 
 
     float t = 0f;
     while (t < 1f)
     {
-        // Используем deltaTime, но ограничиваем шаг, чтобы при лаге не было скачка
+       
         t += Time.unscaledDeltaTime / fadeInDuration;
         SetAlpha(Mathf.Lerp(1f, 0f, t));
         yield return null;
@@ -103,7 +95,7 @@ namespace Project.UI
     fadeImage.raycastTarget = false;
 }
 
-        // ─── Фейд исчезновения + загрузка сцены ─────────────────────────
+       
 
         private IEnumerator FadeOutAndLoad(string sceneName)
         {

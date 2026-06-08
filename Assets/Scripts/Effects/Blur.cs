@@ -21,10 +21,8 @@ public class Blur : MonoBehaviour
         }
     }
 
-    // ВЫЗЫВАТЬ В НАЧАЛЕ КАТСЦЕНЫ
     public void BlurIn()
     {
-        // КРИТИЧЕСКОЕ ИСПРАВЛЕНИЕ: Включаем объект ДО запуска корутины
         if (blurVolume != null)
         {
             blurVolume.gameObject.SetActive(true);
@@ -34,10 +32,8 @@ public class Blur : MonoBehaviour
         blurCoroutine = StartCoroutine(FadeBlurRoutine(true));
     }
 
-    // ВЫЗЫВАТЬ В КОНЦЕ КАТСЦЕНЫ
     public void BlurOut()
     {
-        // Здесь объект уже активен, так что корутина стартует без проблем
         if (blurCoroutine != null) StopCoroutine(blurCoroutine);
         blurCoroutine = StartCoroutine(FadeBlurRoutine(false));
     }
@@ -59,7 +55,6 @@ public class Blur : MonoBehaviour
             yield return null;
         }
 
-        // Если это был выход из размытия — полностью тушим объект
         if (!fadeIn && blurVolume != null)
         {
             blurVolume.weight = 0f;
